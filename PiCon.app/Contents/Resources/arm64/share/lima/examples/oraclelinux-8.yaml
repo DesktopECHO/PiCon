@@ -1,0 +1,25 @@
+# This template requires Lima v0.9.0 or later.
+# Oracle image licence: https://www.oracle.com/downloads/licenses/oracle-linux-license.html
+# Image source: https://yum.oracle.com/oracle-linux-templates.html
+
+# NOTE: EL8-based distros are known not to work on M1 chips: https://github.com/lima-vm/lima/issues/841
+# EL9-based distros are known to work.
+
+images:
+- location: "https://yum.oracle.com/templates/OracleLinux/OL8/u8/x86_64/OL8U8_x86_64-kvm-b198.qcow"
+  arch: "x86_64"
+  digest: "sha256:67b644451efe5c9c472820922085cb5112e305fedfb5edb1ab7020b518ba8c3b"
+- location: "https://yum.oracle.com/templates/OracleLinux/OL8/u8/aarch64/OL8U8_aarch64-kvm-b42.qcow"
+  arch: "aarch64"
+  digest: "sha256:8fe33ebf15780a2d3917a80b3bddabac834f97ac62fc677d35480ebc80cd6db5"
+mounts:
+- location: "~"
+- location: "/tmp/lima"
+  writable: true
+firmware:
+  # Oracle Linux 8 still requires legacyBIOS, while AlmaLinux 8 and Rocky Linux 8 do not.
+  legacyBIOS: true
+cpuType:
+  # Workaround for "vmx_write_mem: mmu_gva_to_gpa XXXXXXXXXXXXXXXX failed" on Intel Mac
+  # https://bugs.launchpad.net/qemu/+bug/1838390
+  x86_64: "Haswell-v4"

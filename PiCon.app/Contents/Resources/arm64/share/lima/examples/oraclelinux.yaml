@@ -1,0 +1,18 @@
+# This template requires Lima v0.11.3 or later.
+# Oracle image licence: https://www.oracle.com/downloads/licenses/oracle-linux-license.html
+# Image source: https://yum.oracle.com/oracle-linux-templates.html
+
+images:
+- location: "https://yum.oracle.com/templates/OracleLinux/OL9/u2/x86_64/OL9U2_x86_64-kvm-b197.qcow"
+  arch: "x86_64"
+  digest: "sha256:840345cb866837ac7cc7c347cd9a8196c3a17e9c054c613eda8c2a912434c956"
+- location: "https://yum.oracle.com/templates/OracleLinux/OL9/u2/aarch64/OL9U2_aarch64-kvm-b39.qcow"
+  arch: "aarch64"
+  digest: "sha256:48351bc318b59ab6d54a2f22d11a28891cd54b9ec2fbbcdf83a7c8483b856221"
+mounts:
+- location: "~"
+- location: "/tmp/lima"
+  writable: true
+firmware:
+  # Oracle Linux 9 still requires legacyBIOS, while AlmaLinux 9 and Rocky Linux 9 do not.
+  legacyBIOS: true

@@ -1,0 +1,16 @@
+#!/bin/bash
+PICON_HOME="/Applications/PiCon.app/Contents/Resources"
+[ ! -f "/Library/LaunchAgents/com.desktopecho.pibar.plist" ] && cp "$PICON_HOME/com.desktopecho.pibar.plist" ~/Library/LaunchAgents/
+launchctl unload ~/Library/LaunchAgents/com.desktopecho.pibar.plist
+cp "$PICON_HOME/net.amiantos.PiBar.data" /private/tmp/
+cp "$PICON_HOME/net.amiantos.PiBar.plist" /private/tmp/
+PBDATA=$(lima cat /etc/pihole/setupVars.conf | grep WEBPASSWORD | cut -c 13-)
+sed -i '' "s/XXX/$PBDATA/g" /private/tmp/net.amiantos.PiBar.data
+PBCONV=$(base64 -i /private/tmp/net.amiantos.PiBar.data)
+sed -i '' "s/XXX/$PBCONV/g" /private/tmp/net.amiantos.PiBar.plist
+rm -rf ~/Library/Containers/net.amiantos.PiBar
+mkdir -p ~/Library/Containers/net.amiantos.PiBar/Data/Library/Preferences
+plutil -convert binary1 /private/tmp/net.amiantos.PiBar.plist
+mv /private/tmp/net.amiantos.PiBar.plist ~/Library/Containers/net.amiantos.PiBar/Data/Library/Preferences
+rm -f /private/tmp/net.amiantos.PiBar.data
+launchctl load ~/Library/LaunchAgents/com.desktopecho.pibar.plist

@@ -1,0 +1,23 @@
+# This template requires Lima v0.11.1 or later.
+
+images:
+# Try to use release-yyyyMMdd image if available. Note that release-yyyyMMdd will be removed after several months.
+- location: "https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-20230807.1.x86_64.qcow2"
+  arch: "x86_64"
+  digest: "sha256:6a004e591d0a6b84bc4c1b5cd7a797a3376181162a7e1cf010e0bbf0cdfd6724"
+- location: "https://cloud.centos.org/centos/9-stream/aarch64/images/CentOS-Stream-GenericCloud-9-20230807.1.aarch64.qcow2"
+  arch: "aarch64"
+  digest: "sha256:0ed3b428f282866cf1c74048ea566fb579979b12f5e1fb527133223883ad8f76"
+# Fallback to the latest release image.
+# Hint: run `limactl prune` to invalidate the cache
+- location: "https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-latest.x86_64.qcow2"
+  arch: "x86_64"
+- location: "https://cloud.centos.org/centos/9-stream/aarch64/images/CentOS-Stream-GenericCloud-9-latest.aarch64.qcow2"
+  arch: "aarch64"
+mounts:
+- location: "~"
+- location: "/tmp/lima"
+  writable: true
+firmware:
+  # CentOS Stream 9 still requires legacyBIOS, while AlmaLinux 9 and Rocky Linux 9 do not.
+  legacyBIOS: true

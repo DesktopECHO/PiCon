@@ -1,0 +1,188 @@
+#!/bin/bash
+
+RELEASE="230810"
+BOLD=$(tput bold)
+GREEN=$(tput setaf 2)
+RESET=$(tput sgr0)
+DARWIN=$(echo $OSTYPE | cut -c 7-)
+ARCH=$(sysctl hw.optional.arm64 2>/dev/null | cut -c 20-) ; [[ "$ARCH" = "1" ]] && export ARCH=arm64 || export ARCH=x86_64
+export PICON_HOME="/Applications/PiCon.app/Contents/Resources"
+export PATH="$PICON_HOME/$ARCH/bin:$PATH"
+export LIMA_HOME="$PICON_HOME/lima"
+cd $HOME 
+# Check if container reset has been requested
+optionDown=$(osascript -l JavaScript -e "ObjC.import('Cocoa'); ($.NSEvent.modifierFlags & $.NSEventModifierFlagOption) > 1") ; [[ "$optionDown" = "true" ]] && $PICON_HOME/PiCon-Reset
+
+display_header() {
+    clear
+    printf "${BOLD}${GREEN} ——————————————————————————————————————————————————————————————————————————————————————————————————"
+    printf "                                Pi-hole Container for macOS v.$RELEASE\n"
+    printf " ——————————————————————————————————————————————————————————————————————————————————————————————————${RESET}\n"
+}
+
+check_hypervisor_framework() {
+    if [[ $(sysctl kern.hv_support | cut -c 18-) = "0" ]]; then
+        printf "\n  macOS Hypervisor Framework is not available. Exiting..."
+        sleep 10
+        exit
+    fi
+}
+
+
+display_separator()
+    { printf "${BOLD} ——————————————————————————————————————————————————————————————————————————————————————————————————${RESET}\n\n"
+}
+
+run_setup() {
+    if [ ! -f "$PICON_HOME/lima/default/basedisk" ]; then
+        printf "\n ${BOLD}Interfaces on this Mac:${RESET}\n\n"
+        display_separator
+        DEFAULT_INTERFACE=$(route -n get default | grep interface | cut -c 14-)
+        networksetup -listnetworkserviceorder | grep Hardware | grep -iv 'serial\|usbmodem' | cut -c 16- | cut -d ')' -f 1 |  awk '1;{print ""}'
+        display_separator
+
+        if [[ $DARWIN -ge 19 ]]; then
+            read -p "    From the list above, which network interface should be bridged? [$DEFAULT_INTERFACE]: " BRIDGE_INTERFACE
+            BRIDGE_INTERFACE=${BRIDGE_INTERFACE:-$DEFAULT_INTERFACE}
+            BRIDGE_GATEWAY=$(netstat -nr | grep default | grep $BRIDGE_INTERFACE | cut -c 20-35)
+            [[ ${#BRIDGE_GATEWAY} -lt 1 ]] && BRIDGE_GATEWAY="unset."
+            printf "\n    Set a static IP, or use a DHCP-assigned IP on ${BOLD}$BRIDGE_INTERFACE${RESET} using gateway ${BOLD}$BRIDGE_GATEWAY${RESET}"
+            printf "\n    It is preferable to use a static IP because DHCP-assigned IPs may change unexpectedly.\n\n"
+            read -p "    Enter a static IP for the appliance. Hit [Return] or [Enter] for DHCP: " STATIC_IP
+        else
+            printf "  macOS 10.13 and 10.14 do not include the ability to create a bridged network."
+            printf "\n  Do you want to allow other devices on your network to use this Mac for DNS lookups?\n"
+            printf "\n  The work-around has a major limitation: Pi-hole will log all queries as coming from 127.0.0.1\n"
+            printf "\n  If yes, select an IP/Netmask to allow. Type '${BOLD}0.0.0.0/0${RESET}' to use ALL interfaces on this Mac.\n"
+            read -p "  If network-wide DNS isn't needed, just DNS for this Mac, hit [Return] or [Enter]: " IP_ALLOW
+            [[ $IP_ALLOW ]] && sed -i '' "s#        access-control:.*#        access-control: $IP_ALLOW allow#" "$PICON_HOME/unbound.conf"
+        fi
+
+	# Configure networking
+        sed -i '' "s/.*interface.*/    interface: $BRIDGE_INTERFACE/" "$PICON_HOME/lima/_config/networks.yaml"
+        GATEWAY=$(netstat -rn | grep "default" | grep "$BRIDGE_INTERFACE" | awk '{print $2}')
+        NETMASK=$(ifconfig $BRIDGE_INTERFACE | grep netmask | cut -d "x" -f2 | head -c 8 | perl -pe '$_ = unpack("B32", pack("H*", $_)); s/0+$//g; $_ = length')
+        [[ $GATEWAY ]] && printf "network:\n  ethernets:\n    lima0:\n     dhcp4: no\n     addresses: ["$STATIC_IP"/"$NETMASK"]\n     gateway4: "$GATEWAY"\n     nameservers:\n       addresses: [9.9.9.9,8.8.8.8]\n  version: 2\n" > ~/99-staticip.yaml || printf "network:\n  ethernets:\n    lima0:\n     dhcp4: no\n     addresses: ["$STATIC_IP"/"$NETMASK"]\n     nameservers:\n       addresses: [9.9.9.9,8.8.8.8]\n  version: 2\n" > ~/99-staticip.yaml
+
+        # Get r00t, fix permissions
+        NEED_SUDO=$(sudo -n true 2&>/dev/null ; echo $?)
+        [ $NEED_SUDO -gt 0 ] && printf '\nThe installer requires administrative privileges to configure networking.\n'
+        sudo chmod g-w /Applications/PiCon.app /Applications/PiCon.app/Contents /Applications/PiCon.app/Contents/Resources/arm64 /Applications/PiCon.app/Contents/Resources \
+                       /Applications/PiCon.app/Contents/Resources/arm64/bin /Applications/PiCon.app/Contents/Resources/x86_64 /Applications/PiCon.app/Contents/Resources/x86_64/bin
+
+	# Create user 'unbound'
+        USER_ID=$(dscl . -list /Users UniqueID | awk '{print $2}' | ruby -e 'puts ((510..599).to_a - STDIN.readlines.map(&:to_i)).first')
+        GROUP_ID=$(dscl . -list /Groups UniqueID | awk '{print $2}' | ruby -e 'puts ((510..599).to_a - STDIN.readlines.map(&:to_i)).first')
+        sudo dscl . -create /Groups/unbound ; sudo dscl . -create /Groups/unbound PrimaryGroupID $GROUP_ID >/dev/null 2>&1
+        sudo dscl . -create /Users/unbound UniqueID $USER_ID ; sudo dscl . -create /Users/unbound PrimaryGroupID $USER_ID >/dev/null 2>&1
+        sudo dscl . -create /Users/unbound UserShell /usr/bin/false >/dev/null 2>&1
+
+	# Setup LaunchDaemons
+        sudo cp "$PICON_HOME/com.desktopecho.unbound.plist" /Library/LaunchDaemons/
+        sudo cp "$PICON_HOME/com.desktopecho.lima.plist" /Library/LaunchDaemons/
+        sudo sed -i '' "s#.*sbin/unbound.*#         <string>/Applications/PiCon.app/Contents/Resources/$ARCH/sbin/unbound</string>#" "/Library/LaunchDaemons/com.desktopecho.unbound.plist"
+        sudo sed -i '' "s#SETUP_USER#$USER#g" "/Library/LaunchDaemons/com.desktopecho.lima.plist"
+        sudo sed -i '' "s#.*socket_vmnet.*#  socketVMNet: /Applications/PiCon.app/Contents/Resources/$ARCH/bin/socket_vmnet#" "/Applications/PiCon.app/Contents/Resources/lima/_config/networks.yaml"  
+
+ 	# Set container memory to 1/16th total memory, up to 1GB maximum 
+  	MEMORY=$(($(sysctl hw.memsize | awk '{print $2}')/16/1024/1024)) ; ((MEMORY > 1024)) && MEMORY=1024
+ 	sed -i '' "s#memory.*#memory: \"$MEMORY""MiB\"#" "/Applications/PiCon.app/Contents/Resources/lima/default/lima.yaml"
+
+	# Disable bridged networking for 10.13 and 10.14        
+        LIYAML="$PICON_HOME/lima/default/lima.yaml" ; LNYAML="$PICON_HOME/lima/_config/networks.yaml"
+        [[ $DARWIN -lt 19 ]] && sed -i '' '$ d' $LIYAML && sed -i '' '$ d' $LIYAML && sed -i '' '$ d' $LNYAML && sed -i '' '$ d' $LNYAML && sed -i '' '$ d' $LNYAML
+
+        # Start container and Unbound, wait for it to come up
+        display_header        
+        printf "\n$BOLD Initial setup takes a minute or two"
+        limactl sudoers >etc_sudoers.d_lima && sudo install -o root etc_sudoers.d_lima "/private/etc/sudoers.d/lima" ; rm etc_sudoers.d_lima
+        sudo launchctl load /Library/LaunchDaemons/com.desktopecho.lima.plist
+        sudo launchctl load /Library/LaunchDaemons/com.desktopecho.unbound.plist
+        until cat /private/tmp/picon.log | grep READY > /dev/null; do printf .; sleep 10; done ; printf "$RESET"
+
+	# Copy unbound config for Unbound in container
+        cp "$PICON_HOME/unbound-pihole.conf" ~/unbound-pihole.conf
+        lima sudo bash -c "mkdir -p /etc/unbound/unbound.conf.d ; cp unbound-pihole.conf /etc/unbound/unbound.conf.d/"
+
+	# Set static IP if needed, create setupVars.conf
+        [[ ${#STATIC_IP} -gt 1 ]] && lima sudo bash -c "cp 99-staticip.yaml /etc/netplan ; netplan apply ; ip route replace default via 192.168.5.2 dev eth0" >/dev/null 2>&1
+        rm -f ~/99-staticip.yaml
+        rm -f ~/unbound-pihole.conf
+        if [[ $DARWIN -lt 19 ]]; then 
+            lima sudo bash -c "mkdir -p /etc/pihole ; printf 'PIHOLE_INTERFACE=eth0\nPIHOLE_DNS_1=127.0.0.1#5335\n' > /etc/pihole/setupVars.conf"
+          else
+            lima sudo bash -c "mkdir -p /etc/pihole ; printf 'PIHOLE_INTERFACE=lima0\nPIHOLE_DNS_1=127.0.0.1#5335\n' > /etc/pihole/setupVars.conf"
+        fi
+
+        # Install packages
+        lima sudo hostname $(hostname -s)-pihole
+        lima sudo bash -c "sudo apt-get install -qq logrotate inetutils-syslogd unbound dnsutils git dialog cron unzip idn2 dns-root-data netcat-openbsd jq lighttpd php-common php-cgi php-sqlite3 php-xml php-intl php-json xkcdpass --no-install-recommends > /dev/null ; apt-get -qq clean"
+        CHK=0 ; until [ $CHK -gt 0 ] ; do lima wget -q -O /tmp/pihole.sh https://install.pi-hole.net ; CHK=$(lima wc -c /tmp/pihole.sh | cut -c -1) ; sleep 1 ; done
+        lima sudo bash -c 'printf "\$HTTP[\"url\"] "'!'"~ \"^/admin\" {\n      url.redirect = (\".*\" => \"/admin\")\n}\n" > /etc/lighttpd/conf-enabled/16-pihole-admin-redirect.conf'
+        lima sudo bash /tmp/pihole.sh --unattended
+        lima sudo systemctl restart lighttpd
+
+	# Generate a password for Pi-hole
+        PI_PW=$(lima xkcdpass -C first -n 3 --delimiter '-') ; lima pihole -a -p $PI_PW >/dev/null 2>&1
+        $PICON_HOME/PiBar-Sync > /dev/null 2>&1
+        display_header ; printf "\n"
+        printf "   Record your password and API key:\n\n       Pi-hole password: $PI_PW\n       API Key: "
+        lima cat /etc/pihole/setupVars.conf | grep WEBPASSWORD | cut -c 13- ; echo
+        LIMAIP=$(lima bash -c "[[ -d /sys/class/net/lima0 ]] && ip -f inet addr show lima0 | sed -En -e 's/.*inet ([0-9.]+).*/\1/p'")
+        display_separator
+        printf "   Setup complete."
+        [[ $DARWIN -ge 19 ]] && printf " Container is bridged with interface '$BOLD"$BRIDGE_INTERFACE"$RESET' and using IP '$BOLD"$LIMAIP"$RESET'"
+        
+        # Backup DNS settings
+        PRV_DNS=$(grep nameserver <(scutil --dns) | head -n 1 | cut -c 19-)
+        echo $PRV_DNS > "$PICON_HOME/PreviousDNS"
+       
+        # Apply new DNS settings 
+        ACTIVE_NETWORK=$(networksetup -listnetworkserviceorder  |grep -B1 "$(route get 9.9.9.9 | awk "/interface/ {print \$2}")" | head -n1 | cut -c 5-)
+        networksetup -setdnsservers "$ACTIVE_NETWORK" 127.0.0.1
+        printf "\n\n   macOS interface '$BOLD$ACTIVE_NETWORK$RESET' has been configured to use this Pi-hole for DNS\n\n"
+        printf "   Next, Pi-hole AdminLTE will open in your browser and your password will be copied to clipboard.\n   Paste the password into the Pi-hole login form.\n\n"
+        display_separator
+        printf "\n                           Hit [Return] or [Enter] to close this window.\n\n\n"        
+        read
+        echo $PI_PW | pbcopy
+        open http://127.0.0.1:8080
+        pidof -k PiTerm
+    fi
+}
+
+open_container() {
+
+    # Check if container restart has been requested
+    shiftDown=$(osascript -l JavaScript -e "ObjC.import('Cocoa'); ($.NSEvent.modifierFlags & $.NSEventModifierFlagShift) > 1")
+      if [ "$shiftDown" = "true" ] ; then 
+  	NEED_SUDO=$(sudo -n true 2&>/dev/null ; echo $?) ; [ $NEED_SUDO -gt 0 ] && printf '\nAdministrative privileges are required for container restart.\n\n' 
+  	sudo launchctl unload /Library/LaunchDaemons/com.desktopecho.lima.plist
+  	display_header
+  	printf "\n  Starting container."
+  	rm -f /private/tmp/picon.log
+  	sudo launchctl load /Library/LaunchDaemons/com.desktopecho.lima.plist
+        sleep 10
+  	until cat /private/tmp/picon.log | grep READY > /dev/null; do printf .; sleep 3; done
+        tput cuu1
+      fi
+    printf "\n Starting container..."
+    limactl --log-level error start
+    tput bold ; printf '\033[1;32m READY! \033[0m\n'
+    printf " Type 'exit' to close this console window when you're done.\n"
+    $PICON_HOME/PiBar-Sync > /dev/null 2>&1
+    lima sudo hostname $(hostname -s)-pihole >/dev/null 2>&1
+    LIMAIP=$(lima bash -c "[[ -d /sys/class/net/lima0 ]] && echo -n and && ip -f inet addr show lima0 | sed -En -e 's/.*inet ([0-9.]+).*/\1/p'")
+    tput bold ; printf "\n DNS Service listening on 127.0.0.1 $LIMAIP\n"
+    tput sgr0 ; echo ; tput setaf 6 ; lima pihole version ; tput sgr0 ; echo
+    lima pihole status
+    echo ; lima
+    pidof -k PiTerm >/dev/null 2>&1
+}
+
+# Main execution
+display_header
+check_hypervisor_framework
+run_setup
+open_container
+

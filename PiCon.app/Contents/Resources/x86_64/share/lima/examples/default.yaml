@@ -1,0 +1,37 @@
+images:
+- location: "https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-genericcloud-amd64.qcow2"
+  arch: "x86_64"
+- location: "https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-genericcloud-arm64.qcow2"
+  arch: "aarch64"
+
+mounts:
+- location: "~"
+- location: "/tmp/lima"
+  writable: true
+
+cpus: 1
+memory: "512MiB"
+disk: "10Gib"
+
+containerd:
+  system: false
+  user: false
+ 
+portForwards:
+- guestIP: 127.0.0.1
+  guestPort: 80
+  hostIP: 0.0.0.0
+  hostPort: 8080
+
+- guestIP: 127.0.0.1
+  guestPort: 53
+  hostIP: 0.0.0.0
+  hostPort: 5053
+
+- guestIP: 127.0.0.1
+  guestPort: 4711
+  hostIP: 0.0.0.0
+  hostPort: 4711
+
+networks:
+- lima: bridged

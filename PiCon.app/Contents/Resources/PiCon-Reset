@@ -1,0 +1,94 @@
+#!/bin/bash
+ARCH=$(sysctl hw.optional.arm64 2>/dev/null | cut -c 20-) ; [[ "$ARCH" = "1" ]] && export ARCH=arm64 || export ARCH=x86_64
+export PICON_HOME="/Applications/PiCon.app/Contents/Resources"
+export PATH="$PICON_HOME/$ARCH/bin:$PATH"
+export LIMA_HOME="$PICON_HOME/lima"
+clear
+
+display_header() {
+    tput bold
+    tput setaf 2
+    printf " ——————————————————————————————————————————————————————————————————————————————————————————————————\n"
+    printf "                                    Pi-hole Container for macOS\n"
+    printf " ——————————————————————————————————————————————————————————————————————————————————————————————————\n\n"
+    tput sgr0
+}
+
+reset_warning() {
+    tput setaf 1
+    tput bold
+    echo -n "     WARNING!"
+    tput sgr0
+    echo "  If you proceed, this Pi-hole installation will be 'factory reset'"
+    echo "               A backup of your Pi-hole configuration will be saved to your home folder"
+    echo "               Close this window [ ⌘ + Q ] to exit safely, or authenticate to proceed."
+    echo
+    sudo echo
+}
+restore_dns_settings() {
+    if [ -f "$PICON_HOME/PreviousDNS" ]; then
+        DNSIP=$(< "$PICON_HOME/PreviousDNS")
+        rm "$PICON_HOME/PreviousDNS"
+        [[ "$DNSIP" =~ 127.* ]] && DNSIP="9.9.9.9"
+        ACTIVE_NETWORK=$(networksetup -listnetworkserviceorder | grep -B1 "$(route get 9.9.9.9 | awk "/interface/ {print \$2}")" | head -n1 | cut -c 5-)
+        CURDNS=$(grep nameserver <(scutil --dns) | head -n 1 | cut -c 19-)
+        [[ "$CURDNS" =~ 127.* ]] && networksetup -setdnsservers "$ACTIVE_NETWORK" "$DNSIP" && printf "\n                   NOTE: DNS settings for '$ACTIVE_NETWORK' reverted to $DNSIP\n"
+    fi
+}
+
+unload_daemons() {
+    lima bash -c "cd /tmp/lima ; pihole -a -t" &>/dev/null ; mv /tmp/lima/*.gz ~ &>/dev/null
+
+    sudo launchctl unload /Library/LaunchDaemons/com.desktopecho.lima.plist &>/dev/null
+    sudo rm -f /Library/LaunchDaemons/com.desktopecho.lima.plist 
+
+    sudo launchctl unload /Library/LaunchDaemons/com.desktopecho.unbound.plist &>/dev/null
+    sudo rm -f /Library/LaunchDaemons/com.desktopecho.unbound.plist
+
+    launchctl unload ~/Library/LaunchAgents/com.desktopecho.pibar.plist &>/dev/null
+    rm -f ~/Library/LaunchAgents/com.desktopecho.pibar.plist
+    rm -rf ~/Library/Containers/net.amiantos.PiBar
+}
+
+cleanup_processes() {
+    sudo pidof -k PiCon-Launchctl &>/dev/null
+    sudo pidof -k limactl &>/dev/null
+    sudo pidof -k qemu &>/dev/null
+    sudo pidof -k unbound &>/dev/null
+    sudo pidof -k PiBar &>/dev/null
+}
+
+cleanup_files() {
+    sudo rm -rf /private/tmp/picon-unbound.log
+    rm -rf /private/tmp/picon.log
+    rm -rf $PICON_HOME/lima/default/*
+    rm -rf $PICON_HOME/lima/_config/*
+    rm -rf $PICON_HOME/lima/_networks
+}
+
+restore_lima_config() {
+    cp $PICON_HOME/lima/lima.yaml     $PICON_HOME/lima/default/
+    cp $PICON_HOME/lima/networks.yaml $PICON_HOME/lima/_config/
+}
+
+exit_prompt() {
+    tput bold
+    printf "\n\n ——————————————————————————————————————————————————————————————————————————————————————————————————\n\n"
+    tput sgr0
+    printf "        Container clean-up finished, you may now delete PiCon.app from Applications folder.\n"
+    printf "                  Alternatively, relaunch PiCon.app to provision a new container.\n\n"
+    tput bold
+    printf " ——————————————————————————————————————————————————————————————————————————————————————————————————\n\n"
+    for (( i=10; i>0; i--)); do sleep 1 &>/dev/null ;  printf "                        This window will automatically close in $i seconds. \r" ;  wait ; done ; sleep 1
+    pidof -k PiTerm
+}
+
+# Main execution
+display_header
+reset_warning
+restore_dns_settings
+unload_daemons
+cleanup_processes
+cleanup_files
+restore_lima_config
+exit_prompt

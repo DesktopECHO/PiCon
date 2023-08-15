@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>16B2657</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>****</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>CocoaApplet</string>
+	<key>CFBundleIconFile</key>
+	<string>applet</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.desktopecho.picon</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>macOS Container for Pi-hole</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>aplt</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>9P107g</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>17G11015</string>
+	<key>DTSDKName</key>
+	<string>macosx10.13internal</string>
+	<key>DTXcode</key>
+	<string>0930</string>
+	<key>DTXcodeBuild</key>
+	<string>9P107g</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2023 DesktopECHO, Inc.</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>WindowState</key>
+	<dict>
+		<key>bundleDividerCollapsed</key>
+		<false/>
+		<key>bundlePositionOfDivider</key>
+		<real>523</real>
+		<key>dividerCollapsed</key>
+		<false/>
+		<key>eventLogLevel</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>ScriptWindowState</string>
+		<key>positionOfDivider</key>
+		<real>289</real>
+		<key>savedFrame</key>
+		<string>82 144 822 672 0 0 1895 872 </string>
+		<key>selectedTab</key>
+		<string>description</string>
+	</dict>
+</dict>
+</plist>

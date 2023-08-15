@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.desktopecho.unbound</string>
+	<key>ProgramArguments</key>
+	<array>
+         <string>/Applications/PiCon.app/Contents/Resources/arm64/sbin/unbound</string>
+	 <string>-d</string>
+	 <string>-p</string>
+	 <string>-c</string>
+         <string>/Applications/PiCon.app/Contents/Resources/unbound.conf</string>
+	</array>
+	<key>Disabled</key>
+	<false/>
+	<key>KeepAlive</key>
+	<true/>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>

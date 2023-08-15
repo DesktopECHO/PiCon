@@ -1,0 +1,25 @@
+paths:
+  socketVMNet: "/Applications/PiCon.app/Contents/$ARCH/bin/socket_vmnet"
+  varRun: /private/var/run/lima
+  sudoers: /private/etc/sudoers.d/lima
+
+group: everyone
+
+networks:
+  user-v2:
+    mode: user-v2
+    # user-v2 network is experimental network mode which supports all functionalities of default usernet network and also allows vm -> vm communication.
+    # Doesn't support configuration of custom gateway; hardcoded to 192.168.5.0/24
+  shared:
+    mode: shared
+    gateway: 192.168.105.1
+    dhcpEnd: 192.168.105.254
+    netmask: 255.255.255.0
+  host:
+    mode: host
+    gateway: 192.168.106.1
+    dhcpEnd: 192.168.106.254
+    netmask: 255.255.255.0
+  bridged:
+    mode: bridged
+    interface: en0
