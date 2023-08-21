@@ -1,5 +1,5 @@
 # PiCon.app
-- _'Appified'_ container that runs a Linux instance inside macOS, no additional software (Docker, VMware Fusion, VirtualBox) required.
+- _'Appified'_ container for running a Linux VM in macOS with no additional software (Docker, VMware Fusion, VirtualBox, etc...) required.
 - Deploys a standard Deban 12 cloud image and installs Pi-hole with minimal user input.
 
 ## Info
