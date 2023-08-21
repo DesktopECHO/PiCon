@@ -4,116 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/Base.lproj/MainMenu.nib</key>
-		<data>
-		HItSi0m0S39AXpI0XZw+vIusUdQ=
-		</data>
-		<key>Resources/CocoaAppletAppDelegate.scpt</key>
-		<data>
-		YvprIv+FGwp/IZfulMYlDVuix08=
-		</data>
-		<key>Resources/Dutch.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Dutch.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AgMNkemSRXVogkyTY3AETDWrGlU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/English.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/French.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/French.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			K4Lq3FpH2AUw+VmmNoc9DUgOhrs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/German.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/German.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			x2m9odWSBteCPRW9Sl62R/oMqZA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Italian.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Italian.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DN+q5Wz/heUHs37Yg9rkKaopRIU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Japanese.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Japanese.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			e1TXag6ZxMOSmwdBSN0M3J/yGkk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/PiBar-Sync</key>
 		<data>
-		adq2nWX4EhGIm1weXtbJ6b2PzJU=
+		j05/toqrjC7vyzLwhvzldnb3D7c=
 		</data>
 		<key>Resources/PiBar.app/Contents/CodeResources</key>
 		<data>
@@ -400,7 +293,7 @@
 		</data>
 		<key>Resources/PiCon</key>
 		<data>
-		Ayeh92cAKWeMPeeQIZ+iUZX3hww=
+		9LObQK7bmfE97QV0zbit6jCjkW0=
 		</data>
 		<key>Resources/PiCon-Launchctl</key>
 		<data>
@@ -408,696 +301,8 @@
 		</data>
 		<key>Resources/PiCon-Reset</key>
 		<data>
-		f/iP+Oxn60r7dVYySp3XHfkJj3s=
+		PVbazZxwJfrx1bc3Gk5nNAf52n8=
 		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/ColorPicker</key>
-		<data>
-		G2gRv2n4eGkVCrYBNxyzt0CeqTA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/ActiveEscapeHatch.tiff</key>
-		<data>
-		hOUJijxXtEhiqQq7eZFFIUOt7pw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/ActiveEyedropper.tiff</key>
-		<data>
-		I0CeEFoV28zVJMXJqDqcDLt17iU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/Add.tiff</key>
-		<data>
-		ZcNv9PBhsjcxKAGO91wILl/pZKs=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/EscapeHatch.tiff</key>
-		<data>
-		urqN2+XkL+I6w7V5Q7K9+hccX0g=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/Eyedropper.tiff</key>
-		<data>
-		0CuOm1jDie1DCXA0W/YQu9pC8aU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/HSB.tiff</key>
-		<data>
-		oNWY9PDqGP3lOJ3xrNT809KTmD4=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/Info.plist</key>
-		<data>
-		RL12DRsV3uUlxmlKKTLeudlFGng=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/NoColor.tiff</key>
-		<data>
-		RxuCozoamWrfZiEDjBMN/mm6iEI=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/RGB.tiff</key>
-		<data>
-		Hk83JHEv6Av7+1TgnENoWcCGvkU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/Remove.tiff</key>
-		<data>
-		fH0Ai5SIB8ERbuu+3tKauxHgo+E=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/SelectedColorIndicator.tiff</key>
-		<data>
-		kMs2oaP34NybCNyZ0i8l65fWABc=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/SelectionIndicator.tiff</key>
-		<data>
-		o22XNbFWvAaYR3vu6/vZrXIYK1g=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/SwatchCheckerboard.tiff</key>
-		<data>
-		kvMd7EXc/0UCvzm/6W2Y/JgSvtk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/colors.txt</key>
-		<data>
-		8fO3WxKqBDTf9FVJiM66lUAvOYM=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/_CodeSignature/CodeResources</key>
-		<data>
-		WxWNmRHnUaMH351vNhTfwxn7vV0=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Growl</key>
-		<data>
-		GUcomuMFhL21Ivc2MJX/OIYZS5o=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Headers/Growl.h</key>
-		<data>
-		j9Ob2u9aIsHa7g0mIrcn/eowg/U=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Headers/GrowlApplicationBridge.h</key>
-		<data>
-		EnGmx27UHXu/cw04qVrVgF74lt8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Headers/GrowlDefines.h</key>
-		<data>
-		lEpJMIumoTSF3icoXL/GM/1lEzE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Resources/Info.plist</key>
-		<data>
-		VZb3f8My4te/5JwcjfvotgCXTAs=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/_CodeSignature/CodeResources</key>
-		<data>
-		OIDDjYPgu1ZYVqj3jtoIL41q5ac=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Info.plist</key>
-		<data>
-		K4/yfJwysHClon+9WTrnvgUd0O4=
-		</data>
-		<key>Resources/PiTerm.app/Contents/MacOS/PiTerm</key>
-		<data>
-		U2Y4JjhD4cXBRRUGkv9nZ/nrUQw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/PkgInfo</key>
-		<data>
-		1QeBPRlO/4hWlAmimHsGlep4vIE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/AboutWindow.nib</key>
-		<data>
-		I2Llsg92lfXYqrOCQNwTi5VaaC4=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Add Mark Touch Bar Icon.tiff</key>
-		<data>
-		QeuZ6JkBp6Rbe3lfiU2VCb0NV38=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/AddressBook.strings</key>
-		<data>
-		BfMRRrjqTBjYHe73dGJ2/8BzWBg=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/AdvancedWorkingDirectoryWindow.nib</key>
-		<data>
-		WT4B02ZZUwoUjBTDzXkkX66bup8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Alert.tiff</key>
-		<data>
-		ngs/qGnJ1HrcC2ashhEJS1S+O1I=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/AppIcon.icns</key>
-		<data>
-		ExycTGXQYGjiVpoSpykCzmaBdlY=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Assets.car</key>
-		<data>
-		by7+n+UIN2k+YQt3i/E2if2Bs9Q=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Autocomplete.nib</key>
-		<data>
-		jXY0N1wZVxIJ8xwZDZakWyexZC0=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/BackgroundStripes.tiff</key>
-		<data>
-		BVocObyMZWdYMNCjVckAMe4Cl5M=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/BigArrow.tiff</key>
-		<data>
-		tl9xpMEC2hGTNBRv24uhAK2fuPw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/BroadcastInput.png</key>
-		<data>
-		vLvWP8gyH/PxAFD32A0UZtl5X28=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/BrokenPipeDivider.png</key>
-		<data>
-		JnpWrG7/NrNL3NHf4hN79eeToLE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/BulkCopyProfilePreferences.nib</key>
-		<data>
-		BHe3wAQujoMRuAOB3r5Kl+M0Lno=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/ChangeProfile.tiff</key>
-		<data>
-		t0ZrVLGmqxojX+GyNwo2wljyRJw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/CheckMark.tiff</key>
-		<data>
-		Qn5huptNdY9SGgPHZxq51LwQ0lk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/ChevronDown.tiff</key>
-		<data>
-		OpoCaAakwYWVZox9lOC35QUVRWc=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Color Preset Touch Bar Icon.tiff</key>
-		<data>
-		8MmiYku1NNJa5ywUx3IJlh3c1Aw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/ColorPresets.plist</key>
-		<data>
-		brdKp09t1iC+Onb+ADgBMtJdfbE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/CommandHistoryPopup.nib</key>
-		<data>
-		IRZ5GXYHYjH1ftUjoH8p1bxk1Bo=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Coprocess.png</key>
-		<data>
-		dcwK8TrGsbPiVNiXkKK/3xlYcTA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/CopyMode.tiff</key>
-		<data>
-		VcAjNNA84exPI9xxyqhs6mRDvgA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/DeadForDarkTheme.tiff</key>
-		<data>
-		h98NgnDBP94tWprG15Svu/QDs/4=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/DefaultBookmark.plist</key>
-		<data>
-		V/6EMdA5nAVmR8NsxbiCVIwszJQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/DefaultGlobalKeyMap.plist</key>
-		<data>
-		3UV5TcyqBvkd5HFCHicrHHDb260=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/DefaultPointerActions.plist</key>
-		<data>
-		CgLp7CPrBBCWl8clPDa7DuHbni4=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/DirectoriesPopup.nib</key>
-		<data>
-		V/QQx9wuyYpVnVPYbQGRpr6+uK8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/DisableTips.tiff</key>
-		<data>
-		cOe7QScfnss4UlZakpQKhtOHNuU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Dismiss.tiff</key>
-		<data>
-		ExrtRGvfS6bMcMUbpTS6pcTIsVA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/EncodingsWithLowerCase.plist</key>
-		<data>
-		pupMzJbdGh8aLrMXWrgq7vm1iDA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Erase.tiff</key>
-		<data>
-		FnVOtlYRhRFmBwYKWcIeT5EjQx4=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/EraseDarkBackground.tiff</key>
-		<data>
-		MsssdUTSFTsFl4IbbehKfhAcsvo=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/FindCursorCell1.png</key>
-		<data>
-		PoJ9tua0bFleApNpOOdD3cUwiwg=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/FindCursorCell2.png</key>
-		<data>
-		aNBW2443Y7YVvIiCK0Y2U62X14s=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/FindCursorCell3.png</key>
-		<data>
-		7P797AyT8C/gjf2LPSPrg3BaX1s=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/FindCursorCell4.png</key>
-		<data>
-		Z3FtHqvd2fsJWb0EbgeUMmqhkdw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/FindView.nib</key>
-		<data>
-		xfn8MLeEJAqr/xFYGi0xsiFskhQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/GlobalSearch.nib</key>
-		<data>
-		M/Ejqgea2m2+DYquFzoCTmh0+zw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Growl Registration Ticket.growlRegDict</key>
-		<data>
-		VrirPLJuC+cd/G+tTw0LX3ofrGY=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Hamburger.tiff</key>
-		<data>
-		c6jmBN6y4IsXePSefcOZxPjU7yM=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/IBarCursor.tiff</key>
-		<data>
-		gBKQXHEfuEYFujTCye/jYeg1GNw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/IBarCursorXMR.tiff</key>
-		<data>
-		mHr/7cUSpROWzq3wmVEN0eDMPbo=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Info.tiff</key>
-		<data>
-		OA4cTT23quxPNbHdQ5gNfkPQjZM=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/InstantReplay.nib</key>
-		<data>
-		o4GLshQtztEe2h2UhvewFE1dCxo=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Later.tiff</key>
-		<data>
-		O07KlnzJNAQGZzc1x2vUyAI0nxs=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/LogoFrame.png</key>
-		<data>
-		FUeL1G7Id7YV/7rzXK9GoaLCP8k=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/LogoShadow.png</key>
-		<data>
-		9fZXofg/EBGuzed2A9K+ozWI1j8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Loupe.tiff</key>
-		<data>
-		V+j9n0zabrmTgcQ6FcSntjgA1TI=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/MainMenu.nib</key>
-		<data>
-		EY7RRP/QTwlKyj1HlpwJfPRU5eQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/MainMenu.strings</key>
-		<data>
-		KiN1kCNrU+MIVOlXpoOpp3I8kNw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Man Page Touch Bar Icon.tiff</key>
-		<data>
-		k5KT3k0lQoRyWVZKZGf09gQylYQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Maximized.tiff</key>
-		<data>
-		MX/jRUE9K8TyO0Nouh7l9r4fNhE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/MigrationMap.plist</key>
-		<data>
-		0AzNj31th0coaotoiRKvUO9msB4=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Model.momd/Model.mom</key>
-		<data>
-		usem8QvVFWYYIIpxI/WiXaZIrfU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Model.momd/VersionInfo.plist</key>
-		<data>
-		hQnBABkow1BA0KrhD109NHtCOQs=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Navigate.tiff</key>
-		<data>
-		vW8q0w3SFfaCRvYP1/ZUOZnHuDE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/NewOutput.tiff</key>
-		<data>
-		Qkk41liKWAU6tS9GNyHxvtn0C2A=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/NewOutputForDarkTheme.tiff</key>
-		<data>
-		OANwD72NFCHYRpV/0rvIuqRIjuk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Next Mark Touch Bar Icon.tiff</key>
-		<data>
-		wGEAx/6mnk2gcWIJUIXbRJxxPQU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/NextTip.tiff</key>
-		<data>
-		+gxok33ksGt/v64iU5ElK5pDCRM=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/NoColor.tiff</key>
-		<data>
-		TzwSZqavpv7SXKlLug9yUgvineE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/NumberOfSpacesAccessoryView.nib</key>
-		<data>
-		TzVggKc8NNOS+ZebKEAP3wc6Wo0=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PTYTextViewTest-golden-nonretina-testCustomUnderline.png</key>
-		<data>
-		9iLedooqJtH2tX52xI4VVDtFqqw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PTYTextViewTest-golden-nonretina-testUnderline.png</key>
-		<data>
-		eNoyQXwuzFLNDdsGWTMHbtDShDk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PTYTextViewTest-golden-testCustomUnderline.png</key>
-		<data>
-		IVEfvHKF6SpXLjc1l6g+3TJTcdY=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PTYTextViewTest-golden-testUnderline.png</key>
-		<data>
-		CvE6ZEtQzNe5KvehldMzs1y+ghE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PasteView.nib</key>
-		<data>
-		j05+Rh5EPiJwjr/J9CwWtypBkH8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PasteboardHistory.nib</key>
-		<data>
-		4UpHodGhjNWEzLhuEDWmBYaZy6U=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PiTerm.sdef</key>
-		<data>
-		fidae4aKl5z/2eYp+RmcZNnrJK0=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PreferencePanel.nib</key>
-		<data>
-		SWvS8qBG4fhQt8qzyRsYBANJT2g=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PreferencePanel.strings</key>
-		<data>
-		7QbQ1LVEp68adV0wdzaKGgq2nBQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsAdvanced.tiff</key>
-		<data>
-		z/FXRrFkUaK6WsIN9alKYnJoETY=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsAppearance.tiff</key>
-		<data>
-		iIiQx33DnaPCksBz9zrDNhBcF3I=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsArrangements.tiff</key>
-		<data>
-		CdG4FRQaPMZb1W6sduY8Tp7UkEQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsGeneral.tiff</key>
-		<data>
-		oMK5jm0HXrVvfi0yZRDPMv27aqA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsKeyboard.tiff</key>
-		<data>
-		ZqZ53LoCAJ+/wtpa0elW1vsYOcc=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsMouse.tiff</key>
-		<data>
-		GJbRxeV0QJcTTAqwFlybAfB6/tU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsProfile.tiff</key>
-		<data>
-		7Wysz/yc6zdANn/RP/HTffK18uw=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PresetKeyMappings.plist</key>
-		<data>
-		YVgcoHQ1bt4Ljd/MY92DWBdWaGM=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Previous Mark Touch Bar Icon.tiff</key>
-		<data>
-		Ez3z9mLQKK3iEH+0AD4E2a1EG1A=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/ProfilesWindow.nib</key>
-		<data>
-		NEvVCWhUtkrPF1OwjYR1WwGYWvQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PseudoTerminal.nib</key>
-		<data>
-		Kwm0FMuiYbKKi9BUKsJCezSYzYk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/PseudoTerminal.strings</key>
-		<data>
-		PII7kdWJzvyBdaapi4z7UB4LUGk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/QuestionMarkSign.tiff</key>
-		<data>
-		bor6SuKkzveUMBvUv6q9O5Q0Ero=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/SearchCursor.tiff</key>
-		<data>
-		gTVriQ2AFZSyR+zXYaM9jeLgEb8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/SmartSelectionRules.plist</key>
-		<data>
-		NgzOh0NYr/wzpAsKuxLqTprn7s8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/SplitPanel.nib</key>
-		<data>
-		a6sF0ZIPPO4sLlDhyaanixVoSeU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/StatusItem.tiff</key>
-		<data>
-		9hUzgK7NOWEubMwCga/2w+Bw7GA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/StatusItemAlt.tiff</key>
-		<data>
-		ukAAy5J4qEQX2eXsWytduFZ9gks=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/SuppressAllOutput.tiff</key>
-		<data>
-		4GMy+Ea0NLI/nJgMziEeT+YyA6o=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/TabClose_Front.tiff</key>
-		<data>
-		j/PQ+tJH7uwif1xdJ/qULOgNCCg=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/TabClose_Front_Pressed.tiff</key>
-		<data>
-		kyXeU2EXThb+/4M/Jg70tQPbhVk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/TabClose_Front_Rollover.tiff</key>
-		<data>
-		QO5kf969oAzTcJpX+5msrP6WjIQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/TabNewMetal.png</key>
-		<data>
-		CpQNChcViH2fB5JRY99dB6+QR18=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/TabNewMetalPressed.png</key>
-		<data>
-		g+yW9CXtgFlpGY9s3vMzS6NDKgM=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/TabNewMetalRollover.png</key>
-		<data>
-		flrNF8tE8syDoQgjSa7Nbq5wBR8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/TipCalendar.tiff</key>
-		<data>
-		xlHUCPGaExJygCkY9tgGfcEFluY=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/TmuxDashboard.nib</key>
-		<data>
-		avrNuwp4abPBAs8yy6Rw4qjFvOM=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Touch Bar Function Keys.tiff</key>
-		<data>
-		wVymNVo6gTGpw7Aob0QgHONwv3s=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Warning.png</key>
-		<data>
-		e40ulP4dbaT0QB5U+oy5K6Z/ADc=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/WarningSign.tiff</key>
-		<data>
-		jCKLrhUDle6We2Z10dSxiwXmCfA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/Zoomed.tiff</key>
-		<data>
-		+AsRLrWgh5o0wYAqnJj6kI2JMu0=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/bell.png</key>
-		<data>
-		j31DlZc2fjAzRnG/+AV7L1dpYBU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/broken_image.png</key>
-		<data>
-		Tm1hOnkzF7xX39M0upbQ7OYmdAQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/close.png</key>
-		<data>
-		rgAWkOAwTVZ1mzSThHBKDLJkrh8=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/closebutton.tiff</key>
-		<data>
-		65rw1LsGYg9sDQBPGH1QYZWuV0E=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/config.png</key>
-		<data>
-		KGJZSR9eKnOKPY8BzjZkHX+GHYQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/configPanel.strings</key>
-		<data>
-		xAV6LU1RWCQpbRfEyyKDzbWFG88=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/dead.tiff</key>
-		<data>
-		wS0nuAP2Xca4xWIFD4WRNikLAEU=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/dsa_pub.pem</key>
-		<data>
-		x5L/gTGo5fVg8Cm5C37zpSUSbRQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/DS-DIGI.TTF</key>
-		<data>
-		HOHtMStBojfLJTxwYpDA/XKHhZ0=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/PowerlineSymbols.otf</key>
-		<data>
-		te/zxiETL3UZXCzvGLoG1lVHZGs=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/ProggySquare.ttf</key>
-		<data>
-		xpXD6lbPVvM9AOrfYlBIqwGHt0w=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/PxPlus_IBM_MDA.ttf</key>
-		<data>
-		/npl1LAehV1ikGF0H6x3ygjB21k=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/agave-r.ttf</key>
-		<data>
-		YcQaWnprojVrvXcVQT7H16sYfws=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTerm.strings</key>
-		<data>
-		j9bOrpkOYpVHyO4i/3Q1gok6sKo=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermEditKeyActionWindowController.nib</key>
-		<data>
-		RJNb3dd6XLcJnkEm1Tdelw3/syg=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermHelpMessageViewController.nib</key>
-		<data>
-		ID1Ezsg7CsbFsusc00IR4ZQaBYA=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermHotkeyPreferencesWindowController.nib</key>
-		<data>
-		glUwBV6HGXyVH/qslyJO7lyUc4k=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermKeyMapping.nib</key>
-		<data>
-		Rnwnyc6dUC6gEi+q1XFTqQlVjZ4=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermOpenQuicklyWindowController.nib</key>
-		<data>
-		K6uwtmTOar0j3EOPbdNrguCnxAQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermPasswordManager.nib</key>
-		<data>
-		2Hf4LM9yTaPO+TqrWkyTwBeindk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermPasteSpecialViewController.nib</key>
-		<data>
-		1phLOOFZqv6MN3+nvN2o+evxV1w=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermPasteSpecialWindow.nib</key>
-		<data>
-		jKWmbAOmJULYRy8AKmriJ3r6nmk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermPrintAccessoryViewController.nib</key>
-		<data>
-		zYnipmtxJxdaGWGTb1ubM6sjzAo=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermTipCardViewController.nib</key>
-		<data>
-		iJotNI112Kz/rXqQGMhkyemhd1A=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermTipWindowController.nib</key>
-		<data>
-		wfdBAH82+XkiOAU2mS5mMKSyLXc=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermWindowShortcutAccessoryView.nib</key>
-		<data>
-		msxZLYI/F4JHb1/h6hIcAXSeauc=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/important.tiff</key>
-		<data>
-		YCBwrVafNgzyeiyo2vrbwbBHJtY=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/new-tab.tiff</key>
-		<data>
-		6rK2CD4HRKproZO4CDeGRhxewcI=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/newwin.png</key>
-		<data>
-		OxGoPSfkR4AOOBXPuTYWF4s7KDk=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/overflowImage.tiff</key>
-		<data>
-		auFOXesp3t49YAofk6DdvRMWC3M=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/overflowImagePressed.tiff</key>
-		<data>
-		UjtzA4H+dsBhaoBKvoJsYvII/vQ=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/restore-arrangement.tiff</key>
-		<data>
-		ByM2MZWqD3EB7mbXXGjxJEWPsc0=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/wrap_to_bottom.png</key>
-		<data>
-		gidESYJxZNqCroQSehgYE+bhr4Y=
-		</data>
-		<key>Resources/PiTerm.app/Contents/Resources/wrap_to_top.png</key>
-		<data>
-		oOgDo8IpuwvazmtXsNv4ETA4GyE=
-		</data>
-		<key>Resources/PiTerm.app/Contents/_CodeSignature/CodeResources</key>
-		<data>
-		X93D8dn9g+XyUBKgH3ui3B4RWL8=
-		</data>
-		<key>Resources/Scripts/main.scpt</key>
-		<data>
-		ttaHP5Yjcp90gawFvnGzGJ/FkAw=
-		</data>
-		<key>Resources/Spanish.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Spanish.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ULB2qcmfSLGnrBWaHdBja/3NYog=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/applet.icns</key>
-		<data>
-		kVeRLQUHA8N9w/JhLV/q/ett5lg=
-		</data>
-		<key>Resources/ar.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ar.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SXLS4Z1JwyTwUNW7D3aBuXtNuVk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/arm64/bin/apptainer.lima</key>
 		<data>
 		iKlk69CDMU+stghVR2LMG3qmfnQ=
@@ -1132,27 +337,31 @@
 		</data>
 		<key>Resources/arm64/bin/qemu-edid</key>
 		<data>
-		TQ3sCXuQonHMKW3jYl6nX4m1rM4=
+		M9vTOUShgVNlTV21+OEqavpgKJM=
 		</data>
 		<key>Resources/arm64/bin/qemu-img</key>
 		<data>
-		w32tjtqMIIQ8aN3v8CaS4lY/llo=
+		HCKNjCjUnZcjbLwn7yqsbhQcptU=
 		</data>
 		<key>Resources/arm64/bin/qemu-io</key>
 		<data>
-		J2wMUzRw2TKj2vp8VlY2j+Fvwsc=
+		+U0qDbzNrjJQ6U+rQ49luxJ1UoY=
 		</data>
 		<key>Resources/arm64/bin/qemu-nbd</key>
 		<data>
-		MdNFhiu3wbQyFOS7Lx4EC28hLH8=
+		8jQJmDuFZqQKm70KlTj6aUH3QZM=
 		</data>
 		<key>Resources/arm64/bin/qemu-storage-daemon</key>
 		<data>
-		2Ho18AAPTgADNubsVL8cagj/07s=
+		RSucMG8KkprFtc14mUyAWRNavZI=
 		</data>
 		<key>Resources/arm64/bin/qemu-system-aarch64</key>
 		<data>
-		VMfndjJV9BGWcO2TsM6CEfthSsI=
+		C5skz0Y3ZrVggbeSCQ5W9YaPMWU=
+		</data>
+		<key>Resources/arm64/bin/qemu-system-arm</key>
+		<data>
+		axZrzIU7IVLC4OvBcuKJMnfroXo=
 		</data>
 		<key>Resources/arm64/bin/socket_vmnet</key>
 		<data>
@@ -1208,7 +417,7 @@
 		</data>
 		<key>Resources/arm64/lib/libslirp.0.dylib</key>
 		<data>
-		u5YPVtR1s8HrdYYXsSY77PrSAeY=
+		28sdtiTvMjyhTlSxNgr/dtyKrPU=
 		</data>
 		<key>Resources/arm64/lib/libsodium.23.dylib</key>
 		<data>
@@ -1554,24 +763,6 @@
 		<data>
 		L6NVGKSFC4ILqAVFSeCF33qCZgk=
 		</data>
-		<key>Resources/ca.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ca.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YHGH6/83cfrlfYn3DBWL8YLBBiQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/com.desktopecho.lima.plist</key>
 		<data>
 		EMm0D07CfykdxX3pO3ffJRFfLHQ=
@@ -1588,208 +779,6 @@
 		<data>
 		ue04TnRgM9j8poF2AHElAJL1zM0=
 		</data>
-		<key>Resources/cs.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/cs.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KFyItusAOuPQAjn4deEXJ8GMkaE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/da.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/da.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JsOQy7ogdMtJdfNh08pWug/9PTA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/description.rtfd/TXT.rtf</key>
-		<data>
-		K/ZFOkQIG+CzVJSjJY7dyBRIDnw=
-		</data>
-		<key>Resources/el.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/el.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qjK1Bi+tsV5dB6/zki2N9aV2NXg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/es_419.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/es_419.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sXRejnlMECAUB8wsKc8dwkC0yMk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/fi.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/fi.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1KMZ8HPvLEX0t3eeq/hZxBx+93s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/he.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/he.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XnPGxXZwOJeUMI88ittIDqrD/SE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hi.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hi.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gFy2JhPYQ+1OFGqXV6a+wBVdwjE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hr.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hr.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gTgO+SGy0hOzkiMaBGVGzTiiWNY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hu.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hu.lproj/MainMenu.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gdIiZBIOrl99uIrlMcY56MSO71s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/id.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/id.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EIsPRDreX0pjHnSey28KLOU8ANA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ko.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ko.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OZKK2VyogmOVzjdMRDFqnAeWKT0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/lima/_config/networks.yaml</key>
 		<data>
 		110Q1SbyGMopHhUVRdrLutWeAdA=
@@ -1806,24 +795,6 @@
 		<data>
 		110Q1SbyGMopHhUVRdrLutWeAdA=
 		</data>
-		<key>Resources/ms.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ms.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Hb+yneyaScZaKB5taYEQ7pOMDa8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/net.amiantos.PiBar.data</key>
 		<data>
 		BIfRD+XHwauOYXnZpKN52WCn8do=
@@ -1832,230 +803,22 @@
 		<data>
 		tYXAiI6cAirpG+hbba5AioeNNEA=
 		</data>
-		<key>Resources/no.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/no.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X60uGU7qf1cG1o2xEPwu6jcKjFg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pl.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pl.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2iSF+oTJt1j4Vpoc7J7zsW/Oohc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pt.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pt.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+ZaotI1JT/TjBmEjp9sqNMH22t0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pt_PT.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pt_PT.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ByLsJbG6lg1JGxRUswwMxAIeJbQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ro.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ro.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NDyF9nZipVHnt20uY2iGESmW6lY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ru.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ru.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hVOSrW6UMu+RkCRb1hoL+frDBaw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/sk.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/sk.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aYMkq8e4BZgnTotefE/IzQkdfos=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/sv.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/sv.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zsUkMkrApJoTEeYmpqHvg9fS0CQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/th.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/th.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lR+c8N2qyP2eVrA6YuuF+qVmuzQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/tr.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/tr.lproj/MainMenu.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gZslrT1St7lfcOOlObvSD25j5Zg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/uk.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/uk.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xwdpHzSKH3xcj9caacd4Sp8FLKQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<key>Resources/picon.icns</key>
+		<data>
+		LU4zAZV4GhbvzCKbYy2N8eldXxg=
+		</data>
+		<key>Resources/piterm.conf</key>
+		<data>
+		kUvb/8RvM9m5lfNRinb1q0sWZPQ=
+		</data>
 		<key>Resources/unbound-pihole.conf</key>
 		<data>
-		+LTwhFNhRA+Oo4PHXkbjAlKGvOo=
+		niYRluJOB8iJwf50S4S7kY6PSkY=
 		</data>
 		<key>Resources/unbound.conf</key>
 		<data>
-		b1jOlsPdahyuOXqOLzaVXoMemfo=
+		2yadgY/3mdK8mSONmNYgPAC3UoY=
 		</data>
-		<key>Resources/vi.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/vi.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			i5XQzaBii2Op4KzOcIp2KQaQxVU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/x86_64/bin/apptainer.lima</key>
 		<data>
 		Ndib4veDhpmxdIAMqHfRh3cSrTM=
@@ -2090,27 +853,27 @@
 		</data>
 		<key>Resources/x86_64/bin/qemu-edid</key>
 		<data>
-		ags2Pn17n0aGAfRJlc6YrwpORmo=
+		XTqC/WDDv5YWNpGNMH7WBTqpSZs=
 		</data>
 		<key>Resources/x86_64/bin/qemu-img</key>
 		<data>
-		h7m60oWKvhwiTpH9QmV/Dc+4bGA=
+		BW+o9LA6l1eqoXfOcwvYSkcpTss=
 		</data>
 		<key>Resources/x86_64/bin/qemu-io</key>
 		<data>
-		V5c5BFbmDH/YKp9ZVXF0c5EFjqQ=
+		SKFdIDIaZK0AWe/GaIU8cxdkeMU=
 		</data>
 		<key>Resources/x86_64/bin/qemu-nbd</key>
 		<data>
-		qX+nxT2zHtZ/Kcj/HC7oGk2jsHw=
+		67j2pO0gC+5bULsrYMssIDn5v3A=
 		</data>
 		<key>Resources/x86_64/bin/qemu-storage-daemon</key>
 		<data>
-		BBB7/uRLqA9++geAaUI/oXPdEKU=
+		gXSCmzhlze15Zu2jb0eOjbXWhXs=
 		</data>
 		<key>Resources/x86_64/bin/qemu-system-x86_64</key>
 		<data>
-		5JeUiAK3wTZkfRos3hN0vRiShpU=
+		75DxFByYyenlLBIiW5QSU3XT36s=
 		</data>
 		<key>Resources/x86_64/bin/socket_vmnet</key>
 		<data>
@@ -2166,7 +929,7 @@
 		</data>
 		<key>Resources/x86_64/lib/libslirp.0.dylib</key>
 		<data>
-		Q4XmEjBfvEbe6/mhXV0a4h1wsAI=
+		T5w9qDvSOrlSAGwYqQiI41au0us=
 		</data>
 		<key>Resources/x86_64/lib/libsodium.23.dylib</key>
 		<data>
@@ -2388,167 +1151,26 @@
 		<data>
 		L6NVGKSFC4ILqAVFSeCF33qCZgk=
 		</data>
-		<key>Resources/zh_CN.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/zh_CN.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			x9ukXr4LFT/cD3iT6aH/J+HtuJc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/zh_TW.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/zh_TW.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tiM7vrFHieLfF6t0H/nlwK8PsY4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Resources/Base.lproj/MainMenu.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YjlV8EMiYSxq0vqykXJ4SkZtFDP6pf95Q0inGZXvyl8=
-			</data>
-		</dict>
-		<key>Resources/CocoaAppletAppDelegate.scpt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			C5PcQ4njyaZqNcMkrh4epyL5vEwInDfdFkx/1zAlpv8=
-			</data>
-		</dict>
-		<key>Resources/Dutch.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Dutch.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2PQv35tqQFvYFFhO518BN3Taf1KKiw4aKfWBgJFHO9g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/English.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/French.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/French.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			65ixaSG/vtf2czaSwIfmAznnVh2333zu5M+E3oyC9oc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/German.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/German.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ye5r+kymAOGbigYDj/stqT6qquZifl6Rbe2/uFKKQVI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Italian.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Italian.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0PY31BHv7rZwpILTU4IyAYExihBepimuYmrE3AlTdig=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Japanese.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Japanese.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hes/YIiu3iNQgXW+6WDdVqBrtCsVWv8YEqEayxIPJyY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/PiBar-Sync</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			j05/toqrjC7vyzLwhvzldnb3D7c=
+			</data>
 			<key>hash2</key>
 			<data>
-			SZHT55OWsqSlJPYhB8VWL62JWl+7j9+17Ua186e8LCI=
+			2w5qmvgEhwmPZhHUeVE1zRx4FWAaIWPMqj92BxXWeXA=
 			</data>
 		</dict>
 		<key>Resources/PiBar.app/Contents/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AC+GCdPmEzp9AvivQaxCy4DV2JY=
+			</data>
 			<key>hash2</key>
 			<data>
 			e9GZqtHdSE3Z8vjJNv7+PlmR6MegGav3DiG/9Ym0qMo=
@@ -2566,6 +1188,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/HotKey.framework/Versions/A/HotKey</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KMCHqGxKP9XdjMSJTBNn8nRlc9I=
+			</data>
 			<key>hash2</key>
 			<data>
 			BkvBR12AIuP79Qj9yEQmfWz1LUWZfvi/E7JoMAc7KX8=
@@ -2573,6 +1199,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/HotKey.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			StoCbAe3NLg0CeTgzZpeyvEOGT0=
+			</data>
 			<key>hash2</key>
 			<data>
 			+HzZwKljhDui4eNn/t+zEv6NS4hnco8ohXfxilfCoYU=
@@ -2580,6 +1210,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/HotKey.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CJ+wiouH4l2iCsvLIU9XrGXBlJg=
+			</data>
 			<key>hash2</key>
 			<data>
 			+7tQG/ViilsUMHlpxFAarwBzuN2h/gymMsFH06BmiIY=
@@ -2592,6 +1226,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftAppKit.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4QgHpSAK6WxaN8y7Rfevj9vuGnk=
+			</data>
 			<key>hash2</key>
 			<data>
 			UCnUDBC8tlnigy77CMwjHZAhVqHrg9mpQa02YbMUffE=
@@ -2599,6 +1237,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftCore.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8DGr3dUCOwWDV5Q/FhmLFRfaKPo=
+			</data>
 			<key>hash2</key>
 			<data>
 			cwjaGGBRdWkcCdAQCMAah8cbInygnHmVWcvMMK4Ikzo=
@@ -2606,6 +1248,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftCoreData.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0tNYbrp9IWSjOGeTwx3UTDM4pWE=
+			</data>
 			<key>hash2</key>
 			<data>
 			McsNQkdmG0kRPNMLyAHROvfclc0iRuZgPUticrkcLSw=
@@ -2613,6 +1259,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftCoreFoundation.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			zS8PeslEcMp0O6N7HruQwZzoug0=
+			</data>
 			<key>hash2</key>
 			<data>
 			b4Lg/ka8BsWhA3uLCfwf9rMPOV6OlRFYcuf7LVfFVZo=
@@ -2620,6 +1270,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			mrmo27lHB68jRm+nXuhi7q0YvzU=
+			</data>
 			<key>hash2</key>
 			<data>
 			jYOxC6+BkRjyBN8Isiyypd9af7t8FUd7T4p52JEOnTQ=
@@ -2627,6 +1281,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftCoreImage.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WQJVkzggDkzGjK2x/3ayFgUdFH8=
+			</data>
 			<key>hash2</key>
 			<data>
 			wdqcGIWZYYepOQ9YUMPOkPxzRd2toC6fBz2fbbBzBhU=
@@ -2634,6 +1292,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftDarwin.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ypDDfosuFkUjSPYd48IsK71WV+I=
+			</data>
 			<key>hash2</key>
 			<data>
 			RuqzdIz7zq+PC/RCM5H394ZOsr/dOhxhD1a8LGeJyoQ=
@@ -2641,6 +1303,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftDispatch.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			avATPbVSmh7tNkziGR9jaOAtzlM=
+			</data>
 			<key>hash2</key>
 			<data>
 			BFQhJ5v3rQlSse568QzPXL4NJH/8aSbm3k2WB5bo1YU=
@@ -2648,6 +1314,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftFoundation.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			I8gdmr+1nJmGkNuxOYXDW3DDR24=
+			</data>
 			<key>hash2</key>
 			<data>
 			l65GqjDv01mBMUhWOWb2+7bMkwk17DbKkg+ZZwE7BCQ=
@@ -2655,6 +1325,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftIOKit.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ydCeVAYqZV9PWEGUMnAJgVZxn6g=
+			</data>
 			<key>hash2</key>
 			<data>
 			71yQ/fICrSAjUBNA0AAoBR5GecLtFmzUQKWMpr6P7+g=
@@ -2662,6 +1336,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftMetal.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Rvd4hxAcsrzbBfp2+bqEaSkzdE0=
+			</data>
 			<key>hash2</key>
 			<data>
 			behgAvqhCbe4rE1v3y6E6e+ZlV4vw3weH82AuaQXwQE=
@@ -2669,6 +1347,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			GjXNfOWceLuRQFAyu85Tgt6mTxk=
+			</data>
 			<key>hash2</key>
 			<data>
 			82504mpLPFXDUAvSsg93qq6Em0/hJHI+a9Dc3AA9RUE=
@@ -2676,6 +1358,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftQuartzCore.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7ZbR3ZSyK7otnOPR9Zk705zz8kY=
+			</data>
 			<key>hash2</key>
 			<data>
 			F4Ue0yoCOI2KDbe7HDtOLOvtdhx9lSqErq6wWGt5oKk=
@@ -2683,6 +1369,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftXPC.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bbxIoJzgrV8Ciss3DwnLG+NIfWU=
+			</data>
 			<key>hash2</key>
 			<data>
 			KjEb7ahCPEABM8EFtb0a9kxcnOtGu7hSAj6bwi/hgmg=
@@ -2690,6 +1380,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Frameworks/libswiftos.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RHA8ec64+WVf+1SCOEVYsPFOKIs=
+			</data>
 			<key>hash2</key>
 			<data>
 			yN9inFHhetsvujTL+9oHgHJ3AcY1azghxoPPxQSdNsU=
@@ -2697,6 +1391,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nfezrQ7HBAzMOvU5MJNNUMhebjw=
+			</data>
 			<key>hash2</key>
 			<data>
 			YF6wDqe2WkH5dMyi5v/qUgwjeIh5/amprKRtoydD6Ss=
@@ -2704,6 +1402,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/MacOS/PiBar</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			OSLzCzsxl+OvKyJvo8P5UFH1Qvg=
+			</data>
 			<key>hash2</key>
 			<data>
 			lNTQk9eCiYb2FAW7i6ZoNxv9Cs/vkzh0gegpWUcFz6s=
@@ -2711,6 +1413,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/PkgInfo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			n57qDP4tZfLD1rCS43W0B4LQjzE=
+			</data>
 			<key>hash2</key>
 			<data>
 			glAhkclISwTWhTdPmHmgBmBpxJuKyuegSwHTjQfo7KA=
@@ -2718,6 +1424,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/AppIcon.icns</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MSM34yp0aA03DuNlvMcOjcWB71g=
+			</data>
 			<key>hash2</key>
 			<data>
 			ndhmc31e7gg5k0kqnT8wx8kHVMq1l8uoFdoKsFCIfX8=
@@ -2725,6 +1435,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Assets.car</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ZX1MZsUwwybiMuuqsvle6FCrjzw=
+			</data>
 			<key>hash2</key>
 			<data>
 			1/DcJTClCnBJiHhpuIXNRP30EAEHUqK1gvlu8oKDPlM=
@@ -2732,6 +1446,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/8lv-Nf-Li8-view-4DW-02-72t.nib/keyedobjects-101300.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lb+YsFTgGpLXdVxByAmgx5xql68=
+			</data>
 			<key>hash2</key>
 			<data>
 			+i/CzLHU9A3nTTKpL+kcmecxSsM/xgLzTYU/IMq+koE=
@@ -2741,6 +1459,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/8lv-Nf-Li8-view-4DW-02-72t.nib/keyedobjects-110000.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lb+YsFTgGpLXdVxByAmgx5xql68=
+			</data>
 			<key>hash2</key>
 			<data>
 			+i/CzLHU9A3nTTKpL+kcmecxSsM/xgLzTYU/IMq+koE=
@@ -2750,6 +1472,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/8lv-Nf-Li8-view-4DW-02-72t.nib/keyedobjects.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			O326H8YFuoUnoplLJ2ZXff5XSXQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			EM+zliOGpggZvyQC2NRsL9Bxm+ETe4R58FYy92AeGog=
@@ -2759,6 +1485,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/AboutWindowController.nib/keyedobjects-101300.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3RLhnxOQeknDbwXfDZix+y2hgGw=
+			</data>
 			<key>hash2</key>
 			<data>
 			zw8S7wgbGOE/21O5syGQkxWY2hp7IKMCgXpL7BJ8SX0=
@@ -2768,6 +1498,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/AboutWindowController.nib/keyedobjects-110000.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ighH4mLidixQaNSVMQoDCK4+p/s=
+			</data>
 			<key>hash2</key>
 			<data>
 			qOefJBKOm8xHN7ZGxJjckQf+tbphdD4fcq/uU1uYQ0s=
@@ -2777,6 +1511,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/AboutWindowController.nib/keyedobjects.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			g0H60XHCpfBJlQrHuQhL0Zr0ZOo=
+			</data>
 			<key>hash2</key>
 			<data>
 			HzL35eUatKHy5bxXySnUfdJsbqy089OsdGwl9lEIkZM=
@@ -2786,6 +1524,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/GTm-9k-36S-view-77P-BY-lJe.nib/keyedobjects-101300.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/b7xaeUzfP6fubk5ujxWcwL777A=
+			</data>
 			<key>hash2</key>
 			<data>
 			og78D013CYn6jbsu4ywF86H0NMa4fMnfDZ5SKMo/n8I=
@@ -2795,6 +1537,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/GTm-9k-36S-view-77P-BY-lJe.nib/keyedobjects-110000.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Ko31VGhk0Li3XGRqg3vtnfvvItw=
+			</data>
 			<key>hash2</key>
 			<data>
 			+N8ZnFzsZ+mYNvwJGtJgXiXcvyxYoxe27ovOG7l8IyM=
@@ -2804,6 +1550,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/GTm-9k-36S-view-77P-BY-lJe.nib/keyedobjects.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			PRabkVuji9pRo+S7vb1oMpAdjU4=
+			</data>
 			<key>hash2</key>
 			<data>
 			bPAMbfQeUaTThIIpXhWJTiq+juUFp63Q4OqIK4fYAmI=
@@ -2813,6 +1563,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bexYN8HpTWBaVNZWIF8rVHr/BD4=
+			</data>
 			<key>hash2</key>
 			<data>
 			dCvC7aYAF+1P84tKn7+Wy/V3TfaYSyZ/KJAb6hjZ6n0=
@@ -2822,6 +1576,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/JhG-OK-RWV-view-VTg-m3-cFh.nib/keyedobjects-101300.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Fcm74Tz5ILlDSCAQU0A2PkwZFOE=
+			</data>
 			<key>hash2</key>
 			<data>
 			9VI06hVJ0h6yt/+QX+BzwU073QE9pKasAXTus7c5gWA=
@@ -2831,6 +1589,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/JhG-OK-RWV-view-VTg-m3-cFh.nib/keyedobjects-110000.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			rO0lKE7okopS7mGkA5H33zt9sU4=
+			</data>
 			<key>hash2</key>
 			<data>
 			naW6dEUZAst0IKuW8kCL6SbqhM69BuCEnfOtUtUMwAY=
@@ -2840,6 +1602,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/JhG-OK-RWV-view-VTg-m3-cFh.nib/keyedobjects.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Z/FoPGZ+Zp6AjlMlb5ir6Hj36YI=
+			</data>
 			<key>hash2</key>
 			<data>
 			p5Ca4PgaLSnquJEy236OzFpxGH1zQt+bPCTVd93jvOA=
@@ -2849,6 +1615,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/PreferencesWindowContoller.nib/keyedobjects-101300.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wkMokXHNJN2zAM/oCUxNaZc4hRE=
+			</data>
 			<key>hash2</key>
 			<data>
 			zzErUS1ddAwaaBAraII+t54x2zAqjIFBU2oJmnKlMdM=
@@ -2858,6 +1628,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/PreferencesWindowContoller.nib/keyedobjects-110000.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3HELNRoK40C74CLkO346oSg6cKM=
+			</data>
 			<key>hash2</key>
 			<data>
 			NEOVA5Iu8G3m5Cz6YRo9oqZNEpPAwf7UNauSxiyOKF8=
@@ -2867,6 +1641,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/PreferencesWindowContoller.nib/keyedobjects.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tATpRceHWMyGgeST0SUwqxY281M=
+			</data>
 			<key>hash2</key>
 			<data>
 			AHl6Gvpohe8oSgiSdOfbErd9cDtaCmKkMkgmMFiAJUk=
@@ -2876,6 +1654,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/piHoleDialog.nib/keyedobjects-101300.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			aAyIeSVwEUm4Q5hpGQvt4Dd6aik=
+			</data>
 			<key>hash2</key>
 			<data>
 			q41twweS4M6vlsyyb8xKPYBAbbuH9J9XAU72W1cAvZU=
@@ -2885,6 +1667,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/piHoleDialog.nib/keyedobjects-110000.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			x108mBJOVeaqxrgodfR2TmJcHpI=
+			</data>
 			<key>hash2</key>
 			<data>
 			Yn/J9BUfk0NBYzeDlRiCHR9zzCU2o51bVLYZZ55NbBk=
@@ -2894,6 +1680,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/Base.lproj/Main.storyboardc/piHoleDialog.nib/keyedobjects.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			pnwhyvoMcW42e2vlHXYxj865Rv0=
+			</data>
 			<key>hash2</key>
 			<data>
 			tl39XogMOF0bLI9Mz5OKXamElWChs27PRthmIFh7r6o=
@@ -2903,6 +1693,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/MainMenu.nib/keyedobjects-101300.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			mkkIBWS3UWFmwx8uBLjQ2EtXzZo=
+			</data>
 			<key>hash2</key>
 			<data>
 			DqR29g0w4qaYZiikIK8p9yaHCKBmLxN3wIkHNXRAIBo=
@@ -2910,6 +1704,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/MainMenu.nib/keyedobjects.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JQ9JDGG0rDxodv8TTiA/3oULkAg=
+			</data>
 			<key>hash2</key>
 			<data>
 			26esS0XjhMVq4pX0Ict2M5ficlqxmbyRB0L4IamezIc=
@@ -2917,6 +1715,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/Resources/README.md</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			18XsvtUYemRL0JVRQh5TM9sC6AI=
+			</data>
 			<key>hash2</key>
 			<data>
 			vbtwdO/UhSKiREVCYNA8Eb7RfrUTSmH/MDLCUEVc6BQ=
@@ -2924,6 +1726,10 @@
 		</dict>
 		<key>Resources/PiBar.app/Contents/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			YyewjbOuLY7WGVzK73g6jxLuqXQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			u3SPUh2m/z/86L03BjZlkuPthzLkyK6V86fIPZ+GHbo=
@@ -2931,13 +1737,21 @@
 		</dict>
 		<key>Resources/PiCon</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9LObQK7bmfE97QV0zbit6jCjkW0=
+			</data>
 			<key>hash2</key>
 			<data>
-			uNwZ/2rs2/KFfvfVsYKwe4lkhhyiNLrBZz7Ls3XATgk=
+			ERvSbFCH9PMsY4LSP9kQJsdGi99cVEP3f5yxXUz20LQ=
 			</data>
 		</dict>
 		<key>Resources/PiCon-Launchctl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EmffFs2GnzHm3qkmAd21vFVjuSk=
+			</data>
 			<key>hash2</key>
 			<data>
 			PC3qLPzVPFr59laHY+8YAtcifKuHvBbwqxTFXd9A63s=
@@ -2945,1225 +1759,21 @@
 		</dict>
 		<key>Resources/PiCon-Reset</key>
 		<dict>
-			<key>hash2</key>
-			<data>
-			5qmSQBpuig35ICazkxzKjwntbu4fJCeLPr+u4Sogd4o=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/ColorPicker</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/ColorPicker</string>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Resources</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Resources</string>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/ColorPicker</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3UaNrYd+4Rh26bYZIuBPliuE2Gqdh8ULYaB4AFFHxvI=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/ActiveEscapeHatch.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aM6Q1vaRNs9Lf5LC/YK+qM5wVtqE9jh8Lt977fv7YF4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/ActiveEyedropper.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8GqeL7pskt32XXmRJonv23bpKWN6tqjwIaUEavsbGOs=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/Add.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			X6pZUovu6/Z0A9ITxugPNWaWz46VpVzlVUcHbxMobkY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/EscapeHatch.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XmO7z16jWEWhzY3FL00Kjl2hcaDisCBf8gcGWCfpLLQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/Eyedropper.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			afClV7DSiVj/OplVtX/iIKCygM0zx825t8s9QHSbXYg=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/HSB.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kDeiICv7RNW4gDjLduaVLeA8wcAoGHaAlLG1FDzo07w=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DR4U5ulSSWYuW80fPliZpjfZ0/YXV2NsyFvAl5pFj5k=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/NoColor.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uA0lamkiFociIz/ekusUGyn03l4w7fyXnRFrj3CkhnM=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/RGB.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iG73XmXnxaqqkZ/J1K3GNW4g2lN5rGPURQsyk+deQmA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/Remove.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9WNJZYDNRaQx2wZ6sCdSzgOiEYe7/1/UY3uyG0FgXow=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/SelectedColorIndicator.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5xdg08k/FO6b2eCCwKHaaFagRf7vr0ONKtJ1DJzLVA4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/SelectionIndicator.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mRQE611QK0dm9zUnpgrIgsN2CjApL7jnHGN5q/sppr8=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/SwatchCheckerboard.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sJdIEJWvXFtOi+F3IsohhlmOEXKCrPSGQbT5VPRPv8Y=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/Resources/colors.txt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kyOjG/HnmRXaAkNX4IIrDP5Prg2oJS/M1VEeCeYhDJw=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/A/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tDRCWJs0Tbj/GthLlOLrK0/O3GLpv+PeySUGBhUUwys=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/ColorPicker.framework/Versions/Current</key>
-		<dict>
-			<key>symlink</key>
-			<string>A</string>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Growl</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Growl</string>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Headers</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Headers</string>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Resources</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Resources</string>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Growl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XmJbcti9mOl0PPaX3U9v4RmX0Qk8cDqZzXwI+Y/Y0zA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Headers/Growl.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jqe3SUtaoUqHpF2NFvrab8xw8xUjwTCtmVc+nDCE8HM=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Headers/GrowlApplicationBridge.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qFqosCIMJfp1AgwJig0zFzxPACK5XlZmlQlD/zyRqAg=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Headers/GrowlDefines.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/E21AqunB5/CaYp0elsOBUP61BzXUAkLveGB9LC6Jfo=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/Resources/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			odJVaVE9C8qEG+SuMscrQokH/dHROmtGcocWsrGpIZw=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/A/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FOnR/zymJVyThGU4cOj+CwxEZ1rCPYhRZwmyWJ3gkic=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Frameworks/Growl.framework/Versions/Current</key>
-		<dict>
-			<key>symlink</key>
-			<string>A</string>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TP90675GykrjuflIqDD2ET/N1eB/1veZ9/Jl0fooj2U=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/MacOS/PiTerm</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MA1ZUDZnoqPlBZ15bI19rmMGsxMQIBN9avwJkUPBkbI=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/PkgInfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HADd7vlPcXD1YbW0i6PM3Kkjcjzuav6bTvOlYgncZNY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/AboutWindow.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ccn4CcAxp5sucoPTLzAomEdyagq60nQR5UyzGYvOd4I=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Add Mark Touch Bar Icon.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jolgDaT5GvtRurBKzcbRdCqbEWsgF43Ef6eT8zdk/7o=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/AddressBook.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pbAzXLjWYodwMnl6JVL4kubomNJN19nV7drl4F1lEWQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/AdvancedWorkingDirectoryWindow.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NIP2UncMXrXqjDu3ggMjinmiBtvhrpwkeAAj9CKMo60=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Alert.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n7tRPd4wuhRabya4JDrCYLTApUEuCx/gySL9bB6wlIQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/AppIcon.icns</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Fgy6oZpax8ujeZxoU+JJBxwNyPRnfB/9vb0AIKKVWLo=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MY5uBgZ8KgWXmyIJS4U5i2JcnrNEkJv3ti/vawkOdBM=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Autocomplete.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PN7079DhztjcnHeZDAGzW11MSzDK4JOJbqCU69kwcho=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/BackgroundStripes.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Xrg7eS4hK96oWTFyY5zXAvGR8CpOX+Puel4WTTE6vz4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/BigArrow.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZIzWtq4x4haokHDVdmEoWq5+CqC9qIYs0MDss7NHyqk=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/BroadcastInput.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CrpNpNI3fSKTI7oOpRDZc1OVyf2h5eE/c5a8BYCy49E=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/BrokenPipeDivider.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Lue+RtTcYwjUv/3FJ0ZMCuQUAH8jNcmFphFIXbrGBus=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/BulkCopyProfilePreferences.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3sBF/tc/sW+6A3HBLVInKz7ICJuZHpy4zToDPaQJJOw=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/ChangeProfile.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yeqF6Ao1bAdDbWm80jt3jgPd5QOhdXIni8SZvVQyslU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/CheckMark.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tNETH7ytBdsdpyy2AX6W6eScyjMMnWLzLgnX7dD32D4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/ChevronDown.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			toEUjFP/7wYvOgPrcDyj1EQa/n/a+kNb4M3q+1dsGeU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Color Preset Touch Bar Icon.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ES/gyVAq3Qldtxr2C3Db1LyXKAsDsH/5UZz/tjdv0oI=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/ColorPresets.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			16JJr+dd3jOHGr8Erk6cGv0IjuvJiSLIv8RCvc8aC1Y=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/CommandHistoryPopup.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GW8XhJPYYw5lKZBURqlpuIS9mMlrzfOhfdPy6iEYHqU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Coprocess.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			c08IVEI/h6xHB03YxCk9lIQ2cN/FlmjWGVuJRlGBAsA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/CopyMode.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			teu2xTlmKRwlxM7RyuDVzvBV4D7bKzv7tLVFv95Okrk=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/DeadForDarkTheme.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4oTdiGHm05FcHpPxMJOsBwYp+88Ho5QfzADWpF/fduY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/DefaultBookmark.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6hTj3cD443tZhcKnSThnRP/oas2pJGZsHTdn52CSDTk=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/DefaultGlobalKeyMap.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DxnQOb3mJhbB5AKvyPxrB7d2GKzKCmIjpgAKDwhReek=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/DefaultPointerActions.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			egBirpGLZGJEgErbOeph7vWGcD/9J+q54FfNjNleP+o=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/DirectoriesPopup.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7qQC4lFCS2PDDhcmRqXBp5mU6DbtiNeeD7pAdP6+t2s=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/DisableTips.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QWtiw4msOCLg+ytt4gMd7qO/SeW3N10mizUnmmRSDFE=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Dismiss.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XJlM7G85CWk1F2j2pUsCaxnDqW88HM6f/EpWUBV3mzg=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/EncodingsWithLowerCase.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			S3ufcA7PzZVL8MTmUajyBuft7CUbTkJkQhiEDzEUlv4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Erase.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gxp1G9yq5+t8a/NhBNzTX1I9IRpR1fKKNknO1Nn0WSo=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/EraseDarkBackground.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wHPQn9Y55yF9TlcXJVqf7bvf/1lE8/EGiBK3e3WzGX4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/FindCursorCell1.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LqidMHnOIX17xUkBReuxylluhYc2UeAea1FHa3FxfFA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/FindCursorCell2.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yN6xSIoTIL44xr1J7mctvqAbJuVQizZfjhSzXvDtf3Y=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/FindCursorCell3.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y6PPqMVe/I/YfNzfz0/vNApWHc3r2PMLquOBRLHlFeY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/FindCursorCell4.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jpigJJswzOs5r87/2LTXQRbpPkGJUjH5pKgJblMgNTo=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/FindView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3QQmw/sgBxzWgCHKOdbd9rtku4j9DLqZLcue1s/hC14=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/GlobalSearch.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AWDkhWPHrDyuT6dyy3uHpxSFqm6zeRvHAQoSeoctyrU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Growl Registration Ticket.growlRegDict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zwtraX5do3s/TeuuhvM/RRI0A9TIl5jqNdoFMWrvieM=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Hamburger.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			v9JJwWJXOPZJ/qtDqQin5Azq9e/II+nj/vQKj2zbt0E=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/IBarCursor.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hp9yovUTDdr8s5pNurwxu1f3g7VHpTkl0/1LULlxYHE=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/IBarCursorXMR.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uq9XQwM8gGnWNoggrpTiYyeQ1+AfRhpRhzGDuCDjeXA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Info.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bPdD4YYpWrHtapPKty/pEOEzcYkDnFjXS3Sr87nAP0c=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/InstantReplay.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			61h6s1rKNk8kLBKVUV9j03YggApg9xAw0xhryeWDKeA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Later.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WctXmsyk4CsqePAhDpM9wPXZnjx6QkOmZMHAmgSsRPU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/LogoFrame.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ChOvP6QzfnYuz45VlyVPpC2uW0j+jtgctEsCRzUiN1Q=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/LogoShadow.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ceQwiXyzvEM88JqzHx22FJlBXiO00898PvcdakkeB4c=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Loupe.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1s5w8Fu0t2gdaghg+G/I0BlaLWcjWqPdQfoXqCk+EwI=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/MainMenu.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y3+v84Qopt8s5HSGuJaP9uYG0YoRvLRz/JhnPMcUyy4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LO2eJFVGdrGH14mZI3xdTMDLltrk394LNOrtIbINvhs=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Man Page Touch Bar Icon.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gH0oRQfCJSHutzlIPJpuF8x+KUaD/0Te36UBgLKnunk=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Maximized.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ricHmGx1edrebfbfmKXOpk/MBIEcFXBgBYl0SjCwRlQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/MigrationMap.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lnw77fdWoEiuDeTT6L0wkTB05O9jrKOrfFhMIjw49bA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Model.momd/Model.mom</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R1cRJOKZAXU9vFqUyXBUJ76du/Im4Vr28LpXRVn6SuY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Model.momd/VersionInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7HdGdCPf8hDbMY3eckahUXKUiDKhzT9o7Ei81GYgrY0=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Navigate.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZnnJA+g7ZEIsM1zK+ZajF2i6gJ5R9teGRJcdov/J6ug=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/NewOutput.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eDX5vmwNgLuePAcCbp37TdGWZ3l9xD7zuyRij4FGDOY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/NewOutputForDarkTheme.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fVd/HbLDBcPhaTF4rXqw21c2zXvebclwtOjzjAgl7Cs=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Next Mark Touch Bar Icon.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tOq2BNrVkFX1OOVWQe9MOA6wtTPbvCBtYSfPHDtwK04=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/NextTip.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			djDlBBm4g9UQ0ySYjDCAx2MvEyGfB+/4qw4RECqs3a0=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/NoColor.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jmHHu+zMWqTrgdvk4s1aWZowBD5Ce2JOFWMr/06r8Cg=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/NumberOfSpacesAccessoryView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N/HsyrJm3RtLf3PBFlEfRhFdtkT+b8Yvy9JD+oqGvC8=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PTYTextViewTest-golden-nonretina-testCustomUnderline.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gP8YuLErpCFoa99yKSZizzwKv+pmMyrQYospTGiIIgU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PTYTextViewTest-golden-nonretina-testUnderline.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9yJdCEYXLnQC7n/ZjGcSyU82aEJTfjJ4tuktlRHzIOE=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PTYTextViewTest-golden-testCustomUnderline.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LQjQPzv5YGCgzZYraHop8tBVI/E8iVngbiRSC6pLdKA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PTYTextViewTest-golden-testUnderline.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mtSAyplvOHV6MAO23mFMdCjct2vNSVZgRrj+14yMKVY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PasteView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n9KhyAFqTXGQ3vjqaPx9U93wAczVBW7ivuFqVPstIeE=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PasteboardHistory.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gLfVrFE4JH+6AgEZ/GAaAM1E9ozBD7kcYpNogAdJDEY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PiTerm.sdef</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g2E9mLd1LLzVA7LYg4doOnRv6Lp1LecSDhGvwGBd3EU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PreferencePanel.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CVlkcAiPTHSBaGXIydcKMZ8ryWyOhU6OSnc0VV7FvQI=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PreferencePanel.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b/ika2dfwytXaRCXEfl4UoMJ5P/iKGMSaqr+OZWb1c4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsAdvanced.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			c7n8Evh58MRPZaYG0CrdieWyz5fHreDnb/frXSmE/h0=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsAppearance.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HDhlv3DZEMKu7AC6/WwXpD1TLKJRPQgfqWh8Id9U7SQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsArrangements.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BA9aWo6aU9tyeUt1Ev64Fbc7QRG5eJutnfh/aaOQ8VU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsGeneral.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tJLAuVnoTpXp4JaL+HWFB4ptgFp/kYC8BYJclB8iHkY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsKeyboard.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ePaS+vhZW+AhHY4jo0EQbqKTyXzY4S0K4r8DsqUS8W0=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsMouse.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZsUFwkD3rpY9hcsmpwrolvsfgKsCnqTf1rznOkH3Cyc=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PrefsProfile.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CUF/qoRkC40NDw98Zn/Pl3dK4+ioRMZ3UUjP3pUZ0Ks=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PresetKeyMappings.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YxAVNy0QnckWlYvYjs4s9YfSpTJKHVgTyyvyQDl54SE=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Previous Mark Touch Bar Icon.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V7WPAkGoTntoK5twmWJz6q9JV+ikeDyU/dP6SgUcsks=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/ProfilesWindow.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uqVpjsyCmEv4pkJof3tzjtegMwUHYHzJKhp/hH1YvZk=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PseudoTerminal.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IGIZHMeke7faaEDyiaAHVWt+omWVEmMU6YrvT2pNgfo=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/PseudoTerminal.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4q8cHhMSj3Nm8p7dy7JcO2W3VDNkP2g5NSbLHnljObw=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/QuestionMarkSign.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JJwTLK8c5d1cMp7k+Uyme71jlIxr7OHocW3gBVQjB4A=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/SearchCursor.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jav4H0svWhukZJsUtcYH7Gf9bN04ZzOCUUBBgT8Hz5k=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/SmartSelectionRules.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aLZnbGBSKvTHA7usqZ/nJMh8zVQ5er/S1YEhZlNq08M=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/SplitPanel.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xgMeP0C8pi12Ux/ttuxbrHZtPFbLF+Bz9khhrUf8eBQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/StatusItem.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tCUJ5qBodb2OYUkA/Qvh0fHFZq8ypUOO6blolRpzirY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/StatusItemAlt.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EQ5axtApObyGYRWzPzO+va41qvoAPmk3k+W9o83ww+k=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/SuppressAllOutput.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			98zLV6vna8G0NTxFNTJqds9KYLkgFlXIcX+BMGTsPEI=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/TabClose_Front.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			s2e+RlxcRT6I3H875F+w1AFCaK2BibdMVJqFTS9rqzY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/TabClose_Front_Pressed.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y2ZYZiAe/g5Jk231l/c+1X+AUCstmAdUzPkk+rtlb84=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/TabClose_Front_Rollover.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XHT33/ExCqKU1xICmNlzkHO+AP5ipCgHftrdMRENZng=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/TabNewMetal.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			odZA1CAMkIFBTBW5Q0fVcHsBYaYiGXK7fX6ADbOvyPk=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/TabNewMetalPressed.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BvwaYbNyRtMb7Ds0RJF3LS8Y1IxCvnhuEY+qVLOgus8=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/TabNewMetalRollover.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H3sKabG87RSAMOCBs1bhmsCchu2XWLhgr2765sDkjm4=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/TipCalendar.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QNLUCDajFfJVQMRjslz7wn2scBTr6wuFO3CcoLQERCY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/TmuxDashboard.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ksqMcHqLxCDNf8y6xsXQDx/hmgxSkUxAP/ddDJjeyvQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Touch Bar Function Keys.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6ipfZ72iwNHAUXOmIFFxhwcHQeHbkuNKXM2lAyOM75g=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Warning.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rivgKXDQZJFo5/3akOnadv7IqQrl29iST/y1KUjKmaU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/WarningSign.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CG79p4pv41WJ4YGf3idlfoWE9brj91UvOi0JYyAORjc=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/Zoomed.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HUEq5luYZFDXE3YCha21eskeZw0mWKomfuspIwdkNBw=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/bell.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7Vk7iUAUh50krBMvXkt7N9WilbXzbqj1XSVTs+I/mQw=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/broken_image.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IDdIObvvXMCIN32xDBZ2VRATaFDXWESerib2n5INMmA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/close.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vL8AfhxtyzkqtZYx76oQXPJvoXa785WGY9LSU0Dqx8A=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/closebutton.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V8lSXwkHsl4zHAnrquhPb85Jhdb/0l0j89/77GIGEWM=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/config.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1cWGfDLnwZWLwMPRVu01lIGD4SAyr8Xt73bVBEJfU4U=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/configPanel.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wcv+aD6CixEGxb5a416huuSiRSydgBFxsP3PcG6oXeU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/dead.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q01xa3H5TqI2lpBXjDrfhXif218QcmeX0DWCa6VvBgM=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/dsa_pub.pem</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			j2oA1uztldXUSllhFe43dR12K/LHKMRI8nTVcQr6f90=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/DS-DIGI.TTF</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h+sU1B7urAvX/gxi7OBRNLvx7oBZtuPnAdf0p3mVBtw=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/PowerlineSymbols.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SiSWoAmxZJh4zgZ6fsKu2feWVskBNpceHboAdmUV96E=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/ProggySquare.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+yJbuURZuuFO7/SpU/VJ4DErsNOW0XlMrNnRSD2xLO8=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/PxPlus_IBM_MDA.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			epZORs+yURg9vjsrvU9ZuBJ/0oUKZBBCYHnpeV64nf0=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/fonts/agave-r.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dt8V/Bu6XDesML7laJ8kFb62MHzps7rzRjD7mWpclNA=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTerm.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nteZpv4qiDIQjXHLydewrZyc88ZiyA6IJcssIjIxpOs=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermEditKeyActionWindowController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U/YTBWDG7e+PysUGVwcMkWROSSRmWiehENGKLVebKNc=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermHelpMessageViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QsbSY8iihgOufypjnChp0eHGDvVSVppOinr//L2SulQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermHotkeyPreferencesWindowController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2iKYf/jP0yovcc2O3rCq+jJ6a2JSC8O37ZIEjCnkO98=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermKeyMapping.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HZN1FLkzGkbaZkBBAKuppuvnxHc8A8OGMi3vFeE01Vo=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermOpenQuicklyWindowController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			S8iFA5OLiMsMdGpRk/7X2p56nvz8qDb8kOpypWIpuuQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermPasswordManager.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LUN/IPVWoYXBqli5/k8WJ3Ioxw1PvfPpqlJBe++8oYU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermPasteSpecialViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wk25nkuTkixH22vkofIwp14ZILw5Lsav96O+vFnDDgg=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermPasteSpecialWindow.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Kd4ZGg8XahEbo+NVuGzpco8apLGgIptIJSgZ9jUHexk=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermPrintAccessoryViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iIwa20LB1nxQynbZA2xouXPo3GYXKtBNOL4Ak5lbyiY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermTipCardViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1EV/gX64pd5g2v3oob0VOQoHcfoOVWfRDcFNYT7L7Bg=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermTipWindowController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UKIKunywmuFdSiKsdz8CDVTgW5/Js9qXE7nYRsv/n4g=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/iTermWindowShortcutAccessoryView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OcXgTzPvCj37vrgazGgp+qKX13lrjvavbqeLMMiRRbU=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/important.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			epYqGmYVp8wdLdz/s2Md2fsBMS4DWBOryfHB6isKLDI=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/new-tab.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NNM2ufeVesuCnYnctt5UfDKJBus/N01jBojS6uWTgLQ=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/newwin.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			298L3o+0R5e0ut91Nymv0pH7EdxMoEbSIsFZB2oaDxY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/overflowImage.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iSwu61fmKp4Bz+aVr0LtKggwT5Y2KA4DL6qbj6gqZ5w=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/overflowImagePressed.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			c0k9257I9HD8ZFT+Kpl0etHv0s7f3J4ZCac7KqDf5w8=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/restore-arrangement.tiff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WdHWBwypcu/r6tfnhrnG0TwGWODwIz0TO3avOADdMKo=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/wrap_to_bottom.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Qe0VKRUH5b4T2IsquUhXFhCF6tu8wjwF+JgBZ7i5EHY=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/Resources/wrap_to_top.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GBExmCHRRKyAsvHZNLjcK9edD91LJ+GG7pl5rWrqPbM=
-			</data>
-		</dict>
-		<key>Resources/PiTerm.app/Contents/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WnnjQmoWTazAC9QSC9+0nYPGR6RCWIrgMnRWJhLCGBw=
-			</data>
-		</dict>
-		<key>Resources/Scripts/main.scpt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Q+yOcCC3x368wQwQjwrQpxihrJqhuCOzg0n8p8exdnc=
-			</data>
-		</dict>
-		<key>Resources/Spanish.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/Spanish.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YeNt0tUBz3eGyEuv2EpUuqO/yU3HMSQ3mVvJN8H7hCQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/applet.icns</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1rqYmKxgFwmJq1Su087NKPUaWNc1hCuQM66RshIh7RI=
-			</data>
-		</dict>
-		<key>Resources/ar.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
+			<key>hash</key>
 			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			PVbazZxwJfrx1bc3Gk5nNAf52n8=
 			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ar.lproj/MainMenu.strings</key>
-		<dict>
 			<key>hash2</key>
 			<data>
-			J/eWTJWB3mkvmpNvVs16frVOd6k42A6/9ac6pnb3hgo=
+			zB8P2oPEBTTRnDzE+LQv6BeY/Ki+P/CqaDUNtHr6dg4=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/arm64/bin/apptainer.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			iKlk69CDMU+stghVR2LMG3qmfnQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			nX/NBQWmbXNJNMNqJjKCOBbldoi1K64wNsEk1RusWic=
@@ -4171,6 +1781,10 @@
 		</dict>
 		<key>Resources/arm64/bin/docker.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TJK5ryHv+d4d6RobQcrRhx9q+7I=
+			</data>
 			<key>hash2</key>
 			<data>
 			HbUVNCswIx8kzU0ugIIuKqqWRUUkOzXaluYjsM7GUm4=
@@ -4178,6 +1792,10 @@
 		</dict>
 		<key>Resources/arm64/bin/kubectl.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4xUjNlv8oW1gRLSbr4EcOdYEKpQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			pODsfH9fLwabKcPz7kF3Lcliv9RU4lbe8dI2ufNqndI=
@@ -4185,6 +1803,10 @@
 		</dict>
 		<key>Resources/arm64/bin/lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KQP+igDfrlpi6hkEhFbrmHj1gII=
+			</data>
 			<key>hash2</key>
 			<data>
 			iuz/naoGHLWrw+wP3RFA5ORUV1SoJOHjsMrvabvBses=
@@ -4192,6 +1814,10 @@
 		</dict>
 		<key>Resources/arm64/bin/limactl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			zBXW8rJ7GVoXrIeYShLTX8Wrxes=
+			</data>
 			<key>hash2</key>
 			<data>
 			3wO2nDSRsZiulMVd2ngHc9GDZsZ48jvWCFp4unhvdsc=
@@ -4199,6 +1825,10 @@
 		</dict>
 		<key>Resources/arm64/bin/nerdctl.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			cRxn72wnYf0qRZNncW/nugpFsV4=
+			</data>
 			<key>hash2</key>
 			<data>
 			nbSXQkxC1Co5cB4jO5HQCgQ/FO5bAwtSRqRd8ZfAWZs=
@@ -4206,6 +1836,10 @@
 		</dict>
 		<key>Resources/arm64/bin/pidof</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1zRqiijpl8OiamNInjks+2A/v6w=
+			</data>
 			<key>hash2</key>
 			<data>
 			QvT1Psz26uSHpGo/W0qolkMRyR2wZDpWTOvyWThCzLA=
@@ -4213,6 +1847,10 @@
 		</dict>
 		<key>Resources/arm64/bin/podman.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CdXVOwrFCt5XWFomzP7BVueLYJU=
+			</data>
 			<key>hash2</key>
 			<data>
 			umT4QIb3PfXp69s03DmE4+WGUxHue0Oue81atnXgIAY=
@@ -4220,48 +1858,87 @@
 		</dict>
 		<key>Resources/arm64/bin/qemu-edid</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			M9vTOUShgVNlTV21+OEqavpgKJM=
+			</data>
 			<key>hash2</key>
 			<data>
-			k5wz0JLF3a0S4D0A25+HZe35EhfUF8bOwTAMbHB0muY=
+			KjYNrZyVSXvsasdNHVYhD7kUVXle8UZnz/r1VOs3pos=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-img</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			HCKNjCjUnZcjbLwn7yqsbhQcptU=
+			</data>
 			<key>hash2</key>
 			<data>
-			krqEAqO4vmyqNirf31i0qNzp93SH++Ce0uVSA6Xq6tI=
+			Zh8aud4rwectVlAzjG0GqkO85l3su+0Udj4J3lvbymU=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-io</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+U0qDbzNrjJQ6U+rQ49luxJ1UoY=
+			</data>
 			<key>hash2</key>
 			<data>
-			LE1xF6DG7AKnXskXQz3h+r7+JcsO4hSMnf1mzkqNolI=
+			fS5HrJvlVZscLsjZf6OITaH1edG5XhV+MdRJ0iknWpA=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-nbd</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8jQJmDuFZqQKm70KlTj6aUH3QZM=
+			</data>
 			<key>hash2</key>
 			<data>
-			nOdl5Lz2hBqQPWw1jxBqt2pUoYXlIfkOhTaWYzp4HIs=
+			t+Fko6J15Ie6w6hvGVU2zmQSaG7EGLBfkW8wBYpZJNE=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-storage-daemon</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RSucMG8KkprFtc14mUyAWRNavZI=
+			</data>
 			<key>hash2</key>
 			<data>
-			nzEkhMh6Jl/1wmGh0Z9rhKk+wfS96GJIIq0MKc7ZFbc=
+			Ba/2kkXUSQZ50yREVPVvLojr16eyUDxCFoXQJwNJc6c=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-system-aarch64</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			C5skz0Y3ZrVggbeSCQ5W9YaPMWU=
+			</data>
 			<key>hash2</key>
 			<data>
-			kQVkl+3MpUoEjYkrZvlLBIspy/0bpCdrxXVj74gbJh0=
+			l3HblSIJN35auOONVfQacqurVx2kcZcn+tBC/Lo+Tjs=
+			</data>
+		</dict>
+		<key>Resources/arm64/bin/qemu-system-arm</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			axZrzIU7IVLC4OvBcuKJMnfroXo=
+			</data>
+			<key>hash2</key>
+			<data>
+			qd+a1XNaXBVmlKZqpqDBGSKxhcs7kI3VAXBLNz/z9Zc=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/socket_vmnet</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			zuzyGSZIo8rP3aMDYXraXWFL6dU=
+			</data>
 			<key>hash2</key>
 			<data>
 			lnjvBd7HCEgkmADnH4ON5Om1RpMfKAFwUgYVqpvMEcI=
@@ -4269,6 +1946,10 @@
 		</dict>
 		<key>Resources/arm64/bin/socket_vmnet_client</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			F7uL3qh8+bf/RGlbA7bWCUYMSQY=
+			</data>
 			<key>hash2</key>
 			<data>
 			a7q9If1U1AQCulWqIVVIQXKGGsBo/9AClQUnVJRcHh0=
@@ -4276,6 +1957,10 @@
 		</dict>
 		<key>Resources/arm64/etc/unbound/.gitkeep</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
@@ -4283,6 +1968,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libffi.8.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/rNHd0KBwr/65bRzbP244DB1UOY=
+			</data>
 			<key>hash2</key>
 			<data>
 			JEqC/YrCHh0lqq26kmH7lw1fdfytFUxyn45Q6QcEGeM=
@@ -4290,6 +1979,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libgio-2.0.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wQffVp+5VkYKYzKWfSKsVQFiKh0=
+			</data>
 			<key>hash2</key>
 			<data>
 			lSbaNtEvUVmlsBR+Lziane6KpkAb+bVOC3xbBx7uVgc=
@@ -4297,6 +1990,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libglib-2.0.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DZQ10eKZHkNHVvsBorUB8SLQbyY=
+			</data>
 			<key>hash2</key>
 			<data>
 			6PLi4D7ACXjGCXJZPO17AAB0+UOd5blcSZ9DdMRpdVU=
@@ -4304,6 +2001,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libgmodule-2.0.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lxydHYaWdlfr2OzK+o+tKvdpOUM=
+			</data>
 			<key>hash2</key>
 			<data>
 			maRFCE+q4sL8S+Vs7Gijb4ji90m14ho++FEacvIrrMo=
@@ -4311,6 +2012,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libgobject-2.0.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			PxpXI+Tk8jiLx6JcOsCnpYx1lAg=
+			</data>
 			<key>hash2</key>
 			<data>
 			5ndD2+jNdf0kmWZXA6SDzCw5kFUU/MeKCRA6n4hf//g=
@@ -4318,6 +2023,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libiconv.2.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			y3PkRK9Hzf/y25NI6P1HvcKItmk=
+			</data>
 			<key>hash2</key>
 			<data>
 			P7NN62deCg6soDHoZHsSBxgImnIjvCsCUeYHAd0/xNE=
@@ -4325,6 +2034,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libintl.8.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7b7Ywo14uOjmFt1lv3uEm3T+YhU=
+			</data>
 			<key>hash2</key>
 			<data>
 			YKawQ0FpRe7SV3x66Rr/TC9/BFtCzzCCAb2woPIfgg0=
@@ -4332,6 +2045,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libncurses.6.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ArugbxkCmfFcQxxtFQCj/HFSnl4=
+			</data>
 			<key>hash2</key>
 			<data>
 			2xJrDXOE+YosWoJGajECdqokJUkKtO4gM1oRqrkNPN4=
@@ -4339,6 +2056,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libpcre2-8.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			PrNRGSc26Ms0/+cFEwmx8QLigRA=
+			</data>
 			<key>hash2</key>
 			<data>
 			9G8JUUOvnv5WigHb9bA8g6FX+gty86sNrZ8XQ8wPK8o=
@@ -4346,6 +2067,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libpixman-1.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			E4ucmglKsBeqb/uKyVqoY26NYf4=
+			</data>
 			<key>hash2</key>
 			<data>
 			kRb5hjLOAM/ri8m6peH3MehaS4700fncrhEA7jcYLSE=
@@ -4353,13 +2078,21 @@
 		</dict>
 		<key>Resources/arm64/lib/libslirp.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			28sdtiTvMjyhTlSxNgr/dtyKrPU=
+			</data>
 			<key>hash2</key>
 			<data>
-			hiYZf/gMIoua31pxxguTHi1g9LQp8CGgUVacuQrZK0Q=
+			tdRgI4gNxnjEbZVf0YqUcINO4hwXiy5CMi5puNvGTSY=
 			</data>
 		</dict>
 		<key>Resources/arm64/lib/libsodium.23.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			5TiG+LyASLN/qhXgng2QlQtV43Y=
+			</data>
 			<key>hash2</key>
 			<data>
 			9srQX/JdqiRtkS1QeNj3z6Q7Sry8q8GnCKulqbJr32Y=
@@ -4367,6 +2100,10 @@
 		</dict>
 		<key>Resources/arm64/lib/libunbound.8.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9epAnlYPsOgUbgQvoHeIVHn+/TI=
+			</data>
 			<key>hash2</key>
 			<data>
 			ffFCe4umzLZSCQ0qd6NFCoSDUX15Z4rY8Z8CVNbosco=
@@ -4374,6 +2111,10 @@
 		</dict>
 		<key>Resources/arm64/libexec/openssl3/bin/openssl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DrVedATVp89pILwd7yHIiCdJB1I=
+			</data>
 			<key>hash2</key>
 			<data>
 			yN2SZ6cs0uB745hWpPqBYSgS2Wqz+VEAerY70sy0xEs=
@@ -4381,6 +2122,10 @@
 		</dict>
 		<key>Resources/arm64/libexec/openssl3/lib/libcrypto.3.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FV5if73K8sLPrvuaC2kB1o8g07A=
+			</data>
 			<key>hash2</key>
 			<data>
 			A4QaxiZUkAYIsXgIXclSHzcfdkhhyx8TapkxYZM5UeY=
@@ -4388,6 +2133,10 @@
 		</dict>
 		<key>Resources/arm64/libexec/openssl3/lib/libssl.3.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ul5uT+vJ8TL8ZD6Iwz4H+QdYg8E=
+			</data>
 			<key>hash2</key>
 			<data>
 			UYHsrD7RsQjxujirVAZqRxq7srVzzYIByJ+D3MGEbhg=
@@ -4395,6 +2144,10 @@
 		</dict>
 		<key>Resources/arm64/sbin/unbound</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			mODyOP69hBzJF+yIvqppGieMRQw=
+			</data>
 			<key>hash2</key>
 			<data>
 			tOZQlFnVbWhKYgQsZYXgrKHMxvDAhHotNWXCscL5jDo=
@@ -4402,6 +2155,10 @@
 		</dict>
 		<key>Resources/arm64/sbin/unbound-anchor</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			NOq8bcpa4rviNGaN1zONYG1Z+M8=
+			</data>
 			<key>hash2</key>
 			<data>
 			whM741XaMFT12hj0j2e93l+LGwqQI+JxPnvxFfoc3so=
@@ -4409,6 +2166,10 @@
 		</dict>
 		<key>Resources/arm64/sbin/unbound-checkconf</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hmRlr0B7vf7d/aNpHuLnvHCCM7U=
+			</data>
 			<key>hash2</key>
 			<data>
 			UUbR66PfpOZMvh50kXlP409jRv/emgrrMeGnrXgjn/g=
@@ -4416,6 +2177,10 @@
 		</dict>
 		<key>Resources/arm64/sbin/unbound-control</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tH8v+NxIeG0WixUB2RMIvuUppOc=
+			</data>
 			<key>hash2</key>
 			<data>
 			xSyz818KW1DhrkmFURduOussut8S0lilYD1r7vpyGi4=
@@ -4423,6 +2188,10 @@
 		</dict>
 		<key>Resources/arm64/sbin/unbound-control-setup</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ppV1tBPlbmxT767WjXRh1w+3aLE=
+			</data>
 			<key>hash2</key>
 			<data>
 			UhPMqTtBbr2bZib184KtLY1jqdbr5drCp5CTU+3qNn4=
@@ -4430,6 +2199,10 @@
 		</dict>
 		<key>Resources/arm64/sbin/unbound-host</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			mgPZirNoCNG8tSaI52Lb6Gpsq60=
+			</data>
 			<key>hash2</key>
 			<data>
 			1ZhZDwwDnrAiYqKOiO8K5VBn8IBVSsp+gASVtYGBBRA=
@@ -4437,6 +2210,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/almalinux-8.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			g4iqK0GwsrXCTlG0U+i2WACwlsI=
+			</data>
 			<key>hash2</key>
 			<data>
 			w00KLQOACMVjtyMHKkGaz6fqNGOeFlAFcG0JyjI9zBg=
@@ -4444,6 +2221,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/almalinux-9.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			oHPxHoHZFrgPs8Gkhw4UTHwpvSk=
+			</data>
 			<key>hash2</key>
 			<data>
 			3sADMzFWD1Co2d6msjxTpMvPNimfLXnKcQqfMOBLgoM=
@@ -4451,6 +2232,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/almalinux.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			oHPxHoHZFrgPs8Gkhw4UTHwpvSk=
+			</data>
 			<key>hash2</key>
 			<data>
 			3sADMzFWD1Co2d6msjxTpMvPNimfLXnKcQqfMOBLgoM=
@@ -4458,6 +2243,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/alpine.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			smbwm0WHdnJxXyoZClAaKuZ9zmI=
+			</data>
 			<key>hash2</key>
 			<data>
 			qRiccv/J3Qy0hcvQ0DhMAhnGU2DcSjEagJ5YU8z+3JI=
@@ -4465,6 +2254,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/apptainer-rootful.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UohNAiTheI2eg1glK6GXHaDYuJE=
+			</data>
 			<key>hash2</key>
 			<data>
 			hybIw6THliyoQaupz+/Q2pbNWMaUZSkT1Rj/xe+o6g0=
@@ -4472,6 +2265,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/apptainer.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FGa3Su8HyJRDnBcooOTG7NhpKw4=
+			</data>
 			<key>hash2</key>
 			<data>
 			TwmYvGjKWqnVQchvTCA6bqbFgZ4/CSwJTnqWIqZvlQ0=
@@ -4479,6 +2276,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/archlinux.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			NCay7EIXXQ93+qh+STrLqo6ey/g=
+			</data>
 			<key>hash2</key>
 			<data>
 			0uxaaNYX0b3yBfz9FWpnLEshH7ehv/dcqE1P8vowLhM=
@@ -4486,6 +2287,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/buildkit.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8HEjxd7DV5Y0V4kRZaJc4XKd2CE=
+			</data>
 			<key>hash2</key>
 			<data>
 			m3lVkaDYwTDddCWkT76QTQ8VpZ3hLvPIaFF6LW4WO+E=
@@ -4493,6 +2298,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/centos-stream-8.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			yNaypBFM3Lx31/uVO2E+iTakhNA=
+			</data>
 			<key>hash2</key>
 			<data>
 			EBHJEbtqISmELVLqzOge5gKCTdHXS4JDgtRBWOgSSzQ=
@@ -4500,6 +2309,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/centos-stream-9.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QE5iZ7PpJp/K8L2mktOE6EMEqGQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			wJ96oKQdgMXbNfFgQzZNoE2l0jYHrEfNY6W+ayhUHe8=
@@ -4507,6 +2320,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/centos-stream.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QE5iZ7PpJp/K8L2mktOE6EMEqGQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			wJ96oKQdgMXbNfFgQzZNoE2l0jYHrEfNY6W+ayhUHe8=
@@ -4514,6 +2331,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/debian-11.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DV1QdhbLw25g+vQIuVXxPXVauWg=
+			</data>
 			<key>hash2</key>
 			<data>
 			7yZvIZBcyHjW08RqjlpWu6DqlXE5/6ctr2qV72dHzlQ=
@@ -4521,6 +2342,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/debian-12.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			YUbUYDBOM3uUH3x9Nc0VtXrYY2I=
+			</data>
 			<key>hash2</key>
 			<data>
 			kaj6rILOmnbtrh3sNArB94MBhzyWb/WVLIpplvAx+JY=
@@ -4528,6 +2353,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/debian.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			YUbUYDBOM3uUH3x9Nc0VtXrYY2I=
+			</data>
 			<key>hash2</key>
 			<data>
 			kaj6rILOmnbtrh3sNArB94MBhzyWb/WVLIpplvAx+JY=
@@ -4535,6 +2364,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/default.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			aYjFD+ZNK82Hkpb/mOfI8la1vw4=
+			</data>
 			<key>hash2</key>
 			<data>
 			jT9ElYjn0mXIVFlCAULSSCqVv+IJOGV1bzFqOjEXctM=
@@ -4542,6 +2375,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/docker-rootful.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9wxMWsA4oBwRxSLoCZEh7mrc2b0=
+			</data>
 			<key>hash2</key>
 			<data>
 			yXYFQm/8c3OJhLe+qa5hsgDk9yuNkOJhhFAVqj6WluU=
@@ -4549,6 +2386,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/docker.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CawMM4Bq7nrsgJuDw7UFeQgAcqA=
+			</data>
 			<key>hash2</key>
 			<data>
 			6AwmdixopDAiaCbn7QL6VRBi6p4p/Rds0RLDUfnlOkI=
@@ -4556,6 +2397,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/faasd.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MUh5u6oGGmAVZgnYxt2Asf0Qzbc=
+			</data>
 			<key>hash2</key>
 			<data>
 			DYgZPBd52zdE9pUJzJlHGed1yYZNyhoIz4+G06T11Vw=
@@ -4563,6 +2408,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/fedora.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			chPFDFIOVvvqq15yZwCGrayLrqM=
+			</data>
 			<key>hash2</key>
 			<data>
 			PCouLJE+aEeqYwI9SP3/L0ByIyoR7icDw8OdJsO9zB0=
@@ -4570,6 +2419,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/k3s.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XKhfBK6IpsM0fSAoBseZrHwdlNE=
+			</data>
 			<key>hash2</key>
 			<data>
 			sTaT/XNCAmKLVv/Rp+U4xyBq13Zz1VCYy3UeH8Ib3D0=
@@ -4577,6 +2430,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/k8s.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			HPyyaAKtxVBbAN4HkU/baWvLsgg=
+			</data>
 			<key>hash2</key>
 			<data>
 			w30sE5HgPTezo8lAAdndgIBvE8VQ2xKZEedMrpxzy4w=
@@ -4584,6 +2441,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/opensuse.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			r28WARG3J/7B1VkSok9xYbzvevE=
+			</data>
 			<key>hash2</key>
 			<data>
 			t7OWDIJDGjn8c8Y7Xg02CIYdfirkk+1d1aNvEWPkER8=
@@ -4591,6 +2452,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/oraclelinux-8.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TNrd+9pyNl7NB20LDEumTaFBKgw=
+			</data>
 			<key>hash2</key>
 			<data>
 			piPUKVwxfnG2UcvB8SK13c/2VMw0mHKWQXa8kctH/i4=
@@ -4598,6 +2463,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/oraclelinux-9.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UCWi0B74tlfZ+9sw0V+z9nHVEgk=
+			</data>
 			<key>hash2</key>
 			<data>
 			I0g3e8OR4NS/HQNJ6zBoJad/q3UC8X6sKjaNNhP3mUg=
@@ -4605,6 +2474,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/oraclelinux.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UCWi0B74tlfZ+9sw0V+z9nHVEgk=
+			</data>
 			<key>hash2</key>
 			<data>
 			I0g3e8OR4NS/HQNJ6zBoJad/q3UC8X6sKjaNNhP3mUg=
@@ -4612,6 +2485,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/podman-rootful.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			dXw8R/IQcbyoRqBtDQyotiam7sA=
+			</data>
 			<key>hash2</key>
 			<data>
 			T8XUFKmA4FImTO/GMxi+uzvyeweWmv2L7XdAkodhwU4=
@@ -4619,6 +2496,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/podman.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1OXK0qk8BcUTr5YJylQMX14oHF0=
+			</data>
 			<key>hash2</key>
 			<data>
 			iaUS+1BGguEDDUPRXkp2F3JsWusGKpz4/WRzWyfZClw=
@@ -4626,6 +2507,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/rocky-8.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hMVW56TCdBZNBYyhBSKOn6eAT7w=
+			</data>
 			<key>hash2</key>
 			<data>
 			RwwbnJ5zB7WCCfpRKCITTKFOQBkyCtw2srsrywizMN4=
@@ -4633,6 +2518,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/rocky-9.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Z6ECjZl/vACS2a/+HWMHUjSBVes=
+			</data>
 			<key>hash2</key>
 			<data>
 			13bPE2jLC+HiHd9BJQAc5Z1c+FaQNGgIJv+qM0Ph18s=
@@ -4640,6 +2529,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/rocky.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Z6ECjZl/vACS2a/+HWMHUjSBVes=
+			</data>
 			<key>hash2</key>
 			<data>
 			13bPE2jLC+HiHd9BJQAc5Z1c+FaQNGgIJv+qM0Ph18s=
@@ -4647,6 +2540,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/ubuntu-lts.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WeZyQOYZsALUE32qLGFGDPC8iNM=
+			</data>
 			<key>hash2</key>
 			<data>
 			+e5sqIx/6k05G/mRWc53Xb/N/BhSnsS6gtlaZ0hxX50=
@@ -4654,6 +2551,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/ubuntu.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4YWrvKl/DONX8oe9xCr2sKtLv8M=
+			</data>
 			<key>hash2</key>
 			<data>
 			bpFsUd4TVAyr0KfU1CkvxtwEJebVMCcYy/5Vum0UaAE=
@@ -4661,6 +2562,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/examples/vmnet.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nBStybrbu9WE59lI5HE3yBBMZiI=
+			</data>
 			<key>hash2</key>
 			<data>
 			laJAQ93i8isLCO+NO3fcImbt7PWVdLL+wDAPhwEFxJk=
@@ -4668,6 +2573,10 @@
 		</dict>
 		<key>Resources/arm64/share/lima/lima-guestagent.Linux-aarch64</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Ev4bsd3SwMiBQueizs7AnaDxtGQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			mmA3Hg9SiBfCEIxNFsvy4elsD6CAg6e4OnEemluAEyo=
@@ -4675,6 +2584,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/edk2-aarch64-code.fd</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AKKQqCvYzEbtlbQwy+n+Sq5prM8=
+			</data>
 			<key>hash2</key>
 			<data>
 			tgjefIGkzsDrg0Iqc+4idhjDD+lROlgqb594bOjR2/k=
@@ -4682,6 +2595,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/efi-virtio.rom</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FZbpuX8LyLX/PkRCNWkKVJ7pgsY=
+			</data>
 			<key>hash2</key>
 			<data>
 			Jr42kB23+BgcMGzGK9dIkdhkZSiWWnjkDM6tul3XyOc=
@@ -4689,6 +2606,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/firmware/60-edk2-aarch64.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Hm5h7FKqKTgISmrpNMICD57Xt1I=
+			</data>
 			<key>hash2</key>
 			<data>
 			95EkC0VoUDyQ4HlJSYV0IJdgc0Sb19xzhYnDsBOKvhk=
@@ -4696,6 +2617,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/ar</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Lbb5Vg3i3iINJFtj5UrTWl7iBVk=
+			</data>
 			<key>hash2</key>
 			<data>
 			BZq3Gd9Clu24ANOZUB44I+Hm9HDMBqOkVk9LstvVwfw=
@@ -4703,6 +2628,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/bepo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3ZzlNYeeUgBj09uaT87QFxQA9/s=
+			</data>
 			<key>hash2</key>
 			<data>
 			Aczbfi0LIPUX4D05zHCAKtg9/B7S5dUP+bSk9343qfg=
@@ -4710,6 +2639,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/cz</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8eQ2ZyhrBHf8RshzXVFaa4nYDiM=
+			</data>
 			<key>hash2</key>
 			<data>
 			NmSz8T5s//Dm0F8SAAqmYQ7/BPVwcHJh7DXKgw3tbDY=
@@ -4717,6 +2650,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/da</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			idBJ666QDkjDDzmJZF3lSK/GKUs=
+			</data>
 			<key>hash2</key>
 			<data>
 			le8MFo8LJek2p/+UTaggpDr4AotRXMZwlyT0V+EFwYc=
@@ -4724,6 +2661,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/de</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JwIoqxblNl/bh3Zgy1roMajlBAI=
+			</data>
 			<key>hash2</key>
 			<data>
 			zafcllbwB8o+iOW6xQ8gx/Yfk0vOwuh8bWGFnmMt25g=
@@ -4731,6 +2672,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/de-ch</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3aTDigPObNqHImPIBG8/9D9dDuo=
+			</data>
 			<key>hash2</key>
 			<data>
 			MmDLZP3N9I4rU8XQVz3CqUENfTquIn7ULdqUX5q3TgY=
@@ -4738,6 +2683,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/en-gb</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Jy/7JAjZMK0R0ucsYMvCVAsLleg=
+			</data>
 			<key>hash2</key>
 			<data>
 			4UIpt/kWW/Imv03paP1falBAFKIXneCMKyGEzv5oF04=
@@ -4745,6 +2694,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/en-us</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9ilq6WClubYPU/W+F+bjYZMIHX4=
+			</data>
 			<key>hash2</key>
 			<data>
 			Us9MUj5oYHhpntWHYcfhRDCAMFI3pfZ6NxaDJXDFyOU=
@@ -4752,6 +2705,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/es</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Wb4JPE1ZxsF9PWnyPtldAkym9ls=
+			</data>
 			<key>hash2</key>
 			<data>
 			2bHagZMjKIJwW9SjEsCSO22RJo8eGo7tKvvX/DdoHAY=
@@ -4759,6 +2716,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/et</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			z6U3G67HBzeChB70kHEXxcCFZCA=
+			</data>
 			<key>hash2</key>
 			<data>
 			la8eJRMhhePLJx1JEIbM8Jy2ZwM6+3GPGhHpdOgKg48=
@@ -4766,6 +2727,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/fi</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Hebe6/zrwgZXN+gFArY9kAxZbPI=
+			</data>
 			<key>hash2</key>
 			<data>
 			TFzVNZwYY1GH16+VcAiKe70h+W2WGu28TJ+x5d8JkoE=
@@ -4773,6 +2738,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/fo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tnj4rCGVmoMbxHFfZNZvR8fRd7M=
+			</data>
 			<key>hash2</key>
 			<data>
 			N1C4CQyuo89sgnuX9ezC0RcsM9lgFBxQ+W5hxT9oLM8=
@@ -4780,6 +2749,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/fr</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MByMQhw5Y+VdA2QT+HnfyPcOqFA=
+			</data>
 			<key>hash2</key>
 			<data>
 			YNm6o1Zbdye0F4cEEAv/sCy9W1J6ncyfnKdtdnZ7Fm4=
@@ -4787,6 +2760,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/fr-be</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hUddR0zlUFvJKKg4n4d97muzYrM=
+			</data>
 			<key>hash2</key>
 			<data>
 			UitedYN149eW+6CWpGB3dmvURUjIxhpKvpRuMRbBrZc=
@@ -4794,6 +2771,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/fr-ca</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CGRkNpQrzQ+QUllz278K6Eb1HMI=
+			</data>
 			<key>hash2</key>
 			<data>
 			nuP8E77sbnT0D7bRUNf+Owr+RVf98HaWAeZioSKojMA=
@@ -4801,6 +2782,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/fr-ch</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			NsiYmlNt50utWX7wY3XfWpOChqE=
+			</data>
 			<key>hash2</key>
 			<data>
 			eyrSkp87e09dYBdr1+GFL5HvvP4nAOjfm8m4kWCacXA=
@@ -4808,6 +2793,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/hr</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KPMFvuoPMpgRUdoyb3cuC8K21Y4=
+			</data>
 			<key>hash2</key>
 			<data>
 			6Dke0JAVzoRZqY40cNrd06bZXEx+k7dQCY9aMh/VdII=
@@ -4815,6 +2804,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/hu</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+HKtn9XeEqgwyetRMUo1M5Q/VFE=
+			</data>
 			<key>hash2</key>
 			<data>
 			djqTjtL90iS5y4rWBtAqq8k6Dj+3peXpyq+g7IwF1CI=
@@ -4822,6 +2815,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/is</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lh5sYmlY5Zms5wIxANcwkYfsMQE=
+			</data>
 			<key>hash2</key>
 			<data>
 			brTlvZPKL3ogWaMf0BREQQjraE7Nl5AtokkrCg9uPNw=
@@ -4829,6 +2826,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/it</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Q2OzTKHgxevWrzkpj97FL5NflZk=
+			</data>
 			<key>hash2</key>
 			<data>
 			EtCQzctq8OlaDAMwuLfwrARGq4z3FAtPjGx5fAjpwhk=
@@ -4836,6 +2837,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/ja</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			w8SnDKPm95/wp9BSCZfrVFmve0g=
+			</data>
 			<key>hash2</key>
 			<data>
 			pFYa78wv0vS6AWBAAcnA3GdGlRTqCmZQY7cuedXZxoc=
@@ -4843,6 +2848,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/lt</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EE7lKezw0XmZYyRPzlbv8wi6fuo=
+			</data>
 			<key>hash2</key>
 			<data>
 			C/yY6RNFHAuQgtAxfe/6A8bwxToUIstPTB72TcOTnS8=
@@ -4850,6 +2859,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/lv</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RgGE53+as+bJyzGaU7x0qfpZiyk=
+			</data>
 			<key>hash2</key>
 			<data>
 			vk8eKDJa4uqSe9UeMYY6Mn5kwKk4cl/QLCpyYGYL33c=
@@ -4857,6 +2870,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/mk</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			E8w2J2Ox6tK13eFXUhDTKB1U5Ug=
+			</data>
 			<key>hash2</key>
 			<data>
 			cQaP/hY85mhLNfQj6JfgDJfevgw99VXEPSa0annKaOc=
@@ -4864,6 +2881,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/nl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			uMBVkMVEpAywfe/By/imo22eY+o=
+			</data>
 			<key>hash2</key>
 			<data>
 			cMsbQfGE1hUghn5jnmtpzd6ksOJFjFUCx8QFEjAYdsc=
@@ -4871,6 +2892,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/no</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			prvhj1FeXdDvy6r5j6/sVkdVbLQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			lbP+UlgmS4J7oBrMendL2e267FLFTlgqBzfDMIepJRQ=
@@ -4878,6 +2903,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/pl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+I1OrMr8AwRAdiv8TjCCvc5RbsQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			Xz2oAvgfOFxYF5Jy5IxPhoDf3+VTg8UEpthLO3qKrfs=
@@ -4885,6 +2914,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/pt</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ReGZCYixyuvq32p73FZLlEO6P4w=
+			</data>
 			<key>hash2</key>
 			<data>
 			KRYeG4tht2HD87/yN8pzzk7jMWqZCQiQsyRpgkte7Yo=
@@ -4892,6 +2925,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/pt-br</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			y6s37Eqot0o3sBt+UKwRy4C4IfM=
+			</data>
 			<key>hash2</key>
 			<data>
 			+7lJHAv8QlPM7Z2KIJZaypjQJJxGJv5ufTE1iyTjTo0=
@@ -4899,6 +2936,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/ru</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8k/bDdE5W5p7VcAno8gf0geGV+M=
+			</data>
 			<key>hash2</key>
 			<data>
 			r6AVpzbNk1/Dig32L9arLzxktExIs+bZWWnLv83EPpE=
@@ -4906,6 +2947,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/sl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ZQJHSaUHEQBQgWqQGDLB2FSHrcU=
+			</data>
 			<key>hash2</key>
 			<data>
 			vqj+isDKKBA4rA4XiMOfCQUH/wZGvU9XzBj2hzsDAUc=
@@ -4913,6 +2958,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/sv</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			u76zaHv7mA9qsbWvQ7Ip56hiVJk=
+			</data>
 			<key>hash2</key>
 			<data>
 			l3MfvpHyVNgcAF/8IyGAqN17rrbWmfDw/BXjQWcvlrM=
@@ -4920,6 +2969,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/th</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			aPywLvdgS4s5tV56e8aYV4ckch4=
+			</data>
 			<key>hash2</key>
 			<data>
 			bdlWKisQyB9litlgdf2Hgyd36HNXYg6Jx9Bw5Al/u7k=
@@ -4927,6 +2980,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/keymaps/tr</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			yfHJVsh0RPya1DEEit2AXsOTWK4=
+			</data>
 			<key>hash2</key>
 			<data>
 			9Z+MwVTw3ItFFmtSS5weZJugJ+OTgarChmY60iJ93Og=
@@ -4934,6 +2991,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/kvmvapic.bin</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Zwycx5tIWZRHBe7OcQ3DMhiLebQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			zfBXpxsH47UrGcviEL3vpZJQ0BqYELlg9/4fmO7ZWic=
@@ -4941,6 +3002,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/vgabios-ramfb.bin</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			r2jo1MLZaUsfPBOi2FpmN0NPrvw=
+			</data>
 			<key>hash2</key>
 			<data>
 			ZjuhSspCX1Lfab3Xd6CdGyouYIFsAp3xdTTpVVW35Zg=
@@ -4948,6 +3013,10 @@
 		</dict>
 		<key>Resources/arm64/share/qemu/vgabios-virtio.bin</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VX2M85dr6uzQeZx1hnKFbTjM7Mo=
+			</data>
 			<key>hash2</key>
 			<data>
 			87Ad0qDXFV/Jf1+5B0n67ccdVeaCWTFI2vI0sVzSMQ8=
@@ -4955,31 +3024,21 @@
 		</dict>
 		<key>Resources/arm64/share/terminfo/78/xterm+256color</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			L6NVGKSFC4ILqAVFSeCF33qCZgk=
+			</data>
 			<key>hash2</key>
 			<data>
 			ik1rB7QwZQ72Jl0gN6urBgTB9+SLZvTVMzd0H4n9uHU=
 			</data>
 		</dict>
-		<key>Resources/ca.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ca.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Rprbqm5Rkh7eiN9o7sh7e2vJEAFWK6hEbP9ERk/7d90=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/com.desktopecho.lima.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EMm0D07CfykdxX3pO3ffJRFfLHQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			khSKBIfzx0IxxW7Zfxw/OnClSYPR35019jCb9anP6PE=
@@ -4987,6 +3046,10 @@
 		</dict>
 		<key>Resources/com.desktopecho.pibar.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			y2cuTQqf1VDDm3x8OMRNl4UEhOk=
+			</data>
 			<key>hash2</key>
 			<data>
 			tcdan2bWIIVLjfgSeOADie0gzIZEXCPq1mI8279cof4=
@@ -4994,6 +3057,10 @@
 		</dict>
 		<key>Resources/com.desktopecho.piterm.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Ck1VS4X/gwzToFcSicudoQkawLQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			Xj4WIg3gHGCvXLXK5H48PKHrOze7vAh+ZUabAdFn9Jc=
@@ -5001,218 +3068,21 @@
 		</dict>
 		<key>Resources/com.desktopecho.unbound.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ue04TnRgM9j8poF2AHElAJL1zM0=
+			</data>
 			<key>hash2</key>
 			<data>
 			mzUojM84a22ul/h9RMJdppcIVjiVagm6fs1ThbOlrOs=
 			</data>
 		</dict>
-		<key>Resources/cs.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/cs.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AXSvA6qRWl/j2VVLEBmy/DSdqliNC5qvnniO2+CZNG4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/da.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/da.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gjk+y93tZO1II/dsB6NdKpgrAiyRp2OmOdmb3gyyIAU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/description.rtfd/TXT.rtf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kDa0Q5SBLX2CLlPC7sBYTBHDLlmvlfTLcs1Qy5Gg15Q=
-			</data>
-		</dict>
-		<key>Resources/el.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/el.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r1IGhLhvjVNGbwL2ZHj2R/dVV/NxoI3gmNzlnfEB05Q=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/es_419.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/es_419.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+OuUrG+QlsgVxIttsjjWm8x1AUnKJp5Hrx5pnCLZxqI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/fi.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/fi.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TH4FlqBscGnhzJGL4PaZjl6OYVxJXAmw551fa9AlrRs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/he.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/he.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BtdbqBpu2whmR4CKAYCUsQ0mMY1ukZeEARJ46E0yc2E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hi.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hi.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yZsNVS20u7lJYoIF7DKFJIVbGcK18MQjTbXwIi9tzAA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hr.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hr.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RdXJJKhflf2aTe7kAcrGbJOWUpOBrHG6Gme9nrDM7yA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hu.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/hu.lproj/MainMenu.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QBTPgHRpMz5l+BitXL3/U/74WZfWln+ck1HCRERIpXQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/id.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/id.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pCe6asAhzo55piJMljLVZIFPfkFeVLM7a8igBYWKDk8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ko.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ko.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HqYjRtsTJYQXuYUHEf/4EBSc2JNUkruGO0xi9fDGfwQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/lima/_config/networks.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			110Q1SbyGMopHhUVRdrLutWeAdA=
+			</data>
 			<key>hash2</key>
 			<data>
 			6ouYla9nS70iecuES/9N4VNuX5hVKVmp7SwGmAbIRVk=
@@ -5220,6 +3090,10 @@
 		</dict>
 		<key>Resources/lima/default/lima.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lBeFNDcO6eOZSb2+H/PlSUER3Jc=
+			</data>
 			<key>hash2</key>
 			<data>
 			LdXNJ/qpNnDSb25liDR+CBwWY4sRhMkYWYKbsU+px3g=
@@ -5227,6 +3101,10 @@
 		</dict>
 		<key>Resources/lima/lima.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lBeFNDcO6eOZSb2+H/PlSUER3Jc=
+			</data>
 			<key>hash2</key>
 			<data>
 			LdXNJ/qpNnDSb25liDR+CBwWY4sRhMkYWYKbsU+px3g=
@@ -5234,31 +3112,21 @@
 		</dict>
 		<key>Resources/lima/networks.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			110Q1SbyGMopHhUVRdrLutWeAdA=
+			</data>
 			<key>hash2</key>
 			<data>
 			6ouYla9nS70iecuES/9N4VNuX5hVKVmp7SwGmAbIRVk=
 			</data>
 		</dict>
-		<key>Resources/ms.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ms.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G88qNQI2LgK+JJD9ntHRR3N/QRYA6Dn3m58KWVfy6QQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/net.amiantos.PiBar.data</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			BIfRD+XHwauOYXnZpKN52WCn8do=
+			</data>
 			<key>hash2</key>
 			<data>
 			deXkrriHK5qOeb2gwt9AVBEzl05YeLl4bKXYm/EkjMk=
@@ -5266,243 +3134,65 @@
 		</dict>
 		<key>Resources/net.amiantos.PiBar.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tYXAiI6cAirpG+hbba5AioeNNEA=
+			</data>
 			<key>hash2</key>
 			<data>
 			Pqg7AX9x8wlrP+G2BjttSSBJXsMnvpkpS019eqrQElA=
 			</data>
 		</dict>
-		<key>Resources/no.lproj/InfoPlist.strings</key>
+		<key>Resources/picon.icns</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LU4zAZV4GhbvzCKbYy2N8eldXxg=
+			</data>
 			<key>hash2</key>
 			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			15q0DJ7gU9jFP9px1zrDZTXeLrtjIzUZ3vfwQ0z0Y6o=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Resources/no.lproj/MainMenu.strings</key>
+		<key>Resources/piterm.conf</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kUvb/8RvM9m5lfNRinb1q0sWZPQ=
+			</data>
 			<key>hash2</key>
 			<data>
-			OknOIwT2qBlo+2e8MKztKKELsF+ZTid2o4EeuTjGGR0=
+			MIApu7yqDpHJ+vyPgOk8frfmi6kdIhu9BupoMRORWWY=
 			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pl.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pl.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2JnzNy4CYH730fkPeTRps1TzHKVs52M3Y5K2LJ2umFE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pt.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pt.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nxjxtAOwDnnS4USZhIe7FQ5LBXY/ZIXWBWwb/3flT9c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pt_PT.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/pt_PT.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ozoQ/xkAAngd2UMiosDGOgh2mBR5uqozL6VVOieCeSA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ro.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ro.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eM+OFrxoKNEezfQA5BV36FGWxoALU/HQATO9NDbJHG8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ru.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/ru.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7HzYwvPTCR3YBhTR62nBgnJUYgHAn19/TrhhQ677opE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/sk.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/sk.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YOJodb3+2QK9uqcEUm44eT4kbdZ6OvfW2FoWyRPzjMY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/sv.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/sv.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Er+NaZasMa3L5z4Ga/RBh8IvPC/E6nlB9i0reGJhcs4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/th.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/th.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mVN6eXZD0CQStuNBAfw6oThFH0GGa8PVcusbt1qnDqs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/tr.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/tr.lproj/MainMenu.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CuvWmkY56IwKIUiAZdMJXANdLjo5VXQBd10gpMlZw5E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/uk.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/uk.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eaKA69iiQDuIBvclmjsKnwGzwcI9rPaVYm3K/lnoXd8=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/unbound-pihole.conf</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			niYRluJOB8iJwf50S4S7kY6PSkY=
+			</data>
 			<key>hash2</key>
 			<data>
-			/f8EQaHWWhbt/+0smSZ6oRRyHbxLRw4x3gKfIvxC6B4=
+			K6AfVPrt38eQE1+3qIWeFbqpcRbL+yVQx3iSGCYlIJs=
 			</data>
 		</dict>
 		<key>Resources/unbound.conf</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2yadgY/3mdK8mSONmNYgPAC3UoY=
+			</data>
 			<key>hash2</key>
 			<data>
-			yCKCMn5UqIkJ5n3JHEgjIopwubGDf5c0XyN6Va4aOtg=
+			B7WCXkk7BjiVS6/C5mFcgyrAGn7UN2ue/5UHA82gSyQ=
 			</data>
-		</dict>
-		<key>Resources/vi.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/vi.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5Ik0GcNdP0AW2+8mlizN2NuF497ez/OyHSshuepksA0=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/x86_64/bin/apptainer.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Ndib4veDhpmxdIAMqHfRh3cSrTM=
+			</data>
 			<key>hash2</key>
 			<data>
 			U2D9/qjVRpFLWqT2EkLFmcUCp3oFZDZmmGR8zB407eg=
@@ -5510,6 +3200,10 @@
 		</dict>
 		<key>Resources/x86_64/bin/docker.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JE7l5PizbNBIEfaEp6fAyLesGHo=
+			</data>
 			<key>hash2</key>
 			<data>
 			v2LWPB+TmR7RgiufSuMf/xKMCZHbSlUxaSqpKugTfn8=
@@ -5517,6 +3211,10 @@
 		</dict>
 		<key>Resources/x86_64/bin/kubectl.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QXp85oBt+Lio2HVbPvYNeHDwsts=
+			</data>
 			<key>hash2</key>
 			<data>
 			SZzAu5SDP6lAw82Gig+RlsP6JDbSbNW55B7o/0/31Zg=
@@ -5524,6 +3222,10 @@
 		</dict>
 		<key>Resources/x86_64/bin/lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KQP+igDfrlpi6hkEhFbrmHj1gII=
+			</data>
 			<key>hash2</key>
 			<data>
 			iuz/naoGHLWrw+wP3RFA5ORUV1SoJOHjsMrvabvBses=
@@ -5531,6 +3233,10 @@
 		</dict>
 		<key>Resources/x86_64/bin/limactl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0Uq0AXjhLyVE6heYjqalPF+IA4A=
+			</data>
 			<key>hash2</key>
 			<data>
 			pVghhuCXQZp3lk9Xa/aarmp00HI0QxkScXXyBb4zSzQ=
@@ -5538,6 +3244,10 @@
 		</dict>
 		<key>Resources/x86_64/bin/nerdctl.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			cRxn72wnYf0qRZNncW/nugpFsV4=
+			</data>
 			<key>hash2</key>
 			<data>
 			nbSXQkxC1Co5cB4jO5HQCgQ/FO5bAwtSRqRd8ZfAWZs=
@@ -5545,6 +3255,10 @@
 		</dict>
 		<key>Resources/x86_64/bin/pidof</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			v51+dgS2+Ccpubu/950e+rxts9E=
+			</data>
 			<key>hash2</key>
 			<data>
 			LZyLRcL/obE1P/pgtjLkOiQ/2c9LBsNbIQ6cvj1vpbk=
@@ -5552,6 +3266,10 @@
 		</dict>
 		<key>Resources/x86_64/bin/podman.lima</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2+rtLDQwWk2MFU3SycMBPiUzyys=
+			</data>
 			<key>hash2</key>
 			<data>
 			3ltSJNw13ZGZkM7oF9GG0oYc85a0fAXDmWMBhds+Q6M=
@@ -5559,48 +3277,76 @@
 		</dict>
 		<key>Resources/x86_64/bin/qemu-edid</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XTqC/WDDv5YWNpGNMH7WBTqpSZs=
+			</data>
 			<key>hash2</key>
 			<data>
-			9JtUlgVhicRM/14/wmr/Xt/a1TCjR0cv8r0809Y7gao=
+			azQmebJ4Bfvng/eIPOULJmmUvfCxN7VZXRJ/0qxbtGE=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-img</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			BW+o9LA6l1eqoXfOcwvYSkcpTss=
+			</data>
 			<key>hash2</key>
 			<data>
-			79xPWaAxxl6uuQXwYt4y98VsPSHJ8NlT1XW3IyI1z24=
+			1JA70ViK+VQ1udpaU0d1l70yZ0XUbMovcPKB4gyO4xU=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-io</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			SKFdIDIaZK0AWe/GaIU8cxdkeMU=
+			</data>
 			<key>hash2</key>
 			<data>
-			RKB5NulYLNQyr7/2n1/Gnu7rTLCv4+C5lzQcMsvNNQo=
+			F58PnM3VDIqz7HLtHGXUeua4VNN77y+FfrPcCXVU6Yo=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-nbd</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			67j2pO0gC+5bULsrYMssIDn5v3A=
+			</data>
 			<key>hash2</key>
 			<data>
-			e+n6lJWj5YezW0UO/exk1Dd2tukkhwLbUmmLb1vwLR4=
+			L7ZWJ2xeI8rn445wAOx0uC3RRx30ez/xm876aprV6jw=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-storage-daemon</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gXSCmzhlze15Zu2jb0eOjbXWhXs=
+			</data>
 			<key>hash2</key>
 			<data>
-			4NES/2SoEOAnSChZ4foweC5mvEkLvSagFXCn46yUcvA=
+			h3LVx54naHcDIsw6EEvkayFcWuO4NUU+UNUAJoMHlqQ=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-system-x86_64</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			75DxFByYyenlLBIiW5QSU3XT36s=
+			</data>
 			<key>hash2</key>
 			<data>
-			PnqzmQJBDTvaBiBYnRwsGwwHn3dmLayN8qV7ARXqCyY=
+			lPGgzUaYeoOy+p6Lr3N0HCXnHvYJxc2bumLuvkmYdhY=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/socket_vmnet</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XMhd7+b7mQBxU15Ym7aGkWY51rU=
+			</data>
 			<key>hash2</key>
 			<data>
 			bvgJ8wZ6PYtUrFxcpDZI9MOb9lVV77X21CS9tVA/9BE=
@@ -5608,6 +3354,10 @@
 		</dict>
 		<key>Resources/x86_64/bin/socket_vmnet_client</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4VPyVXldVe/R3HxxTPVPxTi2Lj8=
+			</data>
 			<key>hash2</key>
 			<data>
 			YFfBVyIlDIWMOJ1+PS/ggLZJiZIt2eNR1yX9vam72sM=
@@ -5615,6 +3365,10 @@
 		</dict>
 		<key>Resources/x86_64/etc/unbound/.gitkeep</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
@@ -5622,6 +3376,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libffi.8.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ZXHthlVm6F2GP+MZxADBvdkHjaw=
+			</data>
 			<key>hash2</key>
 			<data>
 			Oc5ZieQM872PjAFrDQrRD2VCsfgiu7tXeCOewCi52Xk=
@@ -5629,6 +3387,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libgio-2.0.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DljFQsdZXVoONifALOIrmg/pF+c=
+			</data>
 			<key>hash2</key>
 			<data>
 			htz5XqJBIkDas+Loe3KkdxghXQUsBDN7EnkP9xxjhqA=
@@ -5636,6 +3398,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libglib-2.0.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vxbHgd3oaD1KKfFJ0NHg3NvGO8E=
+			</data>
 			<key>hash2</key>
 			<data>
 			rIZIZnvM+MzPtGZEniT6elZvywK+jN7nwKH5IS/pInc=
@@ -5643,6 +3409,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libgmodule-2.0.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Z/YT/1Ze1cbjs0+tFPp2R5vSLYg=
+			</data>
 			<key>hash2</key>
 			<data>
 			Clhnk/3VQIRh35ItOne+G+YIzujsSvz9C8603kBHAbE=
@@ -5650,6 +3420,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libgobject-2.0.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			fZb9gP6zhIa1HCUPWivsfUgDhMQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			5yJ3NvPurXlkmS+/ct1EuU+SSbRi/uWcU/Bh/UEA364=
@@ -5657,6 +3431,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libiconv.2.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			u1hICOF2gYuROfcCOoiMWqQvOC0=
+			</data>
 			<key>hash2</key>
 			<data>
 			+ZxvhvzJ2BuaxajaTnEGddVSZxUCFKCOLsTYTYcz80c=
@@ -5664,6 +3442,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libintl.8.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QscX76aeQOE1ACE3yirazfYPM2s=
+			</data>
 			<key>hash2</key>
 			<data>
 			4tluPnBXA+TG8xSmeGfEbWv4Fe+hMMlU7ns2AK18gKQ=
@@ -5671,6 +3453,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libncurses.6.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+HkQ+iEroNN7k1jCRiWR4/+xoQg=
+			</data>
 			<key>hash2</key>
 			<data>
 			KVJiXOQhPoUeEQOevh1/33vIWoYPcAPhAnjhoV4GwEE=
@@ -5678,6 +3464,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libpcre2-8.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lDHKdZUZx1Xt2NWkdued5D5ermk=
+			</data>
 			<key>hash2</key>
 			<data>
 			dTZM6jD//v7m73W51v3UVq9KARRDBRsqwyfSNY3bddw=
@@ -5685,6 +3475,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libpixman-1.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			T7+DyZiAdzX7Pxni/Pf7/tYsX6U=
+			</data>
 			<key>hash2</key>
 			<data>
 			JAqhEOY3snkgdX3g09Z61xl+s8zyd7Wl/axz8kQp750=
@@ -5692,13 +3486,21 @@
 		</dict>
 		<key>Resources/x86_64/lib/libslirp.0.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			T5w9qDvSOrlSAGwYqQiI41au0us=
+			</data>
 			<key>hash2</key>
 			<data>
-			9R1vKNQO66SNsMxbKBg93OSoXEP6RDuoU5KkAo++i7o=
+			GZ5rY3vbciMvXh7kM5MiziTo9MMpzRzDBgIvkYlCUW0=
 			</data>
 		</dict>
 		<key>Resources/x86_64/lib/libsodium.23.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RRJmpg56H9QqfCB7gKVY3XXt7Fk=
+			</data>
 			<key>hash2</key>
 			<data>
 			79s/mRqkkCA5YaqMsjb4ySOUeADwgEfJ0Xl+1cN+KfY=
@@ -5706,6 +3508,10 @@
 		</dict>
 		<key>Resources/x86_64/lib/libunbound.8.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WRFH/HiDpV/7eGtucnaT7G/WHAQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			0890HXun9l2XxPY8x29hyEelOTLW6gmPDr5gN+Ufiho=
@@ -5713,6 +3519,10 @@
 		</dict>
 		<key>Resources/x86_64/libexec/openssl3/bin/openssl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0uDlJQyhOq0zMf0ylWkP76J5fPI=
+			</data>
 			<key>hash2</key>
 			<data>
 			5HtJMLZdDP5mtcXqNpXaJZJmaCRPZNZQrfXeyzujwRs=
@@ -5720,6 +3530,10 @@
 		</dict>
 		<key>Resources/x86_64/libexec/openssl3/lib/libcrypto.3.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TLFXmWo8ysLfy60kF8UKDwOMskU=
+			</data>
 			<key>hash2</key>
 			<data>
 			HJFetEC+HftIi7Grt3xIIRIjd7vhD3jqRxijEdY6gaw=
@@ -5727,6 +3541,10 @@
 		</dict>
 		<key>Resources/x86_64/libexec/openssl3/lib/libssl.3.dylib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WpHJeqU+rCGm22RdzuSf6iZLhx0=
+			</data>
 			<key>hash2</key>
 			<data>
 			LAeN9Vj0ebVuOk7y2Yt7lZUTP/C+oSEYaBqrRBj8jD0=
@@ -5734,6 +3552,10 @@
 		</dict>
 		<key>Resources/x86_64/sbin/unbound</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			q9V/PKsQQK/J20GnNbmXR0stDtA=
+			</data>
 			<key>hash2</key>
 			<data>
 			emxx8Q4enSwtnufnxZApvPlLBlHO/qP7p7vouTuU2dQ=
@@ -5741,6 +3563,10 @@
 		</dict>
 		<key>Resources/x86_64/sbin/unbound-anchor</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			IOmcbGqPoIMEMj82UAvf18+vMfA=
+			</data>
 			<key>hash2</key>
 			<data>
 			OJYYVLGyPk7odNgwYKQ2GByz2kvU14NpTYJgIkkMM04=
@@ -5748,6 +3574,10 @@
 		</dict>
 		<key>Resources/x86_64/sbin/unbound-checkconf</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gLctRJTXKVNkbtYqvX0BlxSL5HI=
+			</data>
 			<key>hash2</key>
 			<data>
 			jSNwztBllmXbMDyWTwbaCOgJTJINa2Ti2/CfAR8eUSA=
@@ -5755,6 +3585,10 @@
 		</dict>
 		<key>Resources/x86_64/sbin/unbound-control</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XznMqo4mH6F50UoSrEuQjQ+t0J4=
+			</data>
 			<key>hash2</key>
 			<data>
 			k0EFtXvJUTE/ZKHvnn7kLyu6PMsX/ojje95WKtBQlgQ=
@@ -5762,6 +3596,10 @@
 		</dict>
 		<key>Resources/x86_64/sbin/unbound-control-setup</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CM/DFQrdmkPcIcqY52Y4ncpELpo=
+			</data>
 			<key>hash2</key>
 			<data>
 			EBku4weZZrKXK8G290iDSQ+awsflTtHdRS04JtAfCtw=
@@ -5769,6 +3607,10 @@
 		</dict>
 		<key>Resources/x86_64/sbin/unbound-host</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4Fz0niCiwJvrn9YIWJApWW6lkMY=
+			</data>
 			<key>hash2</key>
 			<data>
 			U8P3KPkU8WLdjOG4xiBWf+fW5IMHsE9YToOeIieOmfk=
@@ -5776,6 +3618,10 @@
 		</dict>
 		<key>Resources/x86_64/share/lima/examples/default.yaml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Bs4r753kuZIgY0lAWjvZj8APjeA=
+			</data>
 			<key>hash2</key>
 			<data>
 			m1pWTKyKRWNO01xWkvg0aGaKh1A/Zvm+92fja/tSVPE=
@@ -5783,6 +3629,10 @@
 		</dict>
 		<key>Resources/x86_64/share/lima/lima-guestagent.Linux-x86_64</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			fD0Exm8lMqat2lyZ4BrFsBGNWoY=
+			</data>
 			<key>hash2</key>
 			<data>
 			hCFS1zow07g+GVIWVNukT8LCyJL3bLpLb0ahe6eWeZ4=
@@ -5790,6 +3640,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/edk2-x86_64-code.fd</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			b4JA+zX0Mvi1J2IHJjKNm5DZDnQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			XybILE3vtGgDE5QdScTMuFvrgz7iM7KB1YXTJUBx6x8=
@@ -5797,6 +3651,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/efi-virtio.rom</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FZbpuX8LyLX/PkRCNWkKVJ7pgsY=
+			</data>
 			<key>hash2</key>
 			<data>
 			Jr42kB23+BgcMGzGK9dIkdhkZSiWWnjkDM6tul3XyOc=
@@ -5804,6 +3662,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/firmware/50-edk2-x86_64-secure.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ktiTs2mS8LjtaC7A/7ONW/XqHps=
+			</data>
 			<key>hash2</key>
 			<data>
 			y/QGOuU1GtJ28U96r/PSM7uAubbHzFhf7plq0NGOdcs=
@@ -5811,6 +3673,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/firmware/60-edk2-x86_64.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AQwqIsrQ5Q5vtIJsK0QiEi9klS8=
+			</data>
 			<key>hash2</key>
 			<data>
 			iV0oOS69FJtJBEVfIs19QiTNKmzYkbgYRfgZ4XlplJE=
@@ -5818,6 +3684,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/ar</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Lbb5Vg3i3iINJFtj5UrTWl7iBVk=
+			</data>
 			<key>hash2</key>
 			<data>
 			BZq3Gd9Clu24ANOZUB44I+Hm9HDMBqOkVk9LstvVwfw=
@@ -5825,6 +3695,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/bepo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3ZzlNYeeUgBj09uaT87QFxQA9/s=
+			</data>
 			<key>hash2</key>
 			<data>
 			Aczbfi0LIPUX4D05zHCAKtg9/B7S5dUP+bSk9343qfg=
@@ -5832,6 +3706,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/cz</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8eQ2ZyhrBHf8RshzXVFaa4nYDiM=
+			</data>
 			<key>hash2</key>
 			<data>
 			NmSz8T5s//Dm0F8SAAqmYQ7/BPVwcHJh7DXKgw3tbDY=
@@ -5839,6 +3717,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/da</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			idBJ666QDkjDDzmJZF3lSK/GKUs=
+			</data>
 			<key>hash2</key>
 			<data>
 			le8MFo8LJek2p/+UTaggpDr4AotRXMZwlyT0V+EFwYc=
@@ -5846,6 +3728,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/de</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JwIoqxblNl/bh3Zgy1roMajlBAI=
+			</data>
 			<key>hash2</key>
 			<data>
 			zafcllbwB8o+iOW6xQ8gx/Yfk0vOwuh8bWGFnmMt25g=
@@ -5853,6 +3739,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/de-ch</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3aTDigPObNqHImPIBG8/9D9dDuo=
+			</data>
 			<key>hash2</key>
 			<data>
 			MmDLZP3N9I4rU8XQVz3CqUENfTquIn7ULdqUX5q3TgY=
@@ -5860,6 +3750,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/en-gb</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Jy/7JAjZMK0R0ucsYMvCVAsLleg=
+			</data>
 			<key>hash2</key>
 			<data>
 			4UIpt/kWW/Imv03paP1falBAFKIXneCMKyGEzv5oF04=
@@ -5867,6 +3761,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/en-us</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9ilq6WClubYPU/W+F+bjYZMIHX4=
+			</data>
 			<key>hash2</key>
 			<data>
 			Us9MUj5oYHhpntWHYcfhRDCAMFI3pfZ6NxaDJXDFyOU=
@@ -5874,6 +3772,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/es</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Wb4JPE1ZxsF9PWnyPtldAkym9ls=
+			</data>
 			<key>hash2</key>
 			<data>
 			2bHagZMjKIJwW9SjEsCSO22RJo8eGo7tKvvX/DdoHAY=
@@ -5881,6 +3783,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/et</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			z6U3G67HBzeChB70kHEXxcCFZCA=
+			</data>
 			<key>hash2</key>
 			<data>
 			la8eJRMhhePLJx1JEIbM8Jy2ZwM6+3GPGhHpdOgKg48=
@@ -5888,6 +3794,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/fi</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Hebe6/zrwgZXN+gFArY9kAxZbPI=
+			</data>
 			<key>hash2</key>
 			<data>
 			TFzVNZwYY1GH16+VcAiKe70h+W2WGu28TJ+x5d8JkoE=
@@ -5895,6 +3805,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/fo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tnj4rCGVmoMbxHFfZNZvR8fRd7M=
+			</data>
 			<key>hash2</key>
 			<data>
 			N1C4CQyuo89sgnuX9ezC0RcsM9lgFBxQ+W5hxT9oLM8=
@@ -5902,6 +3816,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/fr</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MByMQhw5Y+VdA2QT+HnfyPcOqFA=
+			</data>
 			<key>hash2</key>
 			<data>
 			YNm6o1Zbdye0F4cEEAv/sCy9W1J6ncyfnKdtdnZ7Fm4=
@@ -5909,6 +3827,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/fr-be</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hUddR0zlUFvJKKg4n4d97muzYrM=
+			</data>
 			<key>hash2</key>
 			<data>
 			UitedYN149eW+6CWpGB3dmvURUjIxhpKvpRuMRbBrZc=
@@ -5916,6 +3838,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/fr-ca</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CGRkNpQrzQ+QUllz278K6Eb1HMI=
+			</data>
 			<key>hash2</key>
 			<data>
 			nuP8E77sbnT0D7bRUNf+Owr+RVf98HaWAeZioSKojMA=
@@ -5923,6 +3849,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/fr-ch</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			NsiYmlNt50utWX7wY3XfWpOChqE=
+			</data>
 			<key>hash2</key>
 			<data>
 			eyrSkp87e09dYBdr1+GFL5HvvP4nAOjfm8m4kWCacXA=
@@ -5930,6 +3860,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/hr</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KPMFvuoPMpgRUdoyb3cuC8K21Y4=
+			</data>
 			<key>hash2</key>
 			<data>
 			6Dke0JAVzoRZqY40cNrd06bZXEx+k7dQCY9aMh/VdII=
@@ -5937,6 +3871,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/hu</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+HKtn9XeEqgwyetRMUo1M5Q/VFE=
+			</data>
 			<key>hash2</key>
 			<data>
 			djqTjtL90iS5y4rWBtAqq8k6Dj+3peXpyq+g7IwF1CI=
@@ -5944,6 +3882,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/is</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lh5sYmlY5Zms5wIxANcwkYfsMQE=
+			</data>
 			<key>hash2</key>
 			<data>
 			brTlvZPKL3ogWaMf0BREQQjraE7Nl5AtokkrCg9uPNw=
@@ -5951,6 +3893,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/it</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Q2OzTKHgxevWrzkpj97FL5NflZk=
+			</data>
 			<key>hash2</key>
 			<data>
 			EtCQzctq8OlaDAMwuLfwrARGq4z3FAtPjGx5fAjpwhk=
@@ -5958,6 +3904,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/ja</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			w8SnDKPm95/wp9BSCZfrVFmve0g=
+			</data>
 			<key>hash2</key>
 			<data>
 			pFYa78wv0vS6AWBAAcnA3GdGlRTqCmZQY7cuedXZxoc=
@@ -5965,6 +3915,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/lt</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EE7lKezw0XmZYyRPzlbv8wi6fuo=
+			</data>
 			<key>hash2</key>
 			<data>
 			C/yY6RNFHAuQgtAxfe/6A8bwxToUIstPTB72TcOTnS8=
@@ -5972,6 +3926,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/lv</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RgGE53+as+bJyzGaU7x0qfpZiyk=
+			</data>
 			<key>hash2</key>
 			<data>
 			vk8eKDJa4uqSe9UeMYY6Mn5kwKk4cl/QLCpyYGYL33c=
@@ -5979,6 +3937,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/mk</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			E8w2J2Ox6tK13eFXUhDTKB1U5Ug=
+			</data>
 			<key>hash2</key>
 			<data>
 			cQaP/hY85mhLNfQj6JfgDJfevgw99VXEPSa0annKaOc=
@@ -5986,6 +3948,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/nl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			uMBVkMVEpAywfe/By/imo22eY+o=
+			</data>
 			<key>hash2</key>
 			<data>
 			cMsbQfGE1hUghn5jnmtpzd6ksOJFjFUCx8QFEjAYdsc=
@@ -5993,6 +3959,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/no</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			prvhj1FeXdDvy6r5j6/sVkdVbLQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			lbP+UlgmS4J7oBrMendL2e267FLFTlgqBzfDMIepJRQ=
@@ -6000,6 +3970,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/pl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+I1OrMr8AwRAdiv8TjCCvc5RbsQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			Xz2oAvgfOFxYF5Jy5IxPhoDf3+VTg8UEpthLO3qKrfs=
@@ -6007,6 +3981,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/pt</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ReGZCYixyuvq32p73FZLlEO6P4w=
+			</data>
 			<key>hash2</key>
 			<data>
 			KRYeG4tht2HD87/yN8pzzk7jMWqZCQiQsyRpgkte7Yo=
@@ -6014,6 +3992,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/pt-br</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			y6s37Eqot0o3sBt+UKwRy4C4IfM=
+			</data>
 			<key>hash2</key>
 			<data>
 			+7lJHAv8QlPM7Z2KIJZaypjQJJxGJv5ufTE1iyTjTo0=
@@ -6021,6 +4003,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/ru</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8k/bDdE5W5p7VcAno8gf0geGV+M=
+			</data>
 			<key>hash2</key>
 			<data>
 			r6AVpzbNk1/Dig32L9arLzxktExIs+bZWWnLv83EPpE=
@@ -6028,6 +4014,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/sl</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ZQJHSaUHEQBQgWqQGDLB2FSHrcU=
+			</data>
 			<key>hash2</key>
 			<data>
 			vqj+isDKKBA4rA4XiMOfCQUH/wZGvU9XzBj2hzsDAUc=
@@ -6035,6 +4025,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/sv</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			u76zaHv7mA9qsbWvQ7Ip56hiVJk=
+			</data>
 			<key>hash2</key>
 			<data>
 			l3MfvpHyVNgcAF/8IyGAqN17rrbWmfDw/BXjQWcvlrM=
@@ -6042,6 +4036,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/th</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			aPywLvdgS4s5tV56e8aYV4ckch4=
+			</data>
 			<key>hash2</key>
 			<data>
 			bdlWKisQyB9litlgdf2Hgyd36HNXYg6Jx9Bw5Al/u7k=
@@ -6049,6 +4047,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/keymaps/tr</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			yfHJVsh0RPya1DEEit2AXsOTWK4=
+			</data>
 			<key>hash2</key>
 			<data>
 			9Z+MwVTw3ItFFmtSS5weZJugJ+OTgarChmY60iJ93Og=
@@ -6056,6 +4058,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/kvmvapic.bin</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Zwycx5tIWZRHBe7OcQ3DMhiLebQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			zfBXpxsH47UrGcviEL3vpZJQ0BqYELlg9/4fmO7ZWic=
@@ -6063,6 +4069,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/vgabios-ramfb.bin</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			r2jo1MLZaUsfPBOi2FpmN0NPrvw=
+			</data>
 			<key>hash2</key>
 			<data>
 			ZjuhSspCX1Lfab3Xd6CdGyouYIFsAp3xdTTpVVW35Zg=
@@ -6070,6 +4080,10 @@
 		</dict>
 		<key>Resources/x86_64/share/qemu/vgabios-virtio.bin</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VX2M85dr6uzQeZx1hnKFbTjM7Mo=
+			</data>
 			<key>hash2</key>
 			<data>
 			87Ad0qDXFV/Jf1+5B0n67ccdVeaCWTFI2vI0sVzSMQ8=
@@ -6077,46 +4091,14 @@
 		</dict>
 		<key>Resources/x86_64/share/terminfo/78/xterm+256color</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			L6NVGKSFC4ILqAVFSeCF33qCZgk=
+			</data>
 			<key>hash2</key>
 			<data>
 			ik1rB7QwZQ72Jl0gN6urBgTB9+SLZvTVMzd0H4n9uHU=
 			</data>
-		</dict>
-		<key>Resources/zh_CN.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/zh_CN.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bA5BFhQgQDxt+a7zPHImOim14fl9Mx/xAoc6cChFCpE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/zh_TW.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/zh_TW.lproj/MainMenu.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nehtC3RZNjhvwIbCH7okddQaTjczzua8tI80k6ky4K8=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

@@ -64,6 +64,7 @@ cleanup_files() {
     rm -rf $PICON_HOME/lima/default/*
     rm -rf $PICON_HOME/lima/_config/*
     rm -rf $PICON_HOME/lima/_networks
+    sed -i '' "s#        interface:.*#        interface: 127.0.0.1#" "/Applications/PiCon.app/Contents/Resources/unbound.conf"
 }
 
 restore_lima_config() {
@@ -80,7 +81,7 @@ exit_prompt() {
     tput bold
     printf " ——————————————————————————————————————————————————————————————————————————————————————————————————\n\n"
     for (( i=10; i>0; i--)); do sleep 1 &>/dev/null ;  printf "                        This window will automatically close in $i seconds. \r" ;  wait ; done ; sleep 1
-    pidof -k PiTerm
+    pidof -k picon
 }
 
 # Main execution
