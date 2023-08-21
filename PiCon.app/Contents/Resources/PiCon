@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASE="230810"
+RELEASE="230821"
 BOLD=$(tput bold)
 GREEN=$(tput setaf 2)
 RESET=$(tput sgr0)
