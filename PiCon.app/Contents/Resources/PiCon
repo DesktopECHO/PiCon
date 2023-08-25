@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASE="230821"
+RELEASE="230825"
 BOLD=$(tput bold)
 GREEN=$(tput setaf 2)
 RESET=$(tput sgr0)
@@ -50,12 +50,12 @@ run_setup() {
             printf "\n    It is preferable to use a static IP because DHCP-assigned IPs may change unexpectedly.\n\n"
             read -p "    Enter a static IP for the appliance. Hit [Return] or [Enter] for DHCP: " STATIC_IP
         else
-            printf "  macOS 10.13 and 10.14 do not include the ability to create a bridged network."
+            printf "  macOS 10.13 and 10.14 do not include the frameworks needed for bridged networking."
             printf "\n  Do you want to allow other devices on your network to use this Mac for DNS lookups?\n"
-            printf "\n  The work-around has a major limitation: Pi-hole will log all queries as coming from 127.0.0.1\n"
-            printf "\n  If yes, select an IP/Netmask to allow. Type '${BOLD}0.0.0.0/0${RESET}' to use ALL interfaces on this Mac.\n"
+            printf "\n  The work-around has a major limitation: Pi-hole logs ALL queries as originating from '${BOLD}127.0.0.1${RESET}'\n"
+            printf "\n  If yes, set the listener you want to allow, or type '${BOLD}0.0.0.0${RESET}' to use ALL interfaces on this Mac.\n"
             read -p "  If network-wide DNS isn't needed, just DNS for this Mac, hit [Return] or [Enter]: " IP_ALLOW
-            [[ $IP_ALLOW ]] && sed -i '' "s#        access-control:.*#        access-control: $IP_ALLOW allow#" "$PICON_HOME/unbound.conf"
+            [[ $IP_ALLOW ]] && sed -i '' "s#        interface:.*#        interface: $IP_ALLOW#" "$PICON_HOME/unbound.conf"
         fi
 
 	# Configure networking
@@ -100,12 +100,12 @@ run_setup() {
         sudo launchctl load /Library/LaunchDaemons/com.desktopecho.unbound.plist
         until cat /private/tmp/picon.log | grep READY > /dev/null; do printf .; sleep 10; done ; printf "$RESET"
 
-	# Copy unbound config for Unbound in container
+	# Copy unbound config for Pi-hole instance
         cp "$PICON_HOME/unbound-pihole.conf" ~/unbound-pihole.conf
         lima sudo bash -c "mkdir -p /etc/unbound/unbound.conf.d ; cp unbound-pihole.conf /etc/unbound/unbound.conf.d/"
 
 	# Set static IP if needed, create setupVars.conf
-        [[ ${#STATIC_IP} -gt 1 ]] && lima sudo bash -c "cp 99-staticip.yaml /etc/netplan ; netplan apply ; ip route replace default via 192.168.5.2 dev eth0" >/dev/null 2>&1
+        [[ ${#STATIC_IP} -gt 1 ]] && lima sudo bash -c "cp 99-staticip.yaml /etc/netplan ; netplan apply" >/dev/null 2>&1
         rm -f ~/99-staticip.yaml
         rm -f ~/unbound-pihole.conf
         if [[ $DARWIN -lt 19 ]]; then 
@@ -147,7 +147,7 @@ run_setup() {
         read
         echo $PI_PW | pbcopy
         open http://127.0.0.1:8080
-        pidof -k PiTerm
+        pidof -k picon
     fi
 }
 
@@ -177,7 +177,7 @@ open_container() {
     tput sgr0 ; echo ; tput setaf 6 ; lima pihole version ; tput sgr0 ; echo
     lima pihole status
     echo ; lima
-    pidof -k PiTerm >/dev/null 2>&1
+    pidof -k picon >/dev/null 2>&1
 }
 
 # Main execution
