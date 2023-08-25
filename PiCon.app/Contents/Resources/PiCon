@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASE="230825"
+RELEASE="230827"
 BOLD=$(tput bold)
 GREEN=$(tput setaf 2)
 RESET=$(tput sgr0)
@@ -50,7 +50,7 @@ run_setup() {
             printf "\n    It is preferable to use a static IP because DHCP-assigned IPs may change unexpectedly.\n\n"
             read -p "    Enter a static IP for the appliance. Hit [Return] or [Enter] for DHCP: " STATIC_IP
         else
-            printf "  macOS 10.13 and 10.14 do not include the frameworks needed for bridged networking."
+            printf "  macOS 10.13 and 10.14 do not include frameworks needed for bridged networking."
             printf "\n  Do you want to allow other devices on your network to use this Mac for DNS lookups?\n"
             printf "\n  The work-around has a major limitation: Pi-hole logs ALL queries as originating from '${BOLD}127.0.0.1${RESET}'\n"
             printf "\n  If yes, set the listener you want to allow, or type '${BOLD}0.0.0.0${RESET}' to use ALL interfaces on this Mac.\n"

@@ -1,21 +1,26 @@
 # PiCon.app
-- _'Appified'_ container for running a Linux VM in macOS with no additional software (Docker, VMware Fusion, VirtualBox, etc...) required.
+- '**_Appified_**' container runs a Linux virtual machine in macOS with no additional software (Docker, VMware Fusion, VirtualBox, etc...) required.
 - Deploys a standard Deban 12 cloud image and installs Pi-hole with minimal user input.
 
 ## Info
- - Works on any 2010 or newer Mac.  QEMU / Lima binaries included are Intel and Apple Silicon native.
- - Requires macOS 10.13 or newer, bridged networking requires macOS 10.15 or newer
- - Container uses **1/16th** of the host Mac's RAM, up to 1GB. For example, a Mac with 4GB RAM will create a 256MB container capable of serving DNS on a typical home network.
+ - **Intel** and **Apple Silicon** are both supported; works with any Mac built after 2010.
+ - Requires macOS 10.13 or newer, bridged networking requires macOS 10.15 or newer.
+ - Container uses **1/16th** of the host Mac's RAM, up to 1GB. For example, a Mac with 4GB RAM will create a 256MB VM capable of serving DNS on a home network.
  - Pi-hole instance is persistent across reboots and starts in the background as a system-level launch daemon.  
  - An embedded version of [PiBar](https://github.com/amiantos/pibar) is configured during installation and starts at login.
    
 ## Install
- - [Download](https://github.com/DesktopECHO/PiCon/releases/latest) the latest release of PiCon.app and move it to your `/Applications` folder (Note that moving the app to this location is _mandatory_)
+If you have an older version of PiCon installed, reset it first by holding down **Option [ ⌥ ]** while opening the app.  
+ - [Download](https://github.com/DesktopECHO/PiCon/archive/refs/heads/main.zip) the app.
+ - Double-click the zip archive to extract its contents - some browsers automatically do this for you.
+ - Move `PiCon.app` to your `/Applications` folder.  This step is **_mandatory_** as the app expects to be in this location to run.
+   
+The first time the app is opened you will need to acknowledge a warning by Gatekeeper.  The app is digitally signed to protect against tampering but not notarized by Apple.  You can verify the signature by running `codesign -dv /Applications/PiCon.app`
 
 ## Install Screenshots
   - First-run setup:
 ![image](https://github.com/DesktopECHO/PiCon/assets/33142753/66fd0544-c761-41af-8eb6-22117db0d633)
-  - Wait a few moments for the container to become ready and the installation summary will appear.
+  - Wait a few moments for the container to initialize.  When complete, the install summary will appear.  
   - Your web browser will open the Pi-hole admin page.  Paste your clipboard into the Pi-hole password field.
 ![image](https://github.com/DesktopECHO/PiCon/assets/33142753/c6d32593-6b54-42e7-98fc-9806b043293d)
  

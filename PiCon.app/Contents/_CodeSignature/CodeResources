@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/PiBar-Sync</key>
 		<data>
-		j05/toqrjC7vyzLwhvzldnb3D7c=
+		qugeDfpTL2j4sKoABarrrCYMjww=
 		</data>
 		<key>Resources/PiBar.app/Contents/CodeResources</key>
 		<data>
@@ -293,7 +293,7 @@
 		</data>
 		<key>Resources/PiCon</key>
 		<data>
-		9LObQK7bmfE97QV0zbit6jCjkW0=
+		g+n1m5IkpJgjPfvKDh2yWxMK/uY=
 		</data>
 		<key>Resources/PiCon-Launchctl</key>
 		<data>
@@ -771,10 +771,6 @@
 		<data>
 		y2cuTQqf1VDDm3x8OMRNl4UEhOk=
 		</data>
-		<key>Resources/com.desktopecho.piterm.plist</key>
-		<data>
-		Ck1VS4X/gwzToFcSicudoQkawLQ=
-		</data>
 		<key>Resources/com.desktopecho.unbound.plist</key>
 		<data>
 		ue04TnRgM9j8poF2AHElAJL1zM0=
@@ -805,19 +801,19 @@
 		</data>
 		<key>Resources/picon.icns</key>
 		<data>
-		LU4zAZV4GhbvzCKbYy2N8eldXxg=
+		4Zk022oI3nNKDlISYN8/142cQgs=
 		</data>
 		<key>Resources/piterm.conf</key>
 		<data>
-		kUvb/8RvM9m5lfNRinb1q0sWZPQ=
+		vN+VM+g8J5K4u7s3grBO/yEyNeA=
 		</data>
 		<key>Resources/unbound-pihole.conf</key>
 		<data>
-		niYRluJOB8iJwf50S4S7kY6PSkY=
+		WSr4u7d8k1X59VUp8xY7VpV4Ogo=
 		</data>
 		<key>Resources/unbound.conf</key>
 		<data>
-		2yadgY/3mdK8mSONmNYgPAC3UoY=
+		dLcGSqOrdRjyPcpZ5KW6UaCjC98=
 		</data>
 		<key>Resources/x86_64/bin/apptainer.lima</key>
 		<data>
@@ -1158,11 +1154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j05/toqrjC7vyzLwhvzldnb3D7c=
+			qugeDfpTL2j4sKoABarrrCYMjww=
 			</data>
 			<key>hash2</key>
 			<data>
-			2w5qmvgEhwmPZhHUeVE1zRx4FWAaIWPMqj92BxXWeXA=
+			RkVSyCnfvr3CL6TdaO1Dp/3ryHgtooRD87z8CSkEPUY=
 			</data>
 		</dict>
 		<key>Resources/PiBar.app/Contents/CodeResources</key>
@@ -1739,11 +1735,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9LObQK7bmfE97QV0zbit6jCjkW0=
+			g+n1m5IkpJgjPfvKDh2yWxMK/uY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ERvSbFCH9PMsY4LSP9kQJsdGi99cVEP3f5yxXUz20LQ=
+			IHR42HfQ6nmbwYXs2A9G/ZFLA6rT6HjquoN42sQgAAM=
 			</data>
 		</dict>
 		<key>Resources/PiCon-Launchctl</key>
@@ -3055,17 +3051,6 @@
 			tcdan2bWIIVLjfgSeOADie0gzIZEXCPq1mI8279cof4=
 			</data>
 		</dict>
-		<key>Resources/com.desktopecho.piterm.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ck1VS4X/gwzToFcSicudoQkawLQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Xj4WIg3gHGCvXLXK5H48PKHrOze7vAh+ZUabAdFn9Jc=
-			</data>
-		</dict>
 		<key>Resources/com.desktopecho.unbound.plist</key>
 		<dict>
 			<key>hash</key>
@@ -3147,44 +3132,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LU4zAZV4GhbvzCKbYy2N8eldXxg=
+			4Zk022oI3nNKDlISYN8/142cQgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			15q0DJ7gU9jFP9px1zrDZTXeLrtjIzUZ3vfwQ0z0Y6o=
+			H8bUQdIYZnyk1lUv+KBjWy1z425Bajvrxgkg2+BAINY=
 			</data>
 		</dict>
 		<key>Resources/piterm.conf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kUvb/8RvM9m5lfNRinb1q0sWZPQ=
+			vN+VM+g8J5K4u7s3grBO/yEyNeA=
 			</data>
 			<key>hash2</key>
 			<data>
-			MIApu7yqDpHJ+vyPgOk8frfmi6kdIhu9BupoMRORWWY=
+			zJR8SlLQE5J3PhM1myePV40849eSe3ANg6h5iSfY5g8=
 			</data>
 		</dict>
 		<key>Resources/unbound-pihole.conf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			niYRluJOB8iJwf50S4S7kY6PSkY=
+			WSr4u7d8k1X59VUp8xY7VpV4Ogo=
 			</data>
 			<key>hash2</key>
 			<data>
-			K6AfVPrt38eQE1+3qIWeFbqpcRbL+yVQx3iSGCYlIJs=
+			yuKIBZ8vBSn320DOgulfZoQdek1t06a3Ha1WlL5t1Qs=
 			</data>
 		</dict>
 		<key>Resources/unbound.conf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2yadgY/3mdK8mSONmNYgPAC3UoY=
+			dLcGSqOrdRjyPcpZ5KW6UaCjC98=
 			</data>
 			<key>hash2</key>
 			<data>
-			B7WCXkk7BjiVS6/C5mFcgyrAGn7UN2ue/5UHA82gSyQ=
+			W8sIK9S5Np0ZV7f8dzl6/kcgJP4tdc/fa7Yq7JbsBhA=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/apptainer.lima</key>

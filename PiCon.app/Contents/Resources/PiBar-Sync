@@ -2,6 +2,7 @@
 ARCH=$(sysctl hw.optional.arm64 2>/dev/null | cut -c 20-) ; [[ "$ARCH" = "1" ]] && export ARCH=arm64 || export ARCH=x86_64
 PICON_HOME="/Applications/PiCon.app/Contents/Resources"
 PATH="$PICON_HOME/$ARCH/bin:$PATH"
+export LIMA_HOME="$PICON_HOME/lima"
 [ ! -d "/Users/$USER/Library/LaunchAgents" ] && rm -rf "/Users/$USER/Library/LaunchAgents" && mkdir -p "/Users/$USER/Library/LaunchAgents"
 [ ! -f "/Users/$USER/Library/LaunchAgents/com.desktopecho.pibar.plist" ] && cp "$PICON_HOME/com.desktopecho.pibar.plist" "/Users/$USER/Library/LaunchAgents/"
 launchctl unload ~/Library/LaunchAgents/com.desktopecho.pibar.plist
