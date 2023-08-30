@@ -293,11 +293,11 @@
 		</data>
 		<key>Resources/PiCon</key>
 		<data>
-		g+n1m5IkpJgjPfvKDh2yWxMK/uY=
+		4i9SKiAsmCNQ80qSZaMl3kRMcKI=
 		</data>
 		<key>Resources/PiCon-Launchctl</key>
 		<data>
-		EmffFs2GnzHm3qkmAd21vFVjuSk=
+		3Kl2aYjRRhI9JH8f2NFIU/5p6uY=
 		</data>
 		<key>Resources/PiCon-Reset</key>
 		<data>
@@ -337,31 +337,27 @@
 		</data>
 		<key>Resources/arm64/bin/qemu-edid</key>
 		<data>
-		M9vTOUShgVNlTV21+OEqavpgKJM=
+		dFl6CKPf0YIm1sxy8tdeIOf1eKE=
 		</data>
 		<key>Resources/arm64/bin/qemu-img</key>
 		<data>
-		HCKNjCjUnZcjbLwn7yqsbhQcptU=
+		2h3a9cRT0sm9veM5xfxb3tACZwU=
 		</data>
 		<key>Resources/arm64/bin/qemu-io</key>
 		<data>
-		+U0qDbzNrjJQ6U+rQ49luxJ1UoY=
+		bygHKSJkHnGHmcSHE7/bQH5x76A=
 		</data>
 		<key>Resources/arm64/bin/qemu-nbd</key>
 		<data>
-		8jQJmDuFZqQKm70KlTj6aUH3QZM=
+		awRgPYOtf9Xbon/nRkgWGvzXMW0=
 		</data>
 		<key>Resources/arm64/bin/qemu-storage-daemon</key>
 		<data>
-		RSucMG8KkprFtc14mUyAWRNavZI=
+		frX3QOa4panC2SGs6rWjz/NLb4k=
 		</data>
 		<key>Resources/arm64/bin/qemu-system-aarch64</key>
 		<data>
-		C5skz0Y3ZrVggbeSCQ5W9YaPMWU=
-		</data>
-		<key>Resources/arm64/bin/qemu-system-arm</key>
-		<data>
-		axZrzIU7IVLC4OvBcuKJMnfroXo=
+		YdCR6wQLxYTvmQHEKENEOmgig0Q=
 		</data>
 		<key>Resources/arm64/bin/socket_vmnet</key>
 		<data>
@@ -374,6 +370,18 @@
 		<key>Resources/arm64/etc/unbound/.gitkeep</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Resources/arm64/lib/libbrotlicommon.1.dylib</key>
+		<data>
+		SfPOV2Lnbq4OTVi38FsFGe8gzXU=
+		</data>
+		<key>Resources/arm64/lib/libbrotlidec.1.dylib</key>
+		<data>
+		+c3z6pGDmU5t7VQLtnnpDxppBeo=
+		</data>
+		<key>Resources/arm64/lib/libcurl.4.dylib</key>
+		<data>
+		yRJa5YvVqSKCjpsxQAL1xvV3//0=
 		</data>
 		<key>Resources/arm64/lib/libffi.8.dylib</key>
 		<data>
@@ -391,21 +399,57 @@
 		<data>
 		lxydHYaWdlfr2OzK+o+tKvdpOUM=
 		</data>
+		<key>Resources/arm64/lib/libgmp.10.dylib</key>
+		<data>
+		qYqSKZ+maYi4Mib0gv8iKxAxc9M=
+		</data>
+		<key>Resources/arm64/lib/libgnutls.30.dylib</key>
+		<data>
+		b9jnRptR5dpqiKocnN5ME9E80+M=
+		</data>
 		<key>Resources/arm64/lib/libgobject-2.0.0.dylib</key>
 		<data>
 		PxpXI+Tk8jiLx6JcOsCnpYx1lAg=
+		</data>
+		<key>Resources/arm64/lib/libhogweed.6.dylib</key>
+		<data>
+		O6SOzXTP7JTSlpySMv0p1EP29Q4=
 		</data>
 		<key>Resources/arm64/lib/libiconv.2.dylib</key>
 		<data>
 		y3PkRK9Hzf/y25NI6P1HvcKItmk=
 		</data>
+		<key>Resources/arm64/lib/libidn2.0.dylib</key>
+		<data>
+		S7fwepRW3Q02oABKKik6kb2DPR4=
+		</data>
 		<key>Resources/arm64/lib/libintl.8.dylib</key>
 		<data>
 		7b7Ywo14uOjmFt1lv3uEm3T+YhU=
 		</data>
+		<key>Resources/arm64/lib/liblzfse.dylib</key>
+		<data>
+		1m31jvp2aeaH+Ef89J03/oM+oQM=
+		</data>
+		<key>Resources/arm64/lib/liblzo2.2.dylib</key>
+		<data>
+		pYztXWR7tprUbfPwNR3TIWWsGRc=
+		</data>
 		<key>Resources/arm64/lib/libncurses.6.dylib</key>
 		<data>
 		ArugbxkCmfFcQxxtFQCj/HFSnl4=
+		</data>
+		<key>Resources/arm64/lib/libnettle.8.dylib</key>
+		<data>
+		6FGLrg7xLzbDNRrztsu4Auoaykg=
+		</data>
+		<key>Resources/arm64/lib/libnghttp2.14.dylib</key>
+		<data>
+		yPGvTYtfTOSmuCewaCyQ5nXoAlI=
+		</data>
+		<key>Resources/arm64/lib/libp11-kit.0.dylib</key>
+		<data>
+		NWgKFORT+wlVzH4Cx7cK2G1chyQ=
 		</data>
 		<key>Resources/arm64/lib/libpcre2-8.0.dylib</key>
 		<data>
@@ -415,17 +459,37 @@
 		<data>
 		E4ucmglKsBeqb/uKyVqoY26NYf4=
 		</data>
+		<key>Resources/arm64/lib/libpsl.5.dylib</key>
+		<data>
+		Rsz9H7hPugxSsWLs0ONfWv5Sc3c=
+		</data>
 		<key>Resources/arm64/lib/libslirp.0.dylib</key>
 		<data>
 		28sdtiTvMjyhTlSxNgr/dtyKrPU=
+		</data>
+		<key>Resources/arm64/lib/libsnappy.1.dylib</key>
+		<data>
+		1vsHugCgJo4puNYmhe0GL/ZOnfc=
 		</data>
 		<key>Resources/arm64/lib/libsodium.23.dylib</key>
 		<data>
 		5TiG+LyASLN/qhXgng2QlQtV43Y=
 		</data>
+		<key>Resources/arm64/lib/libtasn1.6.dylib</key>
+		<data>
+		qw4Ho3fr/5N3+RxdPESyKhANXIs=
+		</data>
 		<key>Resources/arm64/lib/libunbound.8.dylib</key>
 		<data>
 		9epAnlYPsOgUbgQvoHeIVHn+/TI=
+		</data>
+		<key>Resources/arm64/lib/libunistring.5.dylib</key>
+		<data>
+		P7VxYh7V1j/sysCaewO0pmzFhUs=
+		</data>
+		<key>Resources/arm64/lib/libzstd.1.dylib</key>
+		<data>
+		DQmLg3AKAIaH2j/CCdof7D80zCY=
 		</data>
 		<key>Resources/arm64/libexec/openssl3/bin/openssl</key>
 		<data>
@@ -601,7 +665,7 @@
 		</data>
 		<key>Resources/arm64/share/qemu/edk2-aarch64-code.fd</key>
 		<data>
-		AKKQqCvYzEbtlbQwy+n+Sq5prM8=
+		1FcJTCxaJ3Q03PCXUKKx1Sc6qYc=
 		</data>
 		<key>Resources/arm64/share/qemu/efi-virtio.rom</key>
 		<data>
@@ -753,11 +817,11 @@
 		</data>
 		<key>Resources/arm64/share/qemu/vgabios-ramfb.bin</key>
 		<data>
-		r2jo1MLZaUsfPBOi2FpmN0NPrvw=
+		2U1ThL2g5ZQSD+UKFSerXnCvGEk=
 		</data>
 		<key>Resources/arm64/share/qemu/vgabios-virtio.bin</key>
 		<data>
-		VX2M85dr6uzQeZx1hnKFbTjM7Mo=
+		3eEzk9A8elYfCTinveYQMm2ND20=
 		</data>
 		<key>Resources/arm64/share/terminfo/78/xterm+256color</key>
 		<data>
@@ -805,11 +869,11 @@
 		</data>
 		<key>Resources/piterm.conf</key>
 		<data>
-		vN+VM+g8J5K4u7s3grBO/yEyNeA=
+		uliSkvqRXynA4ABEG3Ss//3fXyU=
 		</data>
 		<key>Resources/unbound-pihole.conf</key>
 		<data>
-		WSr4u7d8k1X59VUp8xY7VpV4Ogo=
+		zbE+FM5fRe6B7cQ0QtlYSdV4tHA=
 		</data>
 		<key>Resources/unbound.conf</key>
 		<data>
@@ -817,15 +881,15 @@
 		</data>
 		<key>Resources/x86_64/bin/apptainer.lima</key>
 		<data>
-		Ndib4veDhpmxdIAMqHfRh3cSrTM=
+		iKlk69CDMU+stghVR2LMG3qmfnQ=
 		</data>
 		<key>Resources/x86_64/bin/docker.lima</key>
 		<data>
-		JE7l5PizbNBIEfaEp6fAyLesGHo=
+		TJK5ryHv+d4d6RobQcrRhx9q+7I=
 		</data>
 		<key>Resources/x86_64/bin/kubectl.lima</key>
 		<data>
-		QXp85oBt+Lio2HVbPvYNeHDwsts=
+		4xUjNlv8oW1gRLSbr4EcOdYEKpQ=
 		</data>
 		<key>Resources/x86_64/bin/lima</key>
 		<data>
@@ -833,7 +897,7 @@
 		</data>
 		<key>Resources/x86_64/bin/limactl</key>
 		<data>
-		0Uq0AXjhLyVE6heYjqalPF+IA4A=
+		lkE2McTQCDclSlU/kdfL9MWQjrM=
 		</data>
 		<key>Resources/x86_64/bin/nerdctl.lima</key>
 		<data>
@@ -845,31 +909,31 @@
 		</data>
 		<key>Resources/x86_64/bin/podman.lima</key>
 		<data>
-		2+rtLDQwWk2MFU3SycMBPiUzyys=
+		CdXVOwrFCt5XWFomzP7BVueLYJU=
 		</data>
 		<key>Resources/x86_64/bin/qemu-edid</key>
 		<data>
-		XTqC/WDDv5YWNpGNMH7WBTqpSZs=
+		bctJEx55r1eEWEnHIV+lOO9OmCQ=
 		</data>
 		<key>Resources/x86_64/bin/qemu-img</key>
 		<data>
-		BW+o9LA6l1eqoXfOcwvYSkcpTss=
+		4wC6A+hZVB8XEpmxwwdxmgaUpYQ=
 		</data>
 		<key>Resources/x86_64/bin/qemu-io</key>
 		<data>
-		SKFdIDIaZK0AWe/GaIU8cxdkeMU=
+		uhvmboCBrPLpX7YogMVWIG90bS8=
 		</data>
 		<key>Resources/x86_64/bin/qemu-nbd</key>
 		<data>
-		67j2pO0gC+5bULsrYMssIDn5v3A=
+		dz85RqHlFotPfI8LMbkCHPj+apM=
 		</data>
 		<key>Resources/x86_64/bin/qemu-storage-daemon</key>
 		<data>
-		gXSCmzhlze15Zu2jb0eOjbXWhXs=
+		p1rp4Ur+N6vMi0o0EhpD3WNHBOs=
 		</data>
 		<key>Resources/x86_64/bin/qemu-system-x86_64</key>
 		<data>
-		75DxFByYyenlLBIiW5QSU3XT36s=
+		I/g0ZihFS9SD0oM8qP7ybX5x4i4=
 		</data>
 		<key>Resources/x86_64/bin/socket_vmnet</key>
 		<data>
@@ -883,37 +947,85 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Resources/x86_64/lib/libbrotlicommon.1.dylib</key>
+		<data>
+		YY958WcGyolYpN/ZxPWRCA3JTNU=
+		</data>
+		<key>Resources/x86_64/lib/libbrotlidec.1.dylib</key>
+		<data>
+		C2PyxxQqJ/OL1dlqbCaReRLwVaM=
+		</data>
+		<key>Resources/x86_64/lib/libcurl.4.dylib</key>
+		<data>
+		LiM8iqhlcNTmSuJiElNSntR/wUI=
+		</data>
 		<key>Resources/x86_64/lib/libffi.8.dylib</key>
 		<data>
 		ZXHthlVm6F2GP+MZxADBvdkHjaw=
 		</data>
 		<key>Resources/x86_64/lib/libgio-2.0.0.dylib</key>
 		<data>
-		DljFQsdZXVoONifALOIrmg/pF+c=
+		7k+DCAUCwBtlDbVenhFf1GF7k/8=
 		</data>
 		<key>Resources/x86_64/lib/libglib-2.0.0.dylib</key>
 		<data>
-		vxbHgd3oaD1KKfFJ0NHg3NvGO8E=
+		7HDavGElG3AYkVT6FtuZ2cFP3wM=
 		</data>
 		<key>Resources/x86_64/lib/libgmodule-2.0.0.dylib</key>
 		<data>
-		Z/YT/1Ze1cbjs0+tFPp2R5vSLYg=
+		HnFT7KpeJwZyUjb+1JTKNAWhbHM=
+		</data>
+		<key>Resources/x86_64/lib/libgmp.10.dylib</key>
+		<data>
+		pJmqL3Om/ALv5SR9ujA+Sg1uK0M=
+		</data>
+		<key>Resources/x86_64/lib/libgnutls.30.dylib</key>
+		<data>
+		okXVMGq6Q5BPygE0WQbzfveWdzU=
 		</data>
 		<key>Resources/x86_64/lib/libgobject-2.0.0.dylib</key>
 		<data>
-		fZb9gP6zhIa1HCUPWivsfUgDhMQ=
+		uFvdR+gBbkCYSuJalEde0eunY+o=
+		</data>
+		<key>Resources/x86_64/lib/libhogweed.6.dylib</key>
+		<data>
+		kfWCCvrhwDQWinRvo/ZlYzGU6i4=
 		</data>
 		<key>Resources/x86_64/lib/libiconv.2.dylib</key>
 		<data>
 		u1hICOF2gYuROfcCOoiMWqQvOC0=
 		</data>
+		<key>Resources/x86_64/lib/libidn2.0.dylib</key>
+		<data>
+		7ErFj4RKCztGdhGpZhXTySOKB6c=
+		</data>
 		<key>Resources/x86_64/lib/libintl.8.dylib</key>
 		<data>
 		QscX76aeQOE1ACE3yirazfYPM2s=
 		</data>
+		<key>Resources/x86_64/lib/liblzfse.dylib</key>
+		<data>
+		IdStZc9VO8ba+8badMe551ODmZU=
+		</data>
+		<key>Resources/x86_64/lib/liblzo2.2.dylib</key>
+		<data>
+		CIjgTt3O62ezHYFn/Az58z2QUoA=
+		</data>
 		<key>Resources/x86_64/lib/libncurses.6.dylib</key>
 		<data>
 		+HkQ+iEroNN7k1jCRiWR4/+xoQg=
+		</data>
+		<key>Resources/x86_64/lib/libnettle.8.dylib</key>
+		<data>
+		t77N//DfytVno/EI/acTaaJBt2I=
+		</data>
+		<key>Resources/x86_64/lib/libnghttp2.14.dylib</key>
+		<data>
+		/Z5SVXpoHo9Z+rs+7s6SWIR6IWM=
+		</data>
+		<key>Resources/x86_64/lib/libp11-kit.0.dylib</key>
+		<data>
+		jmdEQuyZfatSkGnFZaBcx3LOzBE=
 		</data>
 		<key>Resources/x86_64/lib/libpcre2-8.0.dylib</key>
 		<data>
@@ -923,17 +1035,37 @@
 		<data>
 		T7+DyZiAdzX7Pxni/Pf7/tYsX6U=
 		</data>
+		<key>Resources/x86_64/lib/libpsl.5.dylib</key>
+		<data>
+		QZTwG6ZI+Yv8rTF8DxwBDDG0rI4=
+		</data>
 		<key>Resources/x86_64/lib/libslirp.0.dylib</key>
 		<data>
-		T5w9qDvSOrlSAGwYqQiI41au0us=
+		D1N0hj7yunCqz/5b9OxcZr3Mk4s=
+		</data>
+		<key>Resources/x86_64/lib/libsnappy.1.dylib</key>
+		<data>
+		b1BAXhQyPvwCtJOohMisWOxekJU=
 		</data>
 		<key>Resources/x86_64/lib/libsodium.23.dylib</key>
 		<data>
-		RRJmpg56H9QqfCB7gKVY3XXt7Fk=
+		BDrQAkU4fNth2pAHcDwvzcilS4w=
+		</data>
+		<key>Resources/x86_64/lib/libtasn1.6.dylib</key>
+		<data>
+		sbAEFYDdM7RsSBuObCEmMHntlHg=
 		</data>
 		<key>Resources/x86_64/lib/libunbound.8.dylib</key>
 		<data>
-		WRFH/HiDpV/7eGtucnaT7G/WHAQ=
+		RCGpondVlkqkjeu2Ue4RvANJxrg=
+		</data>
+		<key>Resources/x86_64/lib/libunistring.5.dylib</key>
+		<data>
+		bFjByokpo6s/w2A5LHV34KcO8J4=
+		</data>
+		<key>Resources/x86_64/lib/libzstd.1.dylib</key>
+		<data>
+		5Cmo2hdq07zo3LSr84oEFDOQarM=
 		</data>
 		<key>Resources/x86_64/libexec/openssl3/bin/openssl</key>
 		<data>
@@ -1735,22 +1867,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g+n1m5IkpJgjPfvKDh2yWxMK/uY=
+			4i9SKiAsmCNQ80qSZaMl3kRMcKI=
 			</data>
 			<key>hash2</key>
 			<data>
-			IHR42HfQ6nmbwYXs2A9G/ZFLA6rT6HjquoN42sQgAAM=
+			byXnwVNR27TTO6izYNeZyPRrQD/6/Kn9jXJNeHOl74M=
 			</data>
 		</dict>
 		<key>Resources/PiCon-Launchctl</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EmffFs2GnzHm3qkmAd21vFVjuSk=
+			3Kl2aYjRRhI9JH8f2NFIU/5p6uY=
 			</data>
 			<key>hash2</key>
 			<data>
-			PC3qLPzVPFr59laHY+8YAtcifKuHvBbwqxTFXd9A63s=
+			zBX5zc2AprI6lTaDwy2MYtI2ty6foil0O5SjFIm6j7k=
 			</data>
 		</dict>
 		<key>Resources/PiCon-Reset</key>
@@ -1856,77 +1988,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M9vTOUShgVNlTV21+OEqavpgKJM=
+			dFl6CKPf0YIm1sxy8tdeIOf1eKE=
 			</data>
 			<key>hash2</key>
 			<data>
-			KjYNrZyVSXvsasdNHVYhD7kUVXle8UZnz/r1VOs3pos=
+			sHAlDnUp/EtaBDnqr+Y4H55XGnjQAh+knTLRQnvvqto=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-img</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HCKNjCjUnZcjbLwn7yqsbhQcptU=
+			2h3a9cRT0sm9veM5xfxb3tACZwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zh8aud4rwectVlAzjG0GqkO85l3su+0Udj4J3lvbymU=
+			Y1+4BMvwzBpMcJoRX+lp8lMTeRI7S4k2/KgNqCdjP8o=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-io</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+U0qDbzNrjJQ6U+rQ49luxJ1UoY=
+			bygHKSJkHnGHmcSHE7/bQH5x76A=
 			</data>
 			<key>hash2</key>
 			<data>
-			fS5HrJvlVZscLsjZf6OITaH1edG5XhV+MdRJ0iknWpA=
+			/4WrUVpB3NlRO6kKcan4o/FkkbaclGyzyxZF25DJdbg=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-nbd</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8jQJmDuFZqQKm70KlTj6aUH3QZM=
+			awRgPYOtf9Xbon/nRkgWGvzXMW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			t+Fko6J15Ie6w6hvGVU2zmQSaG7EGLBfkW8wBYpZJNE=
+			78TXZBS+YTm76oz3v5kord007NdABxrGtjNnBJQa+Qo=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-storage-daemon</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RSucMG8KkprFtc14mUyAWRNavZI=
+			frX3QOa4panC2SGs6rWjz/NLb4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ba/2kkXUSQZ50yREVPVvLojr16eyUDxCFoXQJwNJc6c=
+			+YcThdIk4fPrjZe5E/OvNMc8hWsdhAqu6qYwW9cVBbU=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/qemu-system-aarch64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C5skz0Y3ZrVggbeSCQ5W9YaPMWU=
+			YdCR6wQLxYTvmQHEKENEOmgig0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			l3HblSIJN35auOONVfQacqurVx2kcZcn+tBC/Lo+Tjs=
-			</data>
-		</dict>
-		<key>Resources/arm64/bin/qemu-system-arm</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			axZrzIU7IVLC4OvBcuKJMnfroXo=
-			</data>
-			<key>hash2</key>
-			<data>
-			qd+a1XNaXBVmlKZqpqDBGSKxhcs7kI3VAXBLNz/z9Zc=
+			CUY24J0QtnN9iP1PgfcTtiYwMVfWjrlhK5+jkx+2JIc=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/socket_vmnet</key>
@@ -1960,6 +2081,39 @@
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libbrotlicommon.1.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SfPOV2Lnbq4OTVi38FsFGe8gzXU=
+			</data>
+			<key>hash2</key>
+			<data>
+			g2C3WgLsoJ3wLfV6cK4bb3N547wgiV0Ob88TZGvDvWM=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libbrotlidec.1.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+c3z6pGDmU5t7VQLtnnpDxppBeo=
+			</data>
+			<key>hash2</key>
+			<data>
+			EqcapSRUZ+5pwzn+sIEuW5L/X3goobNPhzlAlUavRG4=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libcurl.4.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yRJa5YvVqSKCjpsxQAL1xvV3//0=
+			</data>
+			<key>hash2</key>
+			<data>
+			GOR+V5a4aqi8NqT+ItrgJWF/OTXE1ttwtVu1FHiXIXk=
 			</data>
 		</dict>
 		<key>Resources/arm64/lib/libffi.8.dylib</key>
@@ -2006,6 +2160,28 @@
 			maRFCE+q4sL8S+Vs7Gijb4ji90m14ho++FEacvIrrMo=
 			</data>
 		</dict>
+		<key>Resources/arm64/lib/libgmp.10.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qYqSKZ+maYi4Mib0gv8iKxAxc9M=
+			</data>
+			<key>hash2</key>
+			<data>
+			IkixZPdmU/tG1t6LlYi95xPT8vjZwQiZdKElYm/yELE=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libgnutls.30.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b9jnRptR5dpqiKocnN5ME9E80+M=
+			</data>
+			<key>hash2</key>
+			<data>
+			G9or86OmNYjCLb5Pwn+QrBe8uLajvR7D4kfn9+bt8gs=
+			</data>
+		</dict>
 		<key>Resources/arm64/lib/libgobject-2.0.0.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -2015,6 +2191,17 @@
 			<key>hash2</key>
 			<data>
 			5ndD2+jNdf0kmWZXA6SDzCw5kFUU/MeKCRA6n4hf//g=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libhogweed.6.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O6SOzXTP7JTSlpySMv0p1EP29Q4=
+			</data>
+			<key>hash2</key>
+			<data>
+			z+ywzqTBohmwctfPco2LlpPL0EFjREA0Kw/SPb1j8s4=
 			</data>
 		</dict>
 		<key>Resources/arm64/lib/libiconv.2.dylib</key>
@@ -2028,6 +2215,17 @@
 			P7NN62deCg6soDHoZHsSBxgImnIjvCsCUeYHAd0/xNE=
 			</data>
 		</dict>
+		<key>Resources/arm64/lib/libidn2.0.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S7fwepRW3Q02oABKKik6kb2DPR4=
+			</data>
+			<key>hash2</key>
+			<data>
+			wCrgYMb83JT8n6bdetaGYbNjQCsJVH4Ml0nxXIZwDjc=
+			</data>
+		</dict>
 		<key>Resources/arm64/lib/libintl.8.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -2039,6 +2237,28 @@
 			YKawQ0FpRe7SV3x66Rr/TC9/BFtCzzCCAb2woPIfgg0=
 			</data>
 		</dict>
+		<key>Resources/arm64/lib/liblzfse.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1m31jvp2aeaH+Ef89J03/oM+oQM=
+			</data>
+			<key>hash2</key>
+			<data>
+			J5UN6BtNA4G8m5fzLk1OHn+J2m3OS9FnZOYW+4BE+YE=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/liblzo2.2.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pYztXWR7tprUbfPwNR3TIWWsGRc=
+			</data>
+			<key>hash2</key>
+			<data>
+			NYzHDQZU1cyxgeIhpc/lg8dDHxSNOIuLvRh9/Bb4v58=
+			</data>
+		</dict>
 		<key>Resources/arm64/lib/libncurses.6.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -2048,6 +2268,39 @@
 			<key>hash2</key>
 			<data>
 			2xJrDXOE+YosWoJGajECdqokJUkKtO4gM1oRqrkNPN4=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libnettle.8.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6FGLrg7xLzbDNRrztsu4Auoaykg=
+			</data>
+			<key>hash2</key>
+			<data>
+			kdxk5JmMTB7MjiW9rEAiOoLL544hfF9Ov+p7XaJoocI=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libnghttp2.14.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yPGvTYtfTOSmuCewaCyQ5nXoAlI=
+			</data>
+			<key>hash2</key>
+			<data>
+			BeV7cZ4QDmy6HnGlF4amOTON8XqKG4PVVzTT8z05QN4=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libp11-kit.0.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NWgKFORT+wlVzH4Cx7cK2G1chyQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mxl4+/zKDOXD0OkaLNJb8Zbm3AjXOxuSBz6EGhzj49c=
 			</data>
 		</dict>
 		<key>Resources/arm64/lib/libpcre2-8.0.dylib</key>
@@ -2072,6 +2325,17 @@
 			kRb5hjLOAM/ri8m6peH3MehaS4700fncrhEA7jcYLSE=
 			</data>
 		</dict>
+		<key>Resources/arm64/lib/libpsl.5.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Rsz9H7hPugxSsWLs0ONfWv5Sc3c=
+			</data>
+			<key>hash2</key>
+			<data>
+			d1ReoWX6guVbzeck/M61HB8fisLph82LxQEuDxweTYI=
+			</data>
+		</dict>
 		<key>Resources/arm64/lib/libslirp.0.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -2081,6 +2345,17 @@
 			<key>hash2</key>
 			<data>
 			tdRgI4gNxnjEbZVf0YqUcINO4hwXiy5CMi5puNvGTSY=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libsnappy.1.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1vsHugCgJo4puNYmhe0GL/ZOnfc=
+			</data>
+			<key>hash2</key>
+			<data>
+			In/prAZ9Z/70Xa6jO0iQuWpYiR+HKimNyh4WmEQzANQ=
 			</data>
 		</dict>
 		<key>Resources/arm64/lib/libsodium.23.dylib</key>
@@ -2094,6 +2369,17 @@
 			9srQX/JdqiRtkS1QeNj3z6Q7Sry8q8GnCKulqbJr32Y=
 			</data>
 		</dict>
+		<key>Resources/arm64/lib/libtasn1.6.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qw4Ho3fr/5N3+RxdPESyKhANXIs=
+			</data>
+			<key>hash2</key>
+			<data>
+			7RK8tb59GMhMt4RwRoo3EzphHBIeEKNgJD14N+UMze4=
+			</data>
+		</dict>
 		<key>Resources/arm64/lib/libunbound.8.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -2103,6 +2389,28 @@
 			<key>hash2</key>
 			<data>
 			ffFCe4umzLZSCQ0qd6NFCoSDUX15Z4rY8Z8CVNbosco=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libunistring.5.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P7VxYh7V1j/sysCaewO0pmzFhUs=
+			</data>
+			<key>hash2</key>
+			<data>
+			J7h4JM4o+dE0dOq1YblnBnIehv1jR31C0ISA4isgl4U=
+			</data>
+		</dict>
+		<key>Resources/arm64/lib/libzstd.1.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DQmLg3AKAIaH2j/CCdof7D80zCY=
+			</data>
+			<key>hash2</key>
+			<data>
+			0lTcct7H7wYQQ6c5YPhgQbJ5vii+psbu4go31lCrafo=
 			</data>
 		</dict>
 		<key>Resources/arm64/libexec/openssl3/bin/openssl</key>
@@ -2582,11 +2890,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AKKQqCvYzEbtlbQwy+n+Sq5prM8=
+			1FcJTCxaJ3Q03PCXUKKx1Sc6qYc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tgjefIGkzsDrg0Iqc+4idhjDD+lROlgqb594bOjR2/k=
+			9/LAKFP9pkytMdSrle9janxQqsSCkpDns6c7F9NIP8E=
 			</data>
 		</dict>
 		<key>Resources/arm64/share/qemu/efi-virtio.rom</key>
@@ -3000,22 +3308,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r2jo1MLZaUsfPBOi2FpmN0NPrvw=
+			2U1ThL2g5ZQSD+UKFSerXnCvGEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZjuhSspCX1Lfab3Xd6CdGyouYIFsAp3xdTTpVVW35Zg=
+			zbIP9faCgW0g1XQMw0fNdRCOAEIwfdpXQYaNb91XLRY=
 			</data>
 		</dict>
 		<key>Resources/arm64/share/qemu/vgabios-virtio.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VX2M85dr6uzQeZx1hnKFbTjM7Mo=
+			3eEzk9A8elYfCTinveYQMm2ND20=
 			</data>
 			<key>hash2</key>
 			<data>
-			87Ad0qDXFV/Jf1+5B0n67ccdVeaCWTFI2vI0sVzSMQ8=
+			SYLyci8I3S1jhtK33nbH+kIjylsnPmx13UPwmt81Vrc=
 			</data>
 		</dict>
 		<key>Resources/arm64/share/terminfo/78/xterm+256color</key>
@@ -3143,22 +3451,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vN+VM+g8J5K4u7s3grBO/yEyNeA=
+			uliSkvqRXynA4ABEG3Ss//3fXyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zJR8SlLQE5J3PhM1myePV40849eSe3ANg6h5iSfY5g8=
+			KVBlF5dbfAQHN4K0KmE6zX1mV6GJ0WMDwXy++iApC4M=
 			</data>
 		</dict>
 		<key>Resources/unbound-pihole.conf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WSr4u7d8k1X59VUp8xY7VpV4Ogo=
+			zbE+FM5fRe6B7cQ0QtlYSdV4tHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			yuKIBZ8vBSn320DOgulfZoQdek1t06a3Ha1WlL5t1Qs=
+			T49fyKPlOUOgPt0UjZ0SVEUiOxd40kNGfnqh+lwHcRc=
 			</data>
 		</dict>
 		<key>Resources/unbound.conf</key>
@@ -3176,33 +3484,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ndib4veDhpmxdIAMqHfRh3cSrTM=
+			iKlk69CDMU+stghVR2LMG3qmfnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			U2D9/qjVRpFLWqT2EkLFmcUCp3oFZDZmmGR8zB407eg=
+			nX/NBQWmbXNJNMNqJjKCOBbldoi1K64wNsEk1RusWic=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/docker.lima</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JE7l5PizbNBIEfaEp6fAyLesGHo=
+			TJK5ryHv+d4d6RobQcrRhx9q+7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			v2LWPB+TmR7RgiufSuMf/xKMCZHbSlUxaSqpKugTfn8=
+			HbUVNCswIx8kzU0ugIIuKqqWRUUkOzXaluYjsM7GUm4=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/kubectl.lima</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QXp85oBt+Lio2HVbPvYNeHDwsts=
+			4xUjNlv8oW1gRLSbr4EcOdYEKpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			SZzAu5SDP6lAw82Gig+RlsP6JDbSbNW55B7o/0/31Zg=
+			pODsfH9fLwabKcPz7kF3Lcliv9RU4lbe8dI2ufNqndI=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/lima</key>
@@ -3220,11 +3528,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Uq0AXjhLyVE6heYjqalPF+IA4A=
+			lkE2McTQCDclSlU/kdfL9MWQjrM=
 			</data>
 			<key>hash2</key>
 			<data>
-			pVghhuCXQZp3lk9Xa/aarmp00HI0QxkScXXyBb4zSzQ=
+			gI8ObX0wsHZBpFPntrr7HVnMhtMyEGrCNsgkcRB5dg8=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/nerdctl.lima</key>
@@ -3253,77 +3561,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2+rtLDQwWk2MFU3SycMBPiUzyys=
+			CdXVOwrFCt5XWFomzP7BVueLYJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			3ltSJNw13ZGZkM7oF9GG0oYc85a0fAXDmWMBhds+Q6M=
+			umT4QIb3PfXp69s03DmE4+WGUxHue0Oue81atnXgIAY=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-edid</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XTqC/WDDv5YWNpGNMH7WBTqpSZs=
+			bctJEx55r1eEWEnHIV+lOO9OmCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			azQmebJ4Bfvng/eIPOULJmmUvfCxN7VZXRJ/0qxbtGE=
+			AM2d56uY2xQDuummiuVuhDqdMMBaBAvV1+bpGWdMSSk=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-img</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BW+o9LA6l1eqoXfOcwvYSkcpTss=
+			4wC6A+hZVB8XEpmxwwdxmgaUpYQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			1JA70ViK+VQ1udpaU0d1l70yZ0XUbMovcPKB4gyO4xU=
+			QS/S1bW9G/Z7M62ZXcXGZObzpW+TnM8yLlFhMW24s3M=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-io</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SKFdIDIaZK0AWe/GaIU8cxdkeMU=
+			uhvmboCBrPLpX7YogMVWIG90bS8=
 			</data>
 			<key>hash2</key>
 			<data>
-			F58PnM3VDIqz7HLtHGXUeua4VNN77y+FfrPcCXVU6Yo=
+			HPF77+l3kR+8wKCGiqzbQPbznwBPLv4cMV0A7FrPxP0=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-nbd</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			67j2pO0gC+5bULsrYMssIDn5v3A=
+			dz85RqHlFotPfI8LMbkCHPj+apM=
 			</data>
 			<key>hash2</key>
 			<data>
-			L7ZWJ2xeI8rn445wAOx0uC3RRx30ez/xm876aprV6jw=
+			57kbcA/Hzp0yGtJikK+0nM0A9ct7Jt1ANyLEcM3a0Wk=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-storage-daemon</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gXSCmzhlze15Zu2jb0eOjbXWhXs=
+			p1rp4Ur+N6vMi0o0EhpD3WNHBOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			h3LVx54naHcDIsw6EEvkayFcWuO4NUU+UNUAJoMHlqQ=
+			u8YGzF9PF/PN/T803hUhp0xTKpnjQa3Gh9wyPcFwZUA=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/qemu-system-x86_64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			75DxFByYyenlLBIiW5QSU3XT36s=
+			I/g0ZihFS9SD0oM8qP7ybX5x4i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			lPGgzUaYeoOy+p6Lr3N0HCXnHvYJxc2bumLuvkmYdhY=
+			BUkF38WvP4vKE6UcGmS4Q0Jwh37N0PMTOiZPMceQjcQ=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/socket_vmnet</key>
@@ -3359,6 +3667,39 @@
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
+		<key>Resources/x86_64/lib/libbrotlicommon.1.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YY958WcGyolYpN/ZxPWRCA3JTNU=
+			</data>
+			<key>hash2</key>
+			<data>
+			FsYLfL8iDAaweK0LzyVe3rd/+Tch7qEkiK19IwowA2Q=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libbrotlidec.1.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C2PyxxQqJ/OL1dlqbCaReRLwVaM=
+			</data>
+			<key>hash2</key>
+			<data>
+			mJ0RD1dDN2mcVQTtXB9VlIzOfKpysFLHjWJKvSkw8aU=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libcurl.4.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LiM8iqhlcNTmSuJiElNSntR/wUI=
+			</data>
+			<key>hash2</key>
+			<data>
+			KTiy8CXPQCNRIQzrKGIWGZX9FoYUS6qcb7NW2iTbhg0=
+			</data>
+		</dict>
 		<key>Resources/x86_64/lib/libffi.8.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -3374,44 +3715,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DljFQsdZXVoONifALOIrmg/pF+c=
+			7k+DCAUCwBtlDbVenhFf1GF7k/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			htz5XqJBIkDas+Loe3KkdxghXQUsBDN7EnkP9xxjhqA=
+			LB1jwb28LaqJPea/Xdr1Ecs0Ns6r8cPsSUNogsXzPyw=
 			</data>
 		</dict>
 		<key>Resources/x86_64/lib/libglib-2.0.0.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vxbHgd3oaD1KKfFJ0NHg3NvGO8E=
+			7HDavGElG3AYkVT6FtuZ2cFP3wM=
 			</data>
 			<key>hash2</key>
 			<data>
-			rIZIZnvM+MzPtGZEniT6elZvywK+jN7nwKH5IS/pInc=
+			C6q6q/Fm/px4XT7HO4iXUhaTNKdlEyM8ywktUC+OWyM=
 			</data>
 		</dict>
 		<key>Resources/x86_64/lib/libgmodule-2.0.0.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z/YT/1Ze1cbjs0+tFPp2R5vSLYg=
+			HnFT7KpeJwZyUjb+1JTKNAWhbHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Clhnk/3VQIRh35ItOne+G+YIzujsSvz9C8603kBHAbE=
+			dNypFxt8I0Zt2BBChKMe/R7iXE61Ed1M8cjr44WcY0o=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libgmp.10.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pJmqL3Om/ALv5SR9ujA+Sg1uK0M=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qk/OKuyWKpVsunC7WiTeuQ2jAtQHGmSDY/kL0sjBX0k=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libgnutls.30.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			okXVMGq6Q5BPygE0WQbzfveWdzU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZVzGwFqrog/7Ljyy4SVBuaiQAHyTH77sBxJVVDWqqsE=
 			</data>
 		</dict>
 		<key>Resources/x86_64/lib/libgobject-2.0.0.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fZb9gP6zhIa1HCUPWivsfUgDhMQ=
+			uFvdR+gBbkCYSuJalEde0eunY+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			5yJ3NvPurXlkmS+/ct1EuU+SSbRi/uWcU/Bh/UEA364=
+			LU3veJ2x46pxOlDdx65+XNawPMEmaeL9UI2bsif8jZE=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libhogweed.6.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kfWCCvrhwDQWinRvo/ZlYzGU6i4=
+			</data>
+			<key>hash2</key>
+			<data>
+			ctvVjm8mC9/LqWESrNqMqdPXExnD+jTTH0lCAVYSja0=
 			</data>
 		</dict>
 		<key>Resources/x86_64/lib/libiconv.2.dylib</key>
@@ -3425,6 +3799,17 @@
 			+ZxvhvzJ2BuaxajaTnEGddVSZxUCFKCOLsTYTYcz80c=
 			</data>
 		</dict>
+		<key>Resources/x86_64/lib/libidn2.0.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ErFj4RKCztGdhGpZhXTySOKB6c=
+			</data>
+			<key>hash2</key>
+			<data>
+			+P99PZ3QvOwMrWpdDXd8yFjVFUDWQGDLnPyFNelcZK0=
+			</data>
+		</dict>
 		<key>Resources/x86_64/lib/libintl.8.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -3436,6 +3821,28 @@
 			4tluPnBXA+TG8xSmeGfEbWv4Fe+hMMlU7ns2AK18gKQ=
 			</data>
 		</dict>
+		<key>Resources/x86_64/lib/liblzfse.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IdStZc9VO8ba+8badMe551ODmZU=
+			</data>
+			<key>hash2</key>
+			<data>
+			wbZcvCgAdZru1Dk7hjKQMU6xMN3FDPsOfMZBfPw8baw=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/liblzo2.2.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CIjgTt3O62ezHYFn/Az58z2QUoA=
+			</data>
+			<key>hash2</key>
+			<data>
+			REHDsTLeRl0dk131HVjApexQ8IwMKV2VGBMObaiPTN8=
+			</data>
+		</dict>
 		<key>Resources/x86_64/lib/libncurses.6.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -3445,6 +3852,39 @@
 			<key>hash2</key>
 			<data>
 			KVJiXOQhPoUeEQOevh1/33vIWoYPcAPhAnjhoV4GwEE=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libnettle.8.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t77N//DfytVno/EI/acTaaJBt2I=
+			</data>
+			<key>hash2</key>
+			<data>
+			VaYFWQPyEtplmX760O8/Bw8tqEPOqFx7QLqNwLLjHZU=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libnghttp2.14.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/Z5SVXpoHo9Z+rs+7s6SWIR6IWM=
+			</data>
+			<key>hash2</key>
+			<data>
+			5yQ2G2fh+Ntc4McxTeahf7E2JCsF493spS+kN/pvUns=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libp11-kit.0.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jmdEQuyZfatSkGnFZaBcx3LOzBE=
+			</data>
+			<key>hash2</key>
+			<data>
+			9ouPOQWktYxha+8e6IJd4lmx277wKCVvTW78VxjXYjg=
 			</data>
 		</dict>
 		<key>Resources/x86_64/lib/libpcre2-8.0.dylib</key>
@@ -3469,37 +3909,92 @@
 			JAqhEOY3snkgdX3g09Z61xl+s8zyd7Wl/axz8kQp750=
 			</data>
 		</dict>
+		<key>Resources/x86_64/lib/libpsl.5.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QZTwG6ZI+Yv8rTF8DxwBDDG0rI4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ubx6ZI/Gm8aiijekwpGSdwCUbKJkbuH1MaqnIHHj+VY=
+			</data>
+		</dict>
 		<key>Resources/x86_64/lib/libslirp.0.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T5w9qDvSOrlSAGwYqQiI41au0us=
+			D1N0hj7yunCqz/5b9OxcZr3Mk4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			GZ5rY3vbciMvXh7kM5MiziTo9MMpzRzDBgIvkYlCUW0=
+			hS7QHgGl/n9J+sUPNXbUeAn/41YKyJZxeRkz3h/S4io=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libsnappy.1.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b1BAXhQyPvwCtJOohMisWOxekJU=
+			</data>
+			<key>hash2</key>
+			<data>
+			0Gufpub9WJNZLpLK8bqtp9DBw2+c9gcoJWm7jtFRTlk=
 			</data>
 		</dict>
 		<key>Resources/x86_64/lib/libsodium.23.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RRJmpg56H9QqfCB7gKVY3XXt7Fk=
+			BDrQAkU4fNth2pAHcDwvzcilS4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			79s/mRqkkCA5YaqMsjb4ySOUeADwgEfJ0Xl+1cN+KfY=
+			3jp1a49mBb8h9vVOCEH8zZWsE8RvqGzfsc4IZP/EhrU=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libtasn1.6.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sbAEFYDdM7RsSBuObCEmMHntlHg=
+			</data>
+			<key>hash2</key>
+			<data>
+			HrDdeDZlEzZQ3yDiWdqsocHdvdZmOWMwWsTsegr4c8Q=
 			</data>
 		</dict>
 		<key>Resources/x86_64/lib/libunbound.8.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WRFH/HiDpV/7eGtucnaT7G/WHAQ=
+			RCGpondVlkqkjeu2Ue4RvANJxrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			0890HXun9l2XxPY8x29hyEelOTLW6gmPDr5gN+Ufiho=
+			X2vD6zTsAgOM76npTU8nrhxoN5eFSfqa1QZg1mdPWvQ=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libunistring.5.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bFjByokpo6s/w2A5LHV34KcO8J4=
+			</data>
+			<key>hash2</key>
+			<data>
+			LgF9tI8faReLxbCoEvqNeIUNNVu519lxzCBS6kDSicI=
+			</data>
+		</dict>
+		<key>Resources/x86_64/lib/libzstd.1.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5Cmo2hdq07zo3LSr84oEFDOQarM=
+			</data>
+			<key>hash2</key>
+			<data>
+			8lSgQ+O5NbdEa9JX3amlSpLdAwtXVnv3kSujAq6bSeQ=
 			</data>
 		</dict>
 		<key>Resources/x86_64/libexec/openssl3/bin/openssl</key>

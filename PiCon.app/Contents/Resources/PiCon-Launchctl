@@ -7,5 +7,4 @@ limactl stop -f
 limactl --debug start
 sleep 1
 until cat /private/tmp/picon.log | grep READY > /dev/null; do sleep 1; done
-lima sudo hostname $(hostname -s)-pihole
 while true; do pidof qemu ; sleep 3600 ; done

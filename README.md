@@ -5,14 +5,14 @@
 ## Info
  - **Intel** and **Apple Silicon** are both supported; works with any Mac built after 2010.
  - Requires macOS 10.13 or newer, bridged networking requires macOS 10.15 or newer.
- - Container uses **1/16th** of the host Mac's RAM, up to 1GB. For example, a Mac with 4GB RAM will create a 256MB VM capable of serving DNS on a home network.
+ - Container uses **1/16th** of the host Mac's RAM, up to 1GB. For example, a Mac with 4GB RAM will create a 256MB virtual machine.
  - Pi-hole instance is persistent across reboots and starts in the background as a system-level launch daemon.  
  - An embedded version of [PiBar](https://github.com/amiantos/pibar) is configured during installation and starts at login.
    
 ## Install
 If you have an older version of PiCon installed, reset it first by holding down **Option [ ⌥ ]** while opening the app.  
- - [Download](https://github.com/DesktopECHO/PiCon/archive/refs/heads/main.zip) the app.
- - Double-click the zip archive to extract its contents - some browsers automatically do this for you.
+ - [Download](https://github.com/DesktopECHO/PiCon/archive/refs/heads/main.zip) PiCon.app.
+ - Double-click the zip archive to extract its contents (Some browsers will extract the archive automatically).
  - Move `PiCon.app` to your `/Applications` folder.  This step is **_mandatory_** as the app expects to be in this location to run.
    
 The first time the app is opened you will need to acknowledge a warning by Gatekeeper.  The app is digitally signed to protect against tampering but not notarized by Apple.  You can verify the signature by running `codesign -dv /Applications/PiCon.app`
