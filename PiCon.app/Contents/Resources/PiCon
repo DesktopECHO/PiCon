@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASE="230830"
+RELEASE="230831"
 BOLD=$(tput bold)
 GREEN=$(tput setaf 2)
 RESET=$(tput sgr0)
@@ -50,11 +50,11 @@ run_setup() {
             printf "\n    It is preferable to use a static IP because DHCP-assigned IPs may change unexpectedly.\n\n"
             read -p "    Enter a static IP for the appliance. Hit [Return] or [Enter] for DHCP: " STATIC_IP
         else
-            printf "  macOS 10.13 and 10.14 do not include frameworks needed for bridged networking."
-            printf "\n  Do you want to allow other devices on your network to use this Mac for DNS lookups?\n"
-            printf "\n  The work-around has a major limitation: Pi-hole logs ALL queries as originating from '${BOLD}127.0.0.1${RESET}'\n"
-            printf "\n  If yes, set the listener you want to allow, or type '${BOLD}0.0.0.0${RESET}' to use ALL interfaces on this Mac.\n"
-            read -p "  If network-wide DNS isn't needed, just DNS for this Mac, hit [Return] or [Enter]: " IP_ALLOW
+            printf "  macOS 10.13 and 10.14 do not include frameworks needed for bridged networking.\n"
+            printf "\n  Do you want to allow other devices on your network to use this Mac for DNS lookups?"
+            printf "\n  NOTE: DHCP server not supported and Pi-hole will log ALL queries as originating from '${BOLD}127.0.0.1${RESET}'\n"
+            printf "\n  If yes, enter the listener IP or type '${BOLD}0.0.0.0${RESET}' to listen on all interfaces\n"
+            read -p "  If network-wide DNS is not needed, just DNS for this Mac, hit [Return] or [Enter]: " IP_ALLOW
             [[ $IP_ALLOW ]] && sed -i '' "s#        interface:.*#        interface: $IP_ALLOW#" "$PICON_HOME/unbound.conf"
         fi
 
@@ -67,7 +67,7 @@ run_setup() {
 
         # Get r00t, fix permissions
         NEED_SUDO=$(sudo -n true 2&>/dev/null ; echo $?)
-        [ $NEED_SUDO -gt 0 ] && printf '\nThe installer requires administrative privileges to configure networking.\n'
+        [ $NEED_SUDO -gt 0 ] && printf '\nThe installer requires administrative privileges to configure networking.\n\n'
         sudo chmod g-w /Applications/PiCon.app /Applications/PiCon.app/Contents /Applications/PiCon.app/Contents/Resources/arm64 /Applications/PiCon.app/Contents/Resources \
                        /Applications/PiCon.app/Contents/Resources/arm64/bin /Applications/PiCon.app/Contents/Resources/x86_64 /Applications/PiCon.app/Contents/Resources/x86_64/bin
         printf "\n$BOLD""Initial setup takes a minute or two"
@@ -114,9 +114,15 @@ run_setup() {
           else
             lima sudo bash -c "mkdir -p /etc/pihole ; printf 'PIHOLE_INTERFACE=lima0\nPIHOLE_DNS_1=127.0.0.1#5335\n' > /etc/pihole/setupVars.conf"
         fi
+        
+        # Backup DNS settings
+        PRV_DNS=$(grep nameserver <(scutil --dns) | head -n 1 | cut -c 19-)
+        echo $PRV_DNS > "$PICON_HOME/PreviousDNS"
 
-        # Install packages
-        lima sudo bash -c "sudo apt-get install -qq ntp ntpsec python3-ntp logrotate inetutils-syslogd unbound dnsutils git dialog cron unzip idn2 dns-root-data netcat-openbsd jq lighttpd php-common php-cgi php-sqlite3 php-xml php-intl php-json xkcdpass --no-install-recommends > /dev/null ; apt-get -qq clean ; mkdir -p /etc/dnsmasq.d ; echo edns-packet-max=1232 > /etc/dnsmasq.d/99-edns.conf ; systemctl stop systemd-resolved >/dev/null 2>&1 ; systemctl disable systemd-resolved.service >/dev/null 2>&1 ; rm /etc/resolv.conf ; printf 'nameserver 192.168.5.3\nsearch .\n' > /etc/resolv.conf"
+        # Remove systemd-resolved and install pre-requisite packages
+        lima sudo bash -c "dpkg --purge systemd-resolved libnss-resolve >/dev/null 2>&1"
+        lima sudo bash -c "sudo apt-get install -qq ntp ntpsec python3-ntp logrotate inetutils-syslogd unbound dnsutils git dialog cron unzip idn2 dns-root-data netcat-openbsd jq lighttpd php-common php-cgi php-sqlite3 php-xml php-intl php-json xkcdpass --no-install-recommends > /dev/null ; apt-get -qq clean"
+        lima sudo bash -c "mkdir -p /etc/dnsmasq.d ; echo edns-packet-max=1232 > /etc/dnsmasq.d/99-edns.conf ; rm /etc/resolv.conf ; printf 'nameserver 192.168.5.3\nnameserver $PRV_DNS\nsearch .\n' > /etc/resolv.conf"
         lima sudo bash -c 'printf "\$HTTP[\"url\"] "'!'"~ \"^/admin\" {\n      url.redirect = (\".*\" => \"/admin\")\n}\n" > /etc/lighttpd/conf-enabled/16-pihole-admin-redirect.conf'
         CHK=0 ; until [ $CHK -gt 0 ] ; do lima wget -q -O /tmp/pihole.sh https://install.pi-hole.net ; CHK=$(lima wc -c /tmp/pihole.sh | cut -c -1) ; sleep 1 ; done
         lima sudo bash /tmp/pihole.sh --unattended
@@ -131,10 +137,6 @@ run_setup() {
         display_separator
         printf "   Setup complete."
         [[ $DARWIN -ge 19 ]] && printf " Container is bridged with interface '$BOLD"$BRIDGE_INTERFACE"$RESET' and using IP '$BOLD"$LIMAIP"$RESET'"
-        
-        # Backup DNS settings
-        PRV_DNS=$(grep nameserver <(scutil --dns) | head -n 1 | cut -c 19-)
-        echo $PRV_DNS > "$PICON_HOME/PreviousDNS"
        
         # Apply new DNS settings 
         ACTIVE_NETWORK=$(networksetup -listnetworkserviceorder  |grep -B1 "$(route get 9.9.9.9 | awk "/interface/ {print \$2}")" | head -n1 | cut -c 5-)
@@ -168,13 +170,13 @@ open_container() {
     printf "\n Starting container..."
     limactl --log-level error start
     tput bold ; printf '\033[1;32m READY! \033[0m\n'
-    $PICON_HOME/PiBar-Sync > /dev/null 2>&1 &
     printf " Type 'exit' to close this console window when you're done.\n"
     LIMAIP=$(lima bash -c "[[ -d /sys/class/net/lima0 ]] && echo -n and && ip -f inet addr show lima0 | sed -En -e 's/.*inet ([0-9.]+).*/\1/p'")
     tput bold ; printf "\n DNS Service listening on 127.0.0.1 $LIMAIP\n"
     tput sgr0 ; echo ; tput setaf 6 ; lima pihole version ; tput sgr0 ; echo
     lima pihole status ; echo
     lima
+    $PICON_HOME/PiBar-Sync > /dev/null 2>&1 
     exit 0
 }
 

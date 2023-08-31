@@ -1,17 +1,17 @@
 # PiCon.app
-- '**_Appified_**' container runs a Linux virtual machine in macOS with no additional software (Docker, VMware Fusion, VirtualBox, etc...) required.
-- Deploys a standard Deban 12 cloud image and installs Pi-hole with minimal user input.
+- '**_Appified_**' container runs a Linux virtual machine using the [hypervisor framework](https://developer.apple.com/documentation/hypervisor) built into macOS.  No additional software is required (Docker, VMware Fusion, VirtualBox, etc...)
+- Deploys a standard Deban 12 cloud image and installs Pi-hole + Unbound with minimal user input.
 
 ## Info
- - **Intel** and **Apple Silicon** are both supported; works with any Mac built after 2010.
+ - **Intel** and **Apple Silicon** are both natively supported.  Works with on any Mac built after 2010.
  - Requires macOS 10.13 or newer, bridged networking requires macOS 10.15 or newer.
  - Container uses **1/16th** of the host Mac's RAM, up to 1GB. For example, a Mac with 4GB RAM will create a 256MB virtual machine.
- - Pi-hole instance is persistent across reboots and starts in the background as a system-level launch daemon.  
- - An embedded version of [PiBar](https://github.com/amiantos/pibar) is configured during installation and starts at login.
+ - Pi-hole is persistent and starts automaticaly with your Mac using a system LaunchDaemon.  
+ - [PiBar](https://github.com/amiantos/pibar) is configured during installation and appears in your menu bar at login.
    
 ## Install
 If you have an older version of PiCon installed, reset it first by holding down **Option [ ⌥ ]** while opening the app.  
- - [Download](https://github.com/DesktopECHO/PiCon/archive/refs/heads/main.zip) PiCon.app.
+ - [Download](https://github.com/DesktopECHO/PiCon/archive/refs/heads/main.zip) PiCon to your Mac.
  - Double-click the zip archive to extract its contents (Some browsers will extract the archive automatically).
  - Move `PiCon.app` to your `/Applications` folder.  This step is **_mandatory_** as the app expects to be in this location to run.
    
