@@ -8,7 +8,7 @@
  - Container uses **1/16th** of the host Mac's RAM, up to 1GB. For example, a Mac with 4GB RAM will create a 256MB virtual machine.
  - Pi-hole is persistent and starts automaticaly with your Mac using a system LaunchDaemon.  
  - [PiBar](https://github.com/amiantos/pibar) is configured during installation and appears in your menu bar at login.
- - Useful for mobile users "on the go" or as an ad-blocking DNS server for an entire network.
+ - Useful for MacBook users "on the go" or as an ad-blocking DNS server for an entire network.
    
 ## Install
 If you have an older version of PiCon installed, reset it first by holding down **Option [ ⌥ ]** while opening the app.  
