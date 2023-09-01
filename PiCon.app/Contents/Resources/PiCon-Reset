@@ -19,7 +19,7 @@ reset_warning() {
     tput bold
     echo -n "     WARNING!"
     tput sgr0
-    echo "  If you proceed, this Pi-hole installation will be 'factory reset'"
+    echo "  If you proceed, this container will be 'factory reset'"
     echo "               A backup of your Pi-hole configuration will be saved to your home folder"
     echo "               Close this window [ ⌘ + Q ] to exit safely, or authenticate to proceed."
     echo
@@ -51,11 +51,12 @@ unload_daemons() {
 }
 
 cleanup_processes() {
-    sudo pidof -k PiCon-Launchctl &>/dev/null
-    sudo pidof -k limactl &>/dev/null
-    sudo pidof -k qemu &>/dev/null
-    sudo pidof -k unbound &>/dev/null
-    sudo pidof -k PiBar &>/dev/null
+
+    limactl stop -f default 2> /dev/null
+    LIMC=$(ps ax | grep -v grep | grep limactl | grep PiCon | cut -c -6) ; [[ $((LIMC)) -gt 0 ]] && sudo kill -9 $((LIMC))
+    UNBD=$(ps ax | grep -v grep | grep unbound | grep PiCon | cut -c -6) ; [[ $((UNBD)) -gt 0 ]] && sudo kill -9 $((UNBD))
+    PIBR=$(ps ax | grep -v grep | grep PiBar   | grep PiCon | cut -c -6) ; [[ $((PIBR)) -gt 0 ]] && sudo kill -9 $((PIBR))
+    QEMU=$(ps ax | grep -v grep | grep qemu-sy | grep PiCon | cut -c -6) ; [[ $((QEMU)) -gt 0 ]] && sudo kill -9 $((QEMU))
 }
 
 cleanup_files() {
@@ -76,12 +77,11 @@ exit_prompt() {
     tput bold
     printf "\n\n ——————————————————————————————————————————————————————————————————————————————————————————————————\n\n"
     tput sgr0
-    printf "        Container clean-up finished, you may now delete PiCon.app from Applications folder.\n"
-    printf "                  Alternatively, relaunch PiCon.app to provision a new container.\n\n"
+    printf "   Container clean-up finished, close this window and delete PiCon.app from Applications folder.\n\n"
     tput bold
     printf " ——————————————————————————————————————————————————————————————————————————————————————————————————\n\n"
-    for (( i=10; i>0; i--)); do sleep 1 &>/dev/null ;  printf "                        This window will automatically close in $i seconds. \r" ;  wait ; done ; sleep 1
-    pidof -k picon
+    for (( i=5; i>0; i--)); do sleep 1 &>/dev/null ;  printf "                            Container setup will launch in $i seconds. \r" ;  wait ; done ; sleep 1
+    exit 0
 }
 
 # Main execution

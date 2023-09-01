@@ -59,18 +59,20 @@ run_setup() {
         fi
 
         display_header        
+
+        # Get r00t, fix permissions, ensure environment is clean
+        NEED_SUDO=$(sudo -n true 2&>/dev/null ; echo $?)
+        [ $NEED_SUDO -gt 0 ] && printf '\nThe installer requires administrative privileges to configure networking.\n\n'  
+        sudo chmod g-w /Applications/PiCon.app /Applications/PiCon.app/Contents /Applications/PiCon.app/Contents/Resources/arm64 /Applications/PiCon.app/Contents/Resources \
+                       /Applications/PiCon.app/Contents/Resources/arm64/bin /Applications/PiCon.app/Contents/Resources/x86_64 /Applications/PiCon.app/Contents/Resources/x86_64/bin
+        (&>/dev/null sudo /Applications/PiCon.app/Contents/Resources/PiCon-Reset)
+        printf "\n$BOLD""Initial setup takes a minute or two"
+
 	# Configure networking
         sed -i '' "s/.*interface.*/    interface: $BRIDGE_INTERFACE/" "$PICON_HOME/lima/_config/networks.yaml"
         GATEWAY=$(netstat -rn | grep "default" | grep "$BRIDGE_INTERFACE" | awk '{print $2}')
         NETMASK=$(ifconfig $BRIDGE_INTERFACE | grep netmask | cut -d "x" -f2 | head -c 8 | perl -pe '$_ = unpack("B32", pack("H*", $_)); s/0+$//g; $_ = length')
         [[ $GATEWAY ]] && printf "network:\n  ethernets:\n    lima0:\n     dhcp4: no\n     addresses: ["$STATIC_IP"/"$NETMASK"]\n     routes:\n     - to: 0.0.0.0/0\n       via: "$GATEWAY"\n       metric: 200\n     nameservers:\n       addresses: [9.9.9.9,8.8.8.8]\n  version: 2\n" > ~/99-staticip.yaml || printf "network:\n  ethernets:\n    lima0:\n     dhcp4: no\n     addresses: ["$STATIC_IP"/"$NETMASK"]\n     nameservers:\n       addresses: [9.9.9.9,8.8.8.8]\n  version: 2\n" > ~/99-staticip.yaml
-
-        # Get r00t, fix permissions
-        NEED_SUDO=$(sudo -n true 2&>/dev/null ; echo $?)
-        [ $NEED_SUDO -gt 0 ] && printf '\nThe installer requires administrative privileges to configure networking.\n\n'
-        sudo chmod g-w /Applications/PiCon.app /Applications/PiCon.app/Contents /Applications/PiCon.app/Contents/Resources/arm64 /Applications/PiCon.app/Contents/Resources \
-                       /Applications/PiCon.app/Contents/Resources/arm64/bin /Applications/PiCon.app/Contents/Resources/x86_64 /Applications/PiCon.app/Contents/Resources/x86_64/bin
-        printf "\n$BOLD""Initial setup takes a minute or two"
 
 	# Create user 'unbound'
         USER_ID=$(dscl . -list /Users UniqueID | awk '{print $2}' | ruby -e 'puts ((510..599).to_a - STDIN.readlines.map(&:to_i)).first')
