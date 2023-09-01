@@ -3,11 +3,12 @@
 - Deploys a standard Deban 12 cloud image and installs Pi-hole + Unbound with minimal user input.
 
 ## Info
- - **Intel** and **Apple Silicon** are both natively supported.  Works with on any Mac built after 2010.
+ - **Intel** and **Apple Silicon** are both natively supported.  Works on any Mac built after 2010.
  - Requires macOS 10.13 or newer, bridged networking requires macOS 10.15 or newer.
  - Container uses **1/16th** of the host Mac's RAM, up to 1GB. For example, a Mac with 4GB RAM will create a 256MB virtual machine.
  - Pi-hole is persistent and starts automaticaly with your Mac using a system LaunchDaemon.  
  - [PiBar](https://github.com/amiantos/pibar) is configured during installation and appears in your menu bar at login.
+ - Useful for mobile users "on the go" or as an ad-blocking DNS server for an entire network.
    
 ## Install
 If you have an older version of PiCon installed, reset it first by holding down **Option [ ⌥ ]** while opening the app.  
