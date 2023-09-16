@@ -45,6 +45,9 @@ unload_daemons() {
     sudo launchctl unload /Library/LaunchDaemons/com.desktopecho.unbound.plist &>/dev/null
     sudo rm -f /Library/LaunchDaemons/com.desktopecho.unbound.plist
 
+    sudo launchctl unload /Library/LaunchDaemons/com.desktopecho.dnswatch.plist &>/dev/null
+    sudo rm -f /Library/LaunchDaemons/com.desktopecho.dnswatch.plist
+
     launchctl unload ~/Library/LaunchAgents/com.desktopecho.pibar.plist &>/dev/null
     rm -f ~/Library/LaunchAgents/com.desktopecho.pibar.plist
     rm -rf ~/Library/Containers/net.amiantos.PiBar
@@ -60,8 +63,7 @@ cleanup_processes() {
 }
 
 cleanup_files() {
-    sudo rm -rf /private/tmp/picon-unbound.log
-    rm -rf /private/tmp/picon.log
+    sudo rm -rf /private/tmp/picon*.log
     rm -rf $PICON_HOME/lima/default/*
     rm -rf $PICON_HOME/lima/_config/*
     rm -rf $PICON_HOME/lima/_networks

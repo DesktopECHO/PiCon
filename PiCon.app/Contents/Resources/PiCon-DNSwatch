@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Check the system architecture and set the ARCH variable accordingly
+ARCH=$(sysctl hw.optional.arm64 2>/dev/null | cut -c 20-)
+[[ "$ARCH" = "1" ]] && export ARCH=arm64 || export ARCH=x86_64
+
+# Set the PICON_HOME and PATH environment variables
+export PICON_HOME="/Applications/PiCon.app/Contents/Resources"
+export PATH="$PICON_HOME/$ARCH/bin:$PATH"
+
+# Start Unbound service
+launchctl load /Library/LaunchDaemons/com.desktopecho.unbound.plist
+
+# Monitor Unbound log for TCP connection errors
+while true
+do
+    sleep 1
+    if [[ $(tail -n 1000 /tmp/picon-unbound.log | grep "error: read") ]]
+    then
+        # If TCP error is detected log the event
+        echo "$(date) - Network disruption detected"
+
+        # Stop Unbound
+        launchctl unload /Library/LaunchDaemons/com.desktopecho.unbound.plist
+
+        # Clear unbound error log
+        echo > /tmp/picon-unbound.log
+        
+        # Start Unbound	
+        launchctl load /Library/LaunchDaemons/com.desktopecho.unbound.plist
+
+        # Flush the DNS cache
+        dscacheutil -flushcache
+
+        # Refresh the mDNSResponder
+        killall -HUP mDNSResponder
+
+        # Wait for networking to settle-down
+        sleep 5
+    fi
+done

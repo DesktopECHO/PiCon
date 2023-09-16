@@ -293,15 +293,19 @@
 		</data>
 		<key>Resources/PiCon</key>
 		<data>
-		MkqFSDqFM/krcayufq1mTiW+LPA=
+		dTK4oLPUAOIU97VnhLhJ4uEmKGg=
+		</data>
+		<key>Resources/PiCon-DNSwatch</key>
+		<data>
+		xU1rCL5ObPDC/VjORYvqM2CI7hA=
 		</data>
 		<key>Resources/PiCon-Launchctl</key>
 		<data>
-		3Kl2aYjRRhI9JH8f2NFIU/5p6uY=
+		IQlOHAC6G7cXDwN1Fj2IrHn2e2E=
 		</data>
 		<key>Resources/PiCon-Reset</key>
 		<data>
-		uT5Lg4o/b2ciWQberuUXoTuPVgc=
+		BNVoP+YbiBmbJYDcyhY23GCacXI=
 		</data>
 		<key>Resources/arm64/bin/apptainer.lima</key>
 		<data>
@@ -827,6 +831,10 @@
 		<data>
 		L6NVGKSFC4ILqAVFSeCF33qCZgk=
 		</data>
+		<key>Resources/com.desktopecho.dnswatch.plist</key>
+		<data>
+		FBJtgBHwfGgTlsClAjE25YeVpvs=
+		</data>
 		<key>Resources/com.desktopecho.lima.plist</key>
 		<data>
 		EMm0D07CfykdxX3pO3ffJRFfLHQ=
@@ -877,7 +885,7 @@
 		</data>
 		<key>Resources/unbound.conf</key>
 		<data>
-		dLcGSqOrdRjyPcpZ5KW6UaCjC98=
+		2yadgY/3mdK8mSONmNYgPAC3UoY=
 		</data>
 		<key>Resources/x86_64/bin/apptainer.lima</key>
 		<data>
@@ -1867,33 +1875,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MkqFSDqFM/krcayufq1mTiW+LPA=
+			dTK4oLPUAOIU97VnhLhJ4uEmKGg=
 			</data>
 			<key>hash2</key>
 			<data>
-			flU05mjKtG8rtij3vrmfvOHD3ODgLkGiKVKhIKH8W7c=
+			Fk6cQ2RgwWjPL5iIUyzwwuhBn0cUn1SEnVgI6KAVwfk=
+			</data>
+		</dict>
+		<key>Resources/PiCon-DNSwatch</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xU1rCL5ObPDC/VjORYvqM2CI7hA=
+			</data>
+			<key>hash2</key>
+			<data>
+			8v6Uito0U7kQKLg4rC6NGX8BC0Suft8jc7syE5mDfNY=
 			</data>
 		</dict>
 		<key>Resources/PiCon-Launchctl</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3Kl2aYjRRhI9JH8f2NFIU/5p6uY=
+			IQlOHAC6G7cXDwN1Fj2IrHn2e2E=
 			</data>
 			<key>hash2</key>
 			<data>
-			zBX5zc2AprI6lTaDwy2MYtI2ty6foil0O5SjFIm6j7k=
+			TwKDGQRTrABpdnJB4X6/GTc41OI3rThI8RsmVKbBqH0=
 			</data>
 		</dict>
 		<key>Resources/PiCon-Reset</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uT5Lg4o/b2ciWQberuUXoTuPVgc=
+			BNVoP+YbiBmbJYDcyhY23GCacXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			9pa96TGH220tX8jxQk9WQVv+zXWWjPtQno75YDta4W4=
+			2WGb+CAw6hwozliTcEHHto8eFK8aKcuKT7m/KOSenE0=
 			</data>
 		</dict>
 		<key>Resources/arm64/bin/apptainer.lima</key>
@@ -3337,6 +3356,17 @@
 			ik1rB7QwZQ72Jl0gN6urBgTB9+SLZvTVMzd0H4n9uHU=
 			</data>
 		</dict>
+		<key>Resources/com.desktopecho.dnswatch.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FBJtgBHwfGgTlsClAjE25YeVpvs=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q+/1ZqKDOCCnZh8kCq6AUYMfi8azrQiBU87VI/vjVsk=
+			</data>
+		</dict>
 		<key>Resources/com.desktopecho.lima.plist</key>
 		<dict>
 			<key>hash</key>
@@ -3473,11 +3503,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dLcGSqOrdRjyPcpZ5KW6UaCjC98=
+			2yadgY/3mdK8mSONmNYgPAC3UoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			W8sIK9S5Np0ZV7f8dzl6/kcgJP4tdc/fa7Yq7JbsBhA=
+			B7WCXkk7BjiVS6/C5mFcgyrAGn7UN2ue/5UHA82gSyQ=
 			</data>
 		</dict>
 		<key>Resources/x86_64/bin/apptainer.lima</key>

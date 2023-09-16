@@ -7,4 +7,5 @@ limactl stop -f
 limactl --debug start
 sleep 1
 until cat /private/tmp/picon.log | grep READY > /dev/null; do sleep 1; done
+HN=$(hostname -s)-pihole ; HSTS="sed -i 's#192.168.5.2.*#192.168.5.2     host.lima.internal $HN#' /etc/hosts" ; lima sudo bash -c "echo $HN > /etc/hostname ; hostname $HN ; $HSTS"
 while true; do pidof qemu ; sleep 3600 ; done

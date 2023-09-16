@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASE="230831"
+RELEASE="230916"
 BOLD=$(tput bold)
 GREEN=$(tput setaf 2)
 RESET=$(tput sgr0)
@@ -84,6 +84,7 @@ run_setup() {
 	# Setup LaunchDaemons
         sudo cp "$PICON_HOME/com.desktopecho.unbound.plist" /Library/LaunchDaemons/
         sudo cp "$PICON_HOME/com.desktopecho.lima.plist" /Library/LaunchDaemons/
+        sudo cp "$PICON_HOME/com.desktopecho.dnswatch.plist" /Library/LaunchDaemons/
         sudo sed -i '' "s#.*sbin/unbound.*#         <string>/Applications/PiCon.app/Contents/Resources/$ARCH/sbin/unbound</string>#" "/Library/LaunchDaemons/com.desktopecho.unbound.plist"
         sudo sed -i '' "s#SETUP_USER#$USER#g" "/Library/LaunchDaemons/com.desktopecho.lima.plist"
         sudo sed -i '' "s#.*socket_vmnet.*#  socketVMNet: /Applications/PiCon.app/Contents/Resources/$ARCH/bin/socket_vmnet#" "/Applications/PiCon.app/Contents/Resources/lima/_config/networks.yaml"  
@@ -99,9 +100,9 @@ run_setup() {
         # Start QEMU and Unbound, wait for Debian to come up and set hostname
         limactl sudoers >etc_sudoers.d_lima && sudo install -o root etc_sudoers.d_lima "/private/etc/sudoers.d/lima" ; rm etc_sudoers.d_lima
         sudo launchctl load /Library/LaunchDaemons/com.desktopecho.lima.plist
-        sudo launchctl load /Library/LaunchDaemons/com.desktopecho.unbound.plist
+        sudo launchctl load /Library/LaunchDaemons/com.desktopecho.dnswatch.plist
         until cat /private/tmp/picon.log | grep READY > /dev/null; do printf .; sleep 10; done ; printf "$RESET"
-        HN=$(hostname -s)-pihole ; HSTS="sed -i '\${s/\$/ $HN/}' /etc/hosts" ; lima sudo bash -c "echo $HN > /etc/hostname ; hostname $HN ; $HSTS"
+        HN=$(hostname -s)-pihole ; HSTS="sed -i 's#192.168.5.2.*#192.168.5.2     host.lima.internal $HN#' /etc/hosts" ; lima sudo bash -c "echo $HN > /etc/hostname ; hostname $HN ; $HSTS"
         
         # Copy unbound config for Pi-hole instance
         cp "$PICON_HOME/unbound-pihole.conf" ~/unbound-pihole.conf
